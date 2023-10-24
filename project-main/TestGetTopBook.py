@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
     currentSymbol = symbolBitmex
 
-    logging.config.fileConfig('Connector/logger.cfg')
+    logging.config.fileConfig('logger.cfg')
 
     __logger = logging.getLogger('MEXC')
 
