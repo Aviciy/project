@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 requests = "*"
 "websocket.client" = "*"
+sortedcontainers = "*"
 
 [dev-packages]
 
