@@ -17,6 +17,14 @@ class Connector(object):
         raise NotImplementedError
 
     @abstractmethod
+    def get_server_time(self):
+        raise NotImplementedError
+
+    @abstractmethod
+    def get_exchange_info(self):
+        raise NotImplementedError
+
+    @abstractmethod
     def get_ticker(self, symbol):
         raise NotImplementedError
 
