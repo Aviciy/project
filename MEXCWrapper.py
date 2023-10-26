@@ -9,9 +9,9 @@ import json
 import time 
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/..')
-from Declarations.IConnector import IConnector
-from Declarations.models import BrokerEvent #OrderStatus, OrderType
-from Declarations.models import SubscriptionModel
+from IConnector import IConnector
+from models import BrokerEvent #OrderStatus, OrderType
+from models import SubscriptionModel
 
 class MEXCWrapper(IConnector):
     def __init__(self, settings, event):

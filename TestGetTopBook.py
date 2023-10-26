@@ -1,8 +1,8 @@
 import logging.config
 import time
 
-from Connector.MEXCWrapper import MEXCWrapper
-from Declarations.models import SubscriptionModel
+from MEXCWrapper import MEXCWrapper
+from models import SubscriptionModel
 
 if __name__ == "__main__":
 
