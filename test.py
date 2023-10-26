@@ -3,3 +3,4 @@
 #   3.  Make type hints for all methods.
 #   4.  Implement your own simple logging system. (print to console and write to file)
 #   5.  Implement connector for MEXC exchange.
+#   6.  Test your connector.
