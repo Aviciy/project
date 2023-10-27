@@ -17,3 +17,6 @@ class SimpleLogger:
 
     def debug(self, message: str):
         self.log(message, "DEBUG")
+
+
+logger = SimpleLogger('logs.txt')

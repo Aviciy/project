@@ -4,4 +4,10 @@
 #   4.  *Implement your own simple logging system. (print to console and write to file)
 #   5.  Implement connector for MEXC exchange.
 #   6.  Test your connector.
+import json
+from Shared.logger import logger
 
+with open('MEXC_settings.json', 'r') as file:
+    settings = json.load(file)
+
+logger.debug(settings)
