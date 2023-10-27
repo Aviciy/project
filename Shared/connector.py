@@ -23,17 +23,17 @@ class Connector(object):
         raise NotImplementedError
 
     @abstractmethod
-    def get_exchange_info(self) -> dict:
-        '''Returns the exchange data'''
+    def get_exchange_symbols(self) -> [str]:
+        '''Resolve get exchange symbols'''
         raise NotImplementedError
 
     @abstractmethod
-    def get_ticker(self, symbol: str) -> dict:
-        '''Returns information about the Symbol'''
+    def get_ticker(self, symbol: str) -> float:
+        '''return current symbol market price'''
         raise NotImplementedError
 
     @abstractmethod
-    def get_book(self, symbol: str) -> dict:
+    def get_book(self, symbol: str) -> {int, [], []}:
         '''Returns order book'''
         raise NotImplementedError
 
