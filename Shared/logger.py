@@ -15,22 +15,22 @@ class SimpleLogger:
     def format_message(message: str, level: str) -> str:
         return f'{datetime.now()} | {level} | {message}'
 
-    def debug(self, message: str):
+    def debug(self, message: str) -> None:
         self.log(message, "DEBUG")
 
-    def trace(self, message: str):
+    def trace(self, message: str) -> None:
         self.log(message, "TRACE")
 
-    def info(self, message: str):
+    def info(self, message: str) -> None:
         self.log(message, "INFO")
 
-    def warning(self, message: str):
+    def warning(self, message: str) -> None:
         self.log(message, "WARNING")
 
-    def error(self, message: str):
+    def error(self, message: str) -> None:
         self.log(message, "ERROR")
 
-    def critical(self, message: str):
+    def critical(self, message: str) -> None:
         self.log(message, "CRITICAL")
 
 
