@@ -76,3 +76,30 @@
 2023-10-27 18:16:09.955993 | DEBUG | MEXCConnector was created
 2023-10-27 18:20:55.747543 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
 2023-10-27 18:20:55.747543 | DEBUG | MEXCConnector was created
+2023-10-27 18:29:40.418175 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-27 18:29:40.419164 | DEBUG | MEXCConnector was created
+2023-10-27 18:29:40.419164 | DEBUG | Return ticker
+2023-10-27 18:30:39.414052 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-27 18:30:39.415046 | DEBUG | MEXCConnector was created
+2023-10-27 18:30:39.415046 | DEBUG | Return ticker
+2023-10-27 18:31:59.271951 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-27 18:31:59.272946 | DEBUG | MEXCConnector was created
+2023-10-27 18:31:59.272946 | DEBUG | Return ticker
+2023-10-27 18:32:45.158455 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-27 18:32:45.158455 | DEBUG | MEXCConnector was created
+2023-10-27 18:32:45.159452 | DEBUG | Return ticker
+2023-10-27 18:33:03.901162 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-27 18:33:03.901162 | DEBUG | MEXCConnector was created
+2023-10-27 18:33:03.901162 | DEBUG | Return ticker
+2023-10-27 18:33:22.299465 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-27 18:33:22.299465 | DEBUG | MEXCConnector was created
+2023-10-27 18:33:22.299465 | DEBUG | Return ticker
+2023-10-27 18:33:58.672170 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-27 18:33:58.672170 | DEBUG | MEXCConnector was created
+2023-10-27 18:33:58.672170 | DEBUG | Return ticker
+2023-10-27 18:34:01.386982 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-27 18:34:01.386982 | DEBUG | MEXCConnector was created
+2023-10-27 18:34:01.386982 | DEBUG | Return ticker
+2023-10-27 18:35:09.451668 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-27 18:35:09.451668 | DEBUG | MEXCConnector was created
+2023-10-27 18:35:09.451668 | DEBUG | Return ticker
