@@ -1,11 +1,15 @@
-from abc import ABCMeta, abstractmethod
+from abc import abstractmethod
+
+from Shared.connector import Connector
+from Shared.logger import SimpleLogger
 
 
-class Connector(object):
-    __metadata__ = ABCMeta
+class MEXCConnector(Connector):
 
-    def __init__(self) -> None:
-        pass
+    def __init__(self, logger: SimpleLogger, settings: dict) -> None:
+        self.__logger = logger
+        self.__settings = settings
+        self.__logger.debug('MEXCConnector was created')
 
     @abstractmethod
     def get_name(self) -> str:

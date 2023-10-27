@@ -33,7 +33,7 @@ class Connector(object):
         raise NotImplementedError
 
     @abstractmethod
-    def get_book(self, symbol: str) -> {int, [], []}:
+    def get_book(self, symbol: str) ->dict:
         '''Returns order book'''
         raise NotImplementedError
 
