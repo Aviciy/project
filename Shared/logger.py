@@ -18,5 +18,20 @@ class SimpleLogger:
     def debug(self, message: str):
         self.log(message, "DEBUG")
 
+    def trace(self, message: str):
+        self.log(message, "TRACE")
+
+    def info(self, message: str):
+        self.log(message, "INFO")
+
+    def warning(self, message: str):
+        self.log(message, "WARNING")
+
+    def error(self, message: str):
+        self.log(message, "ERROR")
+
+    def critical(self, message: str):
+        self.log(message, "CRITICAL")
+
 
 logger = SimpleLogger('logs.txt')
