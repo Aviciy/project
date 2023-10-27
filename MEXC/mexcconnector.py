@@ -1,9 +1,42 @@
+import json
 from abc import abstractmethod
 
 import requests
 
 from Shared.connector import Connector
 from Shared.logger import SimpleLogger
+
+
+def subscribe() -> None:
+    subscription = {
+        "method": "SUBSCRIPTION",
+        "params": ["spot@public.deals.v3.api@BTCUSDT"]
+    }
+
+    json.dumps(subscription)
+
+
+def unsubscribe() -> None:
+    unsubscription = {
+        "method": "UNSUBSCRIPTION",
+        "params": ["spot@public.deals.v3.api@BTCUSDT", "spot@public.increase.depth.v3.api@BTCUSDT"]
+    }
+
+    json.dumps(unsubscription)
+
+
+def top_parse(self, message):
+    msg = json.loads(message)
+    md = msg['d']
+    data = {}
+    data['bid'] = float(md['b'])
+    data['ask'] = float(md['a'])
+    data['bidSize'] = float(md['B'])
+    data['askSize'] = float(md['A'])
+    data['symbol'] = msg['s']
+    data['ts'] = msg['t']
+
+    self.__callback(self.__instance_name, data['symbol'], data)
 
 
 class MEXCConnector(Connector):
@@ -67,7 +100,7 @@ class MEXCConnector(Connector):
         return
 
     @abstractmethod
-    def get_balances(self) -> object :
+    def get_balances(self) -> object:
         '''Returns balance information'''
         self.__logger.debug('Return balance data')
         responce = requests.get('/api/v3/capital/config/getall')
