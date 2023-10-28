@@ -7,7 +7,7 @@ from Shared.connector import Connector
 from Shared.logger import SimpleLogger
 
 
-def subscribe() -> None:
+def subscribe(self: object, symbol: str, type: object) -> None:
     subscription = {
         "method": "SUBSCRIPTION",
         "params": ["spot@public.deals.v3.api@BTCUSDT"]
@@ -16,7 +16,7 @@ def subscribe() -> None:
     json.dumps(subscription)
 
 
-def unsubscribe() -> None:
+def unsubscribe(self: object, symbol: str, type: object) -> None:
     unsubscription = {
         "method": "UNSUBSCRIPTION",
         "params": ["spot@public.deals.v3.api@BTCUSDT", "spot@public.increase.depth.v3.api@BTCUSDT"]
@@ -48,6 +48,14 @@ class MEXCConnector(Connector):
         self.__settings = settings
         self.__base_url = "https://api.mexc.com"
         self.__logger.debug('MEXCConnector was created')
+
+    def on_event(exchange_name, broker_event, details=""):
+        print('--- {}-{}-{}'.
+              format(exchange_name,
+                     broker_event,
+                     details
+                     )
+              )
 
     def __make_endpoint(self, endpoint: str) -> str:
         return f"{self.__base_url}{endpoint}"
