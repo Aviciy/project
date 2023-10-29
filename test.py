@@ -10,5 +10,20 @@ from Shared.logger import logger
 with open('MEXC_settings.json', 'r') as file:
     settings = json.load(file)
 
+if __name__ == '__main__':
+    def on_market_top(instance_name, coin, top):
+        print('{}-{} top  Bid: {:f}({:f}) Ask: {:f}({:f})'.
+              format(instance_name,
+                     coin,
+                     top['bid'],
+                     top['bidSize'],
+                     top['ask'],
+                     top['askSize'],
+                     )
+              )
+
+
+    symbolMexc = {'first': 'XBT', 'second': 'USD', 'symbol': 'BNBUSDT'}
+
 logger.debug(settings)
 connector = MEXCConnector(logger, settings)

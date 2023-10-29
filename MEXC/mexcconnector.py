@@ -7,47 +7,19 @@ from Shared.connector import Connector
 from Shared.logger import SimpleLogger
 
 
-def subscribe(self: object, symbol: str, type: object) -> None:
-    subscription = {
-        "method": "SUBSCRIPTION",
-        "params": ["spot@public.deals.v3.api@BTCUSDT"]
-    }
-
-    json.dumps(subscription)
-
-
-def unsubscribe(self: object, symbol: str, type: object) -> None:
-    unsubscription = {
-        "method": "UNSUBSCRIPTION",
-        "params": ["spot@public.deals.v3.api@BTCUSDT", "spot@public.increase.depth.v3.api@BTCUSDT"]
-    }
-
-    json.dumps(unsubscription)
-
-
-def top_parse(self, message):
-    msg = json.loads(message)
-    md = msg['d']
-    data = {}
-    data['bid'] = float(md['b'])
-    data['ask'] = float(md['a'])
-    data['bidSize'] = float(md['B'])
-    data['askSize'] = float(md['A'])
-    data['symbol'] = msg['s']
-    data['ts'] = msg['t']
-
-    self.__callback(self.__instance_name, data['symbol'], data)
-
-
 class MEXCConnector(Connector):
 
     def __init__(self, logger: SimpleLogger, settings: dict) -> None:
         super().__init__()
+        self.__instance_name = None
         self.__server = None
         self.__logger = logger
         self.__settings = settings
         self.__base_url = "https://api.mexc.com"
         self.__logger.debug('MEXCConnector was created')
+
+    def start(self):
+        pass
 
     def on_event(exchange_name, broker_event, details=""):
         print('--- {}-{}-{}'.
@@ -114,3 +86,35 @@ class MEXCConnector(Connector):
         responce = requests.get('/api/v3/capital/config/getall')
         _balance = responce.json()
         return
+
+    def subscribe(self: object, symbol: str, type: object) -> None:
+        subscription = {
+            "method": "SUBSCRIPTION",
+            "params": ["spot@public.deals.v3.api@BTCUSDT"]
+        }
+
+        json.dumps(subscription)
+
+    def unsubscribe(self: object, symbol: str, type: object) -> None:
+        unsubscription = {
+            "method": "UNSUBSCRIPTION",
+            "params": ["spot@public.deals.v3.api@BTCUSDT", "spot@public.increase.depth.v3.api@BTCUSDT"]
+        }
+
+        json.dumps(unsubscription)
+
+    def top_parse(self, message):
+        msg = json.loads(message)
+        md = msg['d']
+        data = {}
+        data['bid'] = float(md['b'])
+        data['ask'] = float(md['a'])
+        data['bidSize'] = float(md['B'])
+        data['askSize'] = float(md['A'])
+        data['symbol'] = msg['s']
+        data['ts'] = msg['t']
+
+        self.__callback(self.__instance_name, data['symbol'], data)
+
+    def __callback(self, __instance_name, param, data):
+        pass
