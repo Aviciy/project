@@ -37,7 +37,7 @@ class MEXCConnector(Connector):
         '''Checking the relevance of the connection'''
         try:
             self.__logger.debug('Checking connections')
-            return requests.get(self.__make_endpoint('/api/v3/ping')).ok
+            return requests.get(self.__make_endpoint(MEXCEndpoints.PING)).json()['PING'].ok
         except Exception as e:
             self.__logger.error(f'Connection error: {e} ')
             return False
@@ -54,28 +54,28 @@ class MEXCConnector(Connector):
     def get_exchange_info(self) -> str:
         '''Returns the exchange data'''
         self.__logger.debug('Get exchange info')
-        responce = requests.get('/api/v3/exchangeInfo')
+        responce = requests.get(MEXCEndpoints.EXCHANGE_INFO).json()['EXCHANGE_INFO']
         _exchange_info = responce.json()
         return
 
     def get_ticker(self, symbol: str) -> float:
         '''Returns information about the Symbol'''
         self.__logger.debug('Return ticker')
-        responce = requests.get('/api/v3/ticker')
+        responce = requests.get(MEXCEndpoints.TICKER).json()['TICKER']
         _ticker = responce.json()
         return
 
     def get_book(self, symbol: str) -> None:
         '''Returns  book ticker'''
         self.__logger.debug('Return book')
-        responce = requests.get('/api/v3/ticker/bookTicker')
+        responce = requests.get(MEXCEndpoints.BOOK_TICKER).json()['BOOK_TICKER']
         _book = responce.json()
         return
 
     def get_balances(self) -> dict:
         '''Returns balance information'''
         self.__logger.debug('Return balance data')
-        responce = requests.get('/api/v3/capital/config/getall')
+        responce = requests.get(MEXCEndpoints.BALANCES).json()['BALANCES']
         _balance = responce.json()
         return
 

@@ -6,7 +6,7 @@ import json
 
 import requests
 
-from MEXC.mexcconnector import MEXCConnector
+from MEXC.MEXC_connector import MEXCConnector
 from Shared.logger import logger
 
 with open('MEXC_settings.json', 'r') as file:

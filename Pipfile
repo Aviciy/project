@@ -8,6 +8,7 @@ requests = "*"
 "websocket.client" = "*"
 sortedcontainers = "*"
 subscription = "*"
+strenum = "*"
 
 [dev-packages]
 
