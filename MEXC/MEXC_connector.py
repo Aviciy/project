@@ -1,6 +1,7 @@
 import json
 
 import requests
+from MEXC.MEXC_endpoints import MEXCEndpoints
 
 from Shared.connector import Connector
 from Shared.logger import SimpleLogger
@@ -41,12 +42,14 @@ class MEXCConnector(Connector):
             self.__logger.error(f'Connection error: {e} ')
             return False
 
-    def get_server_time(self) -> int:
+    def get_server_time(self) -> int | None:
         '''returning the server time'''
-        self.__logger.debug('Checking server time')
-        responce = requests.get('/api/v3/time')
-        _server_time = responce.json()
-        return
+        self.__logger.debug('Return server time')
+        try:
+            return requests.get(MEXCEndpoints.SERVER_TIME).json()['SERVER_TIME']
+        except Exception as e:
+            self.__logger.error(f'Error getting server time: {e}')
+            raise e
 
     def get_exchange_info(self) -> str:
         '''Returns the exchange data'''
