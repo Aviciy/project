@@ -18,7 +18,7 @@ class Connector(object):
         raise NotImplementedError
 
     @abstractmethod
-    def get_server_time(self) -> str:
+    def get_server_time(self) -> int:
         '''returning the server time'''
         raise NotImplementedError
 

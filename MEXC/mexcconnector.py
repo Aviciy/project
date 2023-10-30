@@ -1,5 +1,4 @@
 import json
-from abc import abstractmethod
 
 import requests
 
@@ -18,10 +17,7 @@ class MEXCConnector(Connector):
         self.__base_url = "https://api.mexc.com"
         self.__logger.debug('MEXCConnector was created')
 
-    def start(self):
-        pass
-
-    def on_event(exchange_name, broker_event, details=""):
+    def on_event(exchange_name, broker_event: object, details: object = "") -> object:
         print('--- {}-{}-{}'.
               format(exchange_name,
                      broker_event,
@@ -32,12 +28,10 @@ class MEXCConnector(Connector):
     def __make_endpoint(self, endpoint: str) -> str:
         return f"{self.__base_url}{endpoint}"
 
-    @abstractmethod
     def get_name(self) -> str:
         '''Returns the name of the exchange'''
         return 'MEXC'
 
-    @abstractmethod
     def check_connection(self) -> bool:
         '''Checking the relevance of the connection'''
         try:
@@ -47,55 +41,50 @@ class MEXCConnector(Connector):
             self.__logger.error(f'Connection error: {e} ')
             return False
 
-    @abstractmethod
-    def get_server_time(self) -> None:
+    def get_server_time(self) -> int:
         '''returning the server time'''
         self.__logger.debug('Checking server time')
         responce = requests.get('/api/v3/time')
         _server_time = responce.json()
         return
 
-    @abstractmethod
-    def get_exchange_info(self) -> None:
+    def get_exchange_info(self) -> str:
         '''Returns the exchange data'''
         self.__logger.debug('Get exchange info')
         responce = requests.get('/api/v3/exchangeInfo')
         _exchange_info = responce.json()
         return
 
-    @abstractmethod
-    def get_ticker(self, symbol: str) -> object:
+    def get_ticker(self, symbol: str) -> float:
         '''Returns information about the Symbol'''
         self.__logger.debug('Return ticker')
         responce = requests.get('/api/v3/ticker')
         _ticker = responce.json()
         return
 
-    @abstractmethod
-    def get_book(self, symbol: str) -> object:
+    def get_book(self, symbol: str) -> None:
         '''Returns  book ticker'''
         self.__logger.debug('Return book')
         responce = requests.get('/api/v3/ticker/bookTicker')
         _book = responce.json()
         return
 
-    @abstractmethod
-    def get_balances(self) -> object:
+    def get_balances(self) -> dict:
         '''Returns balance information'''
         self.__logger.debug('Return balance data')
         responce = requests.get('/api/v3/capital/config/getall')
         _balance = responce.json()
         return
 
-    def subscribe(self: object, symbol: str, type: object) -> None:
+    def subscribe(self: object, symbol: str, type: object) -> float:
         subscription = {
             "method": "SUBSCRIPTION",
             "params": ["spot@public.deals.v3.api@BTCUSDT"]
         }
 
-        json.dumps(subscription)
+        json.subscribe = json.dumps(subscription)
 
-    def unsubscribe(self: object, symbol: str, type: object) -> None:
+    def unsubscribe(self: object, symbol: str, type: object):
         unsubscription = {
             "method": "UNSUBSCRIPTION",
             "params": ["spot@public.deals.v3.api@BTCUSDT", "spot@public.increase.depth.v3.api@BTCUSDT"]
@@ -103,7 +92,7 @@ class MEXCConnector(Connector):
 
         json.dumps(unsubscription)
 
-    def top_parse(self, message):
+    def top_parse(self, message: object) -> None:
         msg = json.loads(message)
         md = msg['d']
         data = {}
@@ -118,3 +107,9 @@ class MEXCConnector(Connector):
 
     def __callback(self, __instance_name, param, data):
         pass
+
+    def start(self) -> object:
+        if not self.check_connection():
+            self.__logger.error('Connection to MEXC failed.')
+            return
+        self.__logger.info('MEXC-Connector started')
