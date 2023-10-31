@@ -1,4 +1,3 @@
-import requests
 from strenum import StrEnum
 
 
@@ -37,7 +36,3 @@ class MEXCEndpoints(StrEnum):
     MARGIN_MAX_TRANSFERABLE = 'https://api.mexc.com/sapi/v1/margin/maxTransferable'
     MARGIN_TRANSFER = 'https://api.mexc.com/sapi/v1/margin/transfer'
     MARGIN_REPAY = 'https://api.mexc.com/sapi/v1/margin/repay'
-
-
-responce = requests.get(MEXCEndpoints.PING).ok
-print(responce)

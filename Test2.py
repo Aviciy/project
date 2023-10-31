@@ -50,14 +50,28 @@ request = requests.get(MEXCEndpoints.PING).text
 # time.sleep(3)
 server_time = requests.get(MEXCEndpoints.SERVER_TIME).text
 exchange_info = requests.get(MEXCEndpoints.EXCHANGE_INFO).json()
+ticker = requests.get(MEXCEndpoints.TICKER).json()
+book = requests.get(MEXCEndpoints.BOOK_TICKER).json()
+# balance = requests.get(MEXCEndpoints.BALANCES).json()
 
 connector.start()
+# V1
+# while True:
+# ticker = requests.get(MEXCEndpoints.TICKER).json()
+# decired_symbol = 'BTCUSDT'
+# for item in ticker:
+# if item['symbol'] == decired_symbol:
+# decired_price = item['price']
+# print(f'{decired_symbol}:{decired_price}')
+# time.sleep(5)
+
+# V2
 while True:
-    ticker = requests.get(MEXCEndpoints.TICKER).json()
+    book = requests.get(MEXCEndpoints.BOOK_TICKER).json()
     decired_symbol = 'BTCUSDT'
-    for item in ticker:
-        if item['symbol'] == decired_symbol:
-            decired_price = item['price']
-            print(f'{decired_symbol}:{decired_price}')
-    time.sleep(5)
+    for item in book:
+        bid_price = item['bidPrice']
+        ask_price = item['askPrice']
+        print(f'{decired_symbol}:"BidPrice" {bid_price} "AskPrice" {ask_price}')
+        time.sleep(5)
 input()
