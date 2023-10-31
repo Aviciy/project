@@ -2,50 +2,43 @@
 #   1.  Make type hints for all methods.
 #   2.  Implement base Connector class methods for MEXCConnector.
 #   3.  Test MEXCConnector.
+import hashlib
 import json
+import time
 
 import requests
 
 from MEXC.MEXC_connector import MEXCConnector
+from MEXC.MEXC_endpoints import MEXCEndpoints
+from Shared.connector import Connector
 from Shared.logger import logger
 
-with open('MEXC_settings.json', 'r') as file:
-    settings = json.load(file)
+EXCHANGE_NAME = 'MEXC'
 
 if __name__ == '__main__':
-    def on_market_top(instance_name, coin, top):
-        print('{}-{} top  Bid: {:f}({:f}) Ask: {:f}({:f})'.
-              format(instance_name,
-                     coin,
-                     top['bid'],
-                     top['bidSize'],
-                     top['ask'],
-                     top['askSize'],
-                     )
-              )
+    with open('MEXC_settings.json', 'r') as file:
+        settings = json.load(file)
 
+    logger.debug(settings)
 
-    def get_ticker(self, symbol: str) -> object:
-        '''Returns information about the Symbol'''
-        self.__logger.debug('Return ticker')
-        responce = requests.get('/api/v3/ticker')
-        _ticker = responce.json()
-        print(_ticker)
-        return
+    connector: Connector = MEXCConnector(logger, settings)
 
+    assert connector.get_name() == EXCHANGE_NAME, 'Wrong exchange name'
+    logger.info('Exchange name is correct')
 
-    symbolMexc = {'first': 'XBT', 'second': 'USD', 'symbol': 'BNBUSDT'}
-    currentSymbol = symbolMexc
+    check_connection = connector.check_connection()
+    requests.get(MEXCEndpoints.PING).json()
+    assert connector.check_connection(), 'Connection error'
+    logger.info('Check connection is correct')
 
+    server_time = connector.get_server_time()
+    current_time = int(time.time() * 1000)
+    assert server_time is not None and abs(server_time - current_time) < 2 ** 16, 'Server time error'
+    logger.info(f'Server time is correct: delta = abs({server_time} - {current_time}) < {2 ** 16}ms')
 
-class SubscriptionModel:
-    TopBook = "TopBook"
-    FullBook = "FullBook"
-    Trade = "Trade"
+    exchange_info = connector.get_exchange_info()
+    assert hashlib.sha512(str.encode(', '.join(sorted(exchange_info)))).hexdigest() == \
+           '28a90e53cb087356a5c5ca6d54d576736c0f5232c6177904076963f88773639468ea4c63a661c20396822bd36b07bf22dd6a0d3407e4d408d57d0ca2dba8449b', 'Exchange info error'
+    logger.info('Exchange info is correct')
 
-
-logger.debug(settings)
-connector = MEXCConnector(logger, settings)
-
-
-input()
+    input('Press Enter to continue...')

@@ -1,8 +1,8 @@
 import json
 
 import requests
-from MEXC.MEXC_endpoints import MEXCEndpoints
 
+from MEXC.MEXC_endpoints import MEXCEndpoints
 from Shared.connector import Connector
 from Shared.logger import SimpleLogger
 
@@ -37,7 +37,8 @@ class MEXCConnector(Connector):
         '''Checking the relevance of the connection'''
         try:
             self.__logger.debug('Checking connections')
-            return requests.get(self.__make_endpoint(MEXCEndpoints.PING)).json()['PING'].ok
+            return requests.get(MEXCEndpoints.PING)
+            # return requests.get(self.__make_endpoint(MEXCEndpoints.PING)).json()['PING'].ok
         except Exception as e:
             self.__logger.error(f'Connection error: {e} ')
             return False
@@ -51,10 +52,10 @@ class MEXCConnector(Connector):
             self.__logger.error(f'Error getting server time: {e}')
             raise e
 
-    def get_exchange_info(self) -> str:
+    def get_exchange_info(self) -> [str]:
         '''Returns the exchange data'''
         self.__logger.debug('Get exchange info')
-        responce = requests.get(MEXCEndpoints.EXCHANGE_INFO).json()['EXCHANGE_INFO']
+        responce = requests.get(MEXCEndpoints.EXCHANGE_INFO).json()
         _exchange_info = responce.json()
         return
 
@@ -63,9 +64,8 @@ class MEXCConnector(Connector):
         self.__logger.debug('Return ticker')
         responce = requests.get(MEXCEndpoints.TICKER).json()['TICKER']
         _ticker = responce.json()
-        return
 
-    def get_book(self, symbol: str) -> None:
+    def get_book(self, symbol: str) -> dict:
         '''Returns  book ticker'''
         self.__logger.debug('Return book')
         responce = requests.get(MEXCEndpoints.BOOK_TICKER).json()['BOOK_TICKER']
@@ -85,9 +85,9 @@ class MEXCConnector(Connector):
             "params": ["spot@public.deals.v3.api@BTCUSDT"]
         }
 
-        json.subscribe = json.dumps(subscription)
+        json.dumps(subscription)
 
-    def unsubscribe(self: object, symbol: str, type: object):
+    def unsubscribe(self: object, symbol: str, type: object) -> float:
         unsubscription = {
             "method": "UNSUBSCRIPTION",
             "params": ["spot@public.deals.v3.api@BTCUSDT", "spot@public.increase.depth.v3.api@BTCUSDT"]
@@ -95,7 +95,7 @@ class MEXCConnector(Connector):
 
         json.dumps(unsubscription)
 
-    def top_parse(self, message: object) -> None:
+    def top_parse(self, message: object) -> float:
         msg = json.loads(message)
         md = msg['d']
         data = {}

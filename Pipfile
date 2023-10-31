@@ -9,6 +9,7 @@ requests = "*"
 sortedcontainers = "*"
 subscription = "*"
 strenum = "*"
+self = "*"
 
 [dev-packages]
 

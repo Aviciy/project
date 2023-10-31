@@ -432,3 +432,523 @@
 2023-10-30 17:45:31.416157 | DEBUG | MEXCConnector was created
 2023-10-30 17:45:31.416157 | DEBUG | Checking connections
 2023-10-30 17:45:32.213026 | INFO | MEXC-Connector started
+2023-10-31 14:58:30.878034 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 14:58:30.880063 | DEBUG | MEXCConnector was created
+2023-10-31 14:58:30.881026 | INFO | Exchange name is correct
+2023-10-31 14:58:30.881026 | DEBUG | Checking connections
+2023-10-31 14:58:30.938872 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000206DF887490>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:22:28.239796 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:22:28.239796 | DEBUG | MEXCConnector was created
+2023-10-31 15:22:28.239796 | INFO | Exchange name is correct
+2023-10-31 15:22:28.239796 | DEBUG | Checking connections
+2023-10-31 15:22:28.353491 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001E2D1186410>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:24:24.482879 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:24:24.482879 | DEBUG | MEXCConnector was created
+2023-10-31 15:24:24.482879 | INFO | Exchange name is correct
+2023-10-31 15:24:24.482879 | DEBUG | Checking connections
+2023-10-31 15:24:24.637464 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A478275BD0>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:24:44.794547 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:24:44.794547 | DEBUG | MEXCConnector was created
+2023-10-31 15:24:44.794547 | INFO | Exchange name is correct
+2023-10-31 15:24:44.794547 | DEBUG | Checking connections
+2023-10-31 15:24:44.817491 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025192C45CD0>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:25:00.223277 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:25:00.223277 | DEBUG | MEXCConnector was created
+2023-10-31 15:25:00.223277 | INFO | Exchange name is correct
+2023-10-31 15:25:00.223277 | DEBUG | Checking connections
+2023-10-31 15:25:00.247213 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001EE51DB5F10>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:25:20.699509 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:25:20.699509 | DEBUG | MEXCConnector was created
+2023-10-31 15:25:20.699509 | INFO | Exchange name is correct
+2023-10-31 15:25:20.699509 | DEBUG | Checking connections
+2023-10-31 15:25:20.781290 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002382FDA5F10>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:27:03.941363 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:27:03.941363 | DEBUG | MEXCConnector was created
+2023-10-31 15:27:03.941363 | INFO | Exchange name is correct
+2023-10-31 15:27:03.941363 | DEBUG | Checking connections
+2023-10-31 15:27:03.981299 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022F0CF15F10>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:27:45.598946 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:27:45.599966 | DEBUG | MEXCConnector was created
+2023-10-31 15:27:45.599966 | INFO | Exchange name is correct
+2023-10-31 15:27:45.599966 | DEBUG | Checking connections
+2023-10-31 15:27:45.759509 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001AF3B805F10>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:30:37.596921 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:30:37.596921 | DEBUG | MEXCConnector was created
+2023-10-31 15:30:37.596921 | INFO | Exchange name is correct
+2023-10-31 15:30:37.596921 | DEBUG | Checking connections
+2023-10-31 15:30:37.619870 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022E05C359D0>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:30:37.619870 | DEBUG | Checking connections
+2023-10-31 15:30:37.622818 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022E05C37A90>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:31:10.586680 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:31:10.587678 | DEBUG | MEXCConnector was created
+2023-10-31 15:31:10.587678 | INFO | Exchange name is correct
+2023-10-31 15:31:10.587678 | DEBUG | Checking connections
+2023-10-31 15:31:10.613616 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BEB18259D0>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:33:18.047721 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:33:18.048719 | DEBUG | MEXCConnector was created
+2023-10-31 15:33:18.048719 | INFO | Exchange name is correct
+2023-10-31 15:33:18.048719 | DEBUG | Checking connections
+2023-10-31 15:33:18.096590 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000023F50EA59D0>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:33:18.097588 | DEBUG | Checking connections
+2023-10-31 15:33:18.098585 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000023F50EA79D0>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:37:05.632068 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:37:05.633066 | DEBUG | MEXCConnector was created
+2023-10-31 15:37:05.633066 | INFO | Exchange name is correct
+2023-10-31 15:37:05.633066 | DEBUG | Checking connections
+2023-10-31 15:37:05.755775 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F6ED3F5D90>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:37:27.289140 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:37:27.289140 | DEBUG | MEXCConnector was created
+2023-10-31 15:37:27.289140 | INFO | Exchange name is correct
+2023-10-31 15:37:27.290137 | DEBUG | Checking connections
+2023-10-31 15:37:27.360948 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001843BF75D10>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:37:45.934312 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:37:45.934312 | DEBUG | MEXCConnector was created
+2023-10-31 15:37:45.935273 | INFO | Exchange name is correct
+2023-10-31 15:37:45.935273 | DEBUG | Checking connections
+2023-10-31 15:37:45.955267 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021638575D10>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:37:54.390651 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:37:54.390651 | DEBUG | MEXCConnector was created
+2023-10-31 15:37:54.390651 | INFO | Exchange name is correct
+2023-10-31 15:37:54.391650 | DEBUG | Checking connections
+2023-10-31 15:37:54.544239 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001DD7D575AD0>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:38:02.593708 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:38:02.593708 | DEBUG | MEXCConnector was created
+2023-10-31 15:38:02.593708 | INFO | Exchange name is correct
+2023-10-31 15:38:02.593708 | DEBUG | Checking connections
+2023-10-31 15:38:02.682471 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D5E1AE5AD0>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:38:03.432497 | DEBUG | Checking connections
+2023-10-31 15:38:03.434492 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D5E1AE6F50>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:39:09.306269 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:39:09.306269 | DEBUG | MEXCConnector was created
+2023-10-31 15:39:09.307266 | DEBUG | Checking connections
+2023-10-31 15:39:09.328210 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001ED32EC7A90>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:39:09.328210 | ERROR | Connection to MEXC failed.
+2023-10-31 15:39:49.459868 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:39:49.459868 | DEBUG | MEXCConnector was created
+2023-10-31 15:39:49.459868 | DEBUG | Checking connections
+2023-10-31 15:39:49.610468 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000271EBF3FD50>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:39:49.610468 | ERROR | Connection to MEXC failed.
+2023-10-31 15:40:23.180699 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:40:23.180699 | DEBUG | MEXCConnector was created
+2023-10-31 15:40:23.180699 | DEBUG | Checking connections
+2023-10-31 15:40:23.202655 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002006AD3FD50>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:40:23.202655 | ERROR | Connection to MEXC failed.
+2023-10-31 15:40:52.621928 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:40:52.621928 | DEBUG | MEXCConnector was created
+2023-10-31 15:40:52.621928 | DEBUG | Checking connections
+2023-10-31 15:40:52.774518 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F3E79EFD50>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:40:52.774518 | ERROR | Connection to MEXC failed.
+2023-10-31 15:41:20.561195 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:41:20.561195 | DEBUG | MEXCConnector was created
+2023-10-31 15:41:20.561195 | DEBUG | Checking connections
+2023-10-31 15:41:20.628017 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F9DFBD7A90>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:41:20.628017 | ERROR | Connection to MEXC failed.
+2023-10-31 15:41:20.629015 | DEBUG | Checking connections
+2023-10-31 15:41:20.630013 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F9DFBBF750>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:42:05.966750 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:42:05.966750 | DEBUG | MEXCConnector was created
+2023-10-31 15:42:05.966750 | DEBUG | Checking connections
+2023-10-31 15:42:06.161227 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A84211FD50>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:42:06.161227 | ERROR | Connection to MEXC failed.
+2023-10-31 15:47:22.738463 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:47:22.738463 | DEBUG | MEXCConnector was created
+2023-10-31 15:47:22.738463 | DEBUG | Checking connections
+2023-10-31 15:47:22.826227 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000285B83C0290>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:47:22.855149 | ERROR | Connection to MEXC failed.
+2023-10-31 15:48:41.233544 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:48:41.233544 | DEBUG | MEXCConnector was created
+2023-10-31 15:48:41.233544 | DEBUG | Checking connections
+2023-10-31 15:48:41.316329 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000024BD7C3FFD0>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:48:41.316329 | ERROR | Connection to MEXC failed.
+2023-10-31 15:49:16.364575 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:49:16.364575 | DEBUG | MEXCConnector was created
+2023-10-31 15:49:16.365540 | DEBUG | Checking connections
+2023-10-31 15:49:16.483249 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027FC79D7FD0>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:49:16.483249 | ERROR | Connection to MEXC failed.
+2023-10-31 15:50:56.067862 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:50:56.067862 | DEBUG | MEXCConnector was created
+2023-10-31 15:50:56.853787 | DEBUG | Checking connections
+2023-10-31 15:50:56.891698 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018111580110>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:50:56.892653 | ERROR | Connection to MEXC failed.
+2023-10-31 15:51:11.905497 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:51:11.905497 | DEBUG | MEXCConnector was created
+2023-10-31 15:51:15.613578 | DEBUG | Checking connections
+2023-10-31 15:51:15.764177 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019FD17C0110>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:51:15.764177 | ERROR | Connection to MEXC failed.
+2023-10-31 15:51:27.184629 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:51:27.184629 | DEBUG | MEXCConnector was created
+2023-10-31 15:51:30.916691 | DEBUG | Checking connections
+2023-10-31 15:51:31.008440 | ERROR | Connection error: HTTPSConnectionPool(host='api.mexc.comhttps', port=443): Max retries exceeded with url: //api.mexc.com/api/v3/ping (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000191F7330110>: Failed to resolve 'api.mexc.comhttps' ([Errno 11001] getaddrinfo failed)")) 
+2023-10-31 15:51:31.008440 | ERROR | Connection to MEXC failed.
+2023-10-31 15:53:08.779888 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:53:08.779888 | DEBUG | MEXCConnector was created
+2023-10-31 15:53:12.562810 | DEBUG | Checking connections
+2023-10-31 15:53:13.297834 | INFO | MEXC-Connector started
+2023-10-31 15:53:36.122752 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:53:36.123749 | DEBUG | MEXCConnector was created
+2023-10-31 15:53:36.834848 | DEBUG | Checking connections
+2023-10-31 15:53:37.534975 | INFO | MEXC-Connector started
+2023-10-31 15:54:03.292084 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:54:03.292084 | DEBUG | MEXCConnector was created
+2023-10-31 15:54:04.096929 | DEBUG | Checking connections
+2023-10-31 15:54:04.783094 | INFO | MEXC-Connector started
+2023-10-31 15:54:10.048011 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:54:10.048011 | DEBUG | MEXCConnector was created
+2023-10-31 15:54:11.110170 | DEBUG | Checking connections
+2023-10-31 15:54:11.995839 | INFO | MEXC-Connector started
+2023-10-31 15:56:25.167599 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:56:25.167599 | DEBUG | MEXCConnector was created
+2023-10-31 15:56:26.594781 | DEBUG | Checking connections
+2023-10-31 15:56:27.417580 | INFO | MEXC-Connector started
+2023-10-31 15:56:42.068396 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:56:42.068396 | DEBUG | MEXCConnector was created
+2023-10-31 15:56:43.537497 | DEBUG | Checking connections
+2023-10-31 15:56:44.262567 | INFO | MEXC-Connector started
+2023-10-31 15:58:31.480745 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:58:31.480745 | DEBUG | MEXCConnector was created
+2023-10-31 15:58:34.115697 | DEBUG | Checking connections
+2023-10-31 15:58:34.839758 | INFO | MEXC-Connector started
+2023-10-31 15:59:51.793926 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 15:59:51.793926 | DEBUG | MEXCConnector was created
+2023-10-31 16:00:03.608326 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:00:03.609324 | DEBUG | MEXCConnector was created
+2023-10-31 16:00:39.409565 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:00:39.410563 | DEBUG | MEXCConnector was created
+2023-10-31 16:00:43.047834 | DEBUG | Checking connections
+2023-10-31 16:00:43.740981 | INFO | MEXC-Connector started
+2023-10-31 16:03:17.849780 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:03:17.850777 | DEBUG | MEXCConnector was created
+2023-10-31 16:03:21.570826 | DEBUG | Checking connections
+2023-10-31 16:03:22.320820 | INFO | MEXC-Connector started
+2023-10-31 16:04:31.400086 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:04:31.400086 | DEBUG | MEXCConnector was created
+2023-10-31 16:04:43.576480 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:04:43.576480 | DEBUG | MEXCConnector was created
+2023-10-31 16:04:46.935495 | DEBUG | Checking connections
+2023-10-31 16:04:47.688483 | INFO | MEXC-Connector started
+2023-10-31 16:05:17.576539 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:05:17.576539 | DEBUG | MEXCConnector was created
+2023-10-31 16:06:17.027523 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:06:17.027523 | DEBUG | MEXCConnector was created
+2023-10-31 16:06:28.219591 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:06:28.219591 | DEBUG | MEXCConnector was created
+2023-10-31 16:07:14.274437 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:07:14.275437 | DEBUG | MEXCConnector was created
+2023-10-31 16:07:18.040365 | DEBUG | Checking connections
+2023-10-31 16:07:18.793314 | INFO | MEXC-Connector started
+2023-10-31 16:07:37.261945 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:07:37.262943 | DEBUG | MEXCConnector was created
+2023-10-31 16:07:40.342739 | DEBUG | Checking connections
+2023-10-31 16:07:41.112689 | INFO | MEXC-Connector started
+2023-10-31 16:09:37.809511 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:09:37.810510 | DEBUG | MEXCConnector was created
+2023-10-31 16:10:30.646187 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:10:30.647185 | DEBUG | MEXCConnector was created
+2023-10-31 16:10:33.893502 | DEBUG | Checking connections
+2023-10-31 16:10:34.625542 | INFO | MEXC-Connector started
+2023-10-31 16:11:37.114440 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:11:37.114440 | DEBUG | MEXCConnector was created
+2023-10-31 16:11:40.709783 | DEBUG | Checking connections
+2023-10-31 16:11:41.421911 | INFO | MEXC-Connector started
+2023-10-31 16:12:04.876144 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:12:04.876144 | DEBUG | MEXCConnector was created
+2023-10-31 16:12:22.842122 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:12:22.842122 | DEBUG | MEXCConnector was created
+2023-10-31 16:12:26.391597 | DEBUG | Checking connections
+2023-10-31 16:12:27.145580 | INFO | MEXC-Connector started
+2023-10-31 16:12:38.759517 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:12:38.760514 | DEBUG | MEXCConnector was created
+2023-10-31 16:12:52.551625 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:12:52.551625 | DEBUG | MEXCConnector was created
+2023-10-31 16:13:52.800476 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:13:52.801473 | DEBUG | MEXCConnector was created
+2023-10-31 16:13:56.670142 | DEBUG | Checking connections
+2023-10-31 16:13:57.386239 | INFO | MEXC-Connector started
+2023-10-31 16:13:57.386239 | DEBUG | Checking connections
+2023-10-31 16:13:58.104287 | INFO | MEXC-Connector started
+2023-10-31 16:14:23.343778 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:14:23.343778 | DEBUG | MEXCConnector was created
+2023-10-31 16:14:27.421872 | DEBUG | Checking connections
+2023-10-31 16:14:28.096066 | INFO | MEXC-Connector started
+2023-10-31 16:14:56.000431 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:14:56.000431 | DEBUG | MEXCConnector was created
+2023-10-31 16:14:59.155028 | DEBUG | Checking connections
+2023-10-31 16:14:59.868115 | INFO | MEXC-Connector started
+2023-10-31 16:14:59.868115 | DEBUG | Return ticker
+2023-10-31 16:15:35.414049 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:15:35.414049 | DEBUG | MEXCConnector was created
+2023-10-31 16:15:38.517706 | DEBUG | Checking connections
+2023-10-31 16:15:39.186916 | INFO | MEXC-Connector started
+2023-10-31 16:15:39.186916 | DEBUG | Return ticker
+2023-10-31 16:16:22.307580 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:16:22.307580 | DEBUG | MEXCConnector was created
+2023-10-31 16:16:25.780290 | DEBUG | Checking connections
+2023-10-31 16:16:26.524342 | INFO | MEXC-Connector started
+2023-10-31 16:16:42.408816 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:16:42.408816 | DEBUG | MEXCConnector was created
+2023-10-31 16:16:45.667134 | DEBUG | Checking connections
+2023-10-31 16:16:46.379225 | INFO | MEXC-Connector started
+2023-10-31 16:17:51.456131 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:17:51.456131 | DEBUG | MEXCConnector was created
+2023-10-31 16:17:54.347396 | DEBUG | Checking connections
+2023-10-31 16:17:55.059491 | INFO | MEXC-Connector started
+2023-10-31 16:19:11.741434 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:19:11.741434 | DEBUG | MEXCConnector was created
+2023-10-31 16:19:14.884063 | DEBUG | Checking connections
+2023-10-31 16:19:15.605099 | INFO | MEXC-Connector started
+2023-10-31 16:26:03.246824 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:26:03.246824 | DEBUG | MEXCConnector was created
+2023-10-31 16:26:17.425899 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:26:17.426898 | DEBUG | MEXCConnector was created
+2023-10-31 16:26:20.665271 | DEBUG | Checking connections
+2023-10-31 16:26:21.382316 | INFO | MEXC-Connector started
+2023-10-31 16:26:48.414015 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:26:48.415012 | DEBUG | MEXCConnector was created
+2023-10-31 16:26:51.890715 | DEBUG | Checking connections
+2023-10-31 16:26:52.598853 | INFO | MEXC-Connector started
+2023-10-31 16:27:29.108169 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:27:29.108169 | DEBUG | MEXCConnector was created
+2023-10-31 16:27:32.383445 | DEBUG | Checking connections
+2023-10-31 16:27:33.107500 | INFO | MEXC-Connector started
+2023-10-31 16:31:13.132743 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:31:13.133741 | DEBUG | MEXCConnector was created
+2023-10-31 16:31:16.537687 | DEBUG | Checking connections
+2023-10-31 16:31:17.545940 | INFO | MEXC-Connector started
+2023-10-31 16:31:27.965071 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:31:27.965071 | DEBUG | MEXCConnector was created
+2023-10-31 16:31:30.979047 | DEBUG | Checking connections
+2023-10-31 16:31:31.760920 | INFO | MEXC-Connector started
+2023-10-31 16:35:59.750160 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:35:59.751157 | DEBUG | MEXCConnector was created
+2023-10-31 16:36:03.230850 | DEBUG | Checking connections
+2023-10-31 16:36:03.954913 | INFO | MEXC-Connector started
+2023-10-31 16:39:04.898964 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:39:04.899961 | DEBUG | MEXCConnector was created
+2023-10-31 16:39:08.245014 | DEBUG | Checking connections
+2023-10-31 16:39:08.934141 | INFO | MEXC-Connector started
+2023-10-31 16:39:31.873800 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:39:31.873800 | DEBUG | MEXCConnector was created
+2023-10-31 16:39:38.597798 | DEBUG | Checking connections
+2023-10-31 16:39:41.459175 | INFO | MEXC-Connector started
+2023-10-31 16:40:03.717607 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:40:03.717607 | DEBUG | MEXCConnector was created
+2023-10-31 16:40:06.733542 | DEBUG | Checking connections
+2023-10-31 16:40:07.453652 | INFO | MEXC-Connector started
+2023-10-31 16:40:45.240545 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 16:40:45.241585 | DEBUG | MEXCConnector was created
+2023-10-31 16:40:48.324333 | DEBUG | Checking connections
+2023-10-31 16:40:49.050400 | INFO | MEXC-Connector started
+2023-10-31 17:13:35.961361 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:13:35.962359 | DEBUG | MEXCConnector was created
+2023-10-31 17:13:39.437062 | DEBUG | Checking connections
+2023-10-31 17:13:40.157170 | INFO | MEXC-Connector started
+2023-10-31 17:14:15.112639 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:14:15.112639 | DEBUG | MEXCConnector was created
+2023-10-31 17:14:18.565404 | DEBUG | Checking connections
+2023-10-31 17:14:19.281488 | INFO | MEXC-Connector started
+2023-10-31 17:14:45.013662 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:14:45.013662 | DEBUG | MEXCConnector was created
+2023-10-31 17:14:48.625003 | DEBUG | Checking connections
+2023-10-31 17:14:49.341117 | INFO | MEXC-Connector started
+2023-10-31 17:15:13.962231 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:15:13.962231 | DEBUG | MEXCConnector was created
+2023-10-31 17:15:18.037333 | DEBUG | Checking connections
+2023-10-31 17:15:19.154375 | INFO | MEXC-Connector started
+2023-10-31 17:16:52.891620 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:16:52.891620 | DEBUG | MEXCConnector was created
+2023-10-31 17:16:55.831757 | DEBUG | Checking connections
+2023-10-31 17:16:56.512964 | INFO | MEXC-Connector started
+2023-10-31 17:17:47.660164 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:17:47.661163 | DEBUG | MEXCConnector was created
+2023-10-31 17:17:51.062029 | DEBUG | Checking connections
+2023-10-31 17:17:51.785096 | INFO | MEXC-Connector started
+2023-10-31 17:18:00.929635 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:18:00.929635 | DEBUG | MEXCConnector was created
+2023-10-31 17:18:04.219836 | DEBUG | Checking connections
+2023-10-31 17:18:04.939908 | INFO | MEXC-Connector started
+2023-10-31 17:18:15.094797 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:18:15.095792 | DEBUG | MEXCConnector was created
+2023-10-31 17:18:18.319159 | DEBUG | Checking connections
+2023-10-31 17:18:19.049170 | INFO | MEXC-Connector started
+2023-10-31 17:19:08.083016 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:19:08.083016 | DEBUG | MEXCConnector was created
+2023-10-31 17:19:12.050404 | DEBUG | Checking connections
+2023-10-31 17:19:12.783444 | INFO | MEXC-Connector started
+2023-10-31 17:20:22.842088 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:20:22.842088 | DEBUG | MEXCConnector was created
+2023-10-31 17:20:26.243003 | DEBUG | Checking connections
+2023-10-31 17:20:26.963064 | INFO | MEXC-Connector started
+2023-10-31 17:21:48.032193 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:21:48.032193 | DEBUG | MEXCConnector was created
+2023-10-31 17:21:51.376248 | DEBUG | Checking connections
+2023-10-31 17:21:52.080365 | INFO | MEXC-Connector started
+2023-10-31 17:22:04.424348 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:22:04.425378 | DEBUG | MEXCConnector was created
+2023-10-31 17:22:13.269689 | DEBUG | Checking connections
+2023-10-31 17:22:14.304920 | INFO | MEXC-Connector started
+2023-10-31 17:22:47.903103 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:22:47.903103 | DEBUG | MEXCConnector was created
+2023-10-31 17:22:51.625144 | DEBUG | Checking connections
+2023-10-31 17:22:52.306322 | INFO | MEXC-Connector started
+2023-10-31 17:22:58.570566 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:22:58.570566 | DEBUG | MEXCConnector was created
+2023-10-31 17:23:03.490444 | DEBUG | Checking connections
+2023-10-31 17:23:04.214510 | INFO | MEXC-Connector started
+2023-10-31 17:24:01.148186 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:24:01.148186 | DEBUG | MEXCConnector was created
+2023-10-31 17:27:22.088102 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:27:22.088102 | DEBUG | MEXCConnector was created
+2023-10-31 17:27:55.636403 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:27:55.637401 | DEBUG | MEXCConnector was created
+2023-10-31 17:28:05.584758 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:28:05.584758 | DEBUG | MEXCConnector was created
+2023-10-31 17:29:50.444284 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:29:50.445283 | DEBUG | MEXCConnector was created
+2023-10-31 17:30:21.028516 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:30:21.028516 | DEBUG | MEXCConnector was created
+2023-10-31 17:30:55.532227 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:30:55.532227 | DEBUG | MEXCConnector was created
+2023-10-31 17:30:59.169463 | DEBUG | Checking connections
+2023-10-31 17:30:59.899554 | INFO | MEXC-Connector started
+2023-10-31 17:31:21.077863 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:31:21.078860 | DEBUG | MEXCConnector was created
+2023-10-31 17:31:24.123752 | DEBUG | Checking connections
+2023-10-31 17:31:24.838804 | INFO | MEXC-Connector started
+2023-10-31 17:31:38.661831 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:31:38.662828 | DEBUG | MEXCConnector was created
+2023-10-31 17:31:41.752565 | DEBUG | Checking connections
+2023-10-31 17:31:42.489623 | INFO | MEXC-Connector started
+2023-10-31 17:35:03.581722 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:35:03.581722 | DEBUG | MEXCConnector was created
+2023-10-31 17:35:14.898452 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:35:14.898452 | DEBUG | MEXCConnector was created
+2023-10-31 17:35:26.909325 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:35:26.909325 | DEBUG | MEXCConnector was created
+2023-10-31 17:36:01.115831 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:36:01.116830 | DEBUG | MEXCConnector was created
+2023-10-31 17:36:53.557564 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:36:53.557564 | DEBUG | MEXCConnector was created
+2023-10-31 17:37:07.416529 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:37:07.416529 | DEBUG | MEXCConnector was created
+2023-10-31 17:37:37.877022 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:37:37.877022 | DEBUG | MEXCConnector was created
+2023-10-31 17:37:41.006649 | DEBUG | Checking connections
+2023-10-31 17:37:41.724729 | INFO | MEXC-Connector started
+2023-10-31 17:38:58.445556 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:38:58.445556 | DEBUG | MEXCConnector was created
+2023-10-31 17:39:03.215801 | DEBUG | Checking connections
+2023-10-31 17:39:03.934868 | INFO | MEXC-Connector started
+2023-10-31 17:39:34.290643 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:39:34.290643 | DEBUG | MEXCConnector was created
+2023-10-31 17:39:38.146370 | DEBUG | Checking connections
+2023-10-31 17:39:38.883388 | INFO | MEXC-Connector started
+2023-10-31 17:40:05.880150 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:40:05.881145 | DEBUG | MEXCConnector was created
+2023-10-31 17:40:10.758100 | DEBUG | Checking connections
+2023-10-31 17:40:11.445262 | INFO | MEXC-Connector started
+2023-10-31 17:40:46.900430 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:40:46.900430 | DEBUG | MEXCConnector was created
+2023-10-31 17:40:49.926335 | DEBUG | Checking connections
+2023-10-31 17:40:50.643448 | INFO | MEXC-Connector started
+2023-10-31 17:41:01.469461 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:41:01.469461 | DEBUG | MEXCConnector was created
+2023-10-31 17:41:04.384695 | DEBUG | Checking connections
+2023-10-31 17:41:05.071824 | INFO | MEXC-Connector started
+2023-10-31 17:42:21.765689 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:42:21.765689 | DEBUG | MEXCConnector was created
+2023-10-31 17:42:25.299238 | DEBUG | Checking connections
+2023-10-31 17:42:26.013328 | INFO | MEXC-Connector started
+2023-10-31 17:42:44.277475 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:42:44.277475 | DEBUG | MEXCConnector was created
+2023-10-31 17:42:47.413087 | DEBUG | Checking connections
+2023-10-31 17:42:48.126180 | INFO | MEXC-Connector started
+2023-10-31 17:47:17.678690 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:47:17.678690 | DEBUG | MEXCConnector was created
+2023-10-31 17:47:33.392693 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:47:33.394685 | DEBUG | MEXCConnector was created
+2023-10-31 17:47:36.677915 | DEBUG | Checking connections
+2023-10-31 17:47:37.450833 | INFO | MEXC-Connector started
+2023-10-31 17:49:00.335108 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:49:00.335108 | DEBUG | MEXCConnector was created
+2023-10-31 17:49:03.549510 | DEBUG | Checking connections
+2023-10-31 17:49:04.288565 | INFO | MEXC-Connector started
+2023-10-31 17:50:14.220483 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:50:14.220483 | DEBUG | MEXCConnector was created
+2023-10-31 17:50:17.262383 | DEBUG | Checking connections
+2023-10-31 17:50:17.990440 | INFO | MEXC-Connector started
+2023-10-31 17:50:55.213836 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:50:55.213836 | DEBUG | MEXCConnector was created
+2023-10-31 17:50:58.245762 | DEBUG | Checking connections
+2023-10-31 17:50:58.891000 | INFO | MEXC-Connector started
+2023-10-31 17:52:52.691613 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:52:52.691613 | DEBUG | MEXCConnector was created
+2023-10-31 17:53:09.183502 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:53:09.183502 | DEBUG | MEXCConnector was created
+2023-10-31 17:54:21.845195 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:54:21.845195 | DEBUG | MEXCConnector was created
+2023-10-31 17:54:33.908882 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:54:33.908882 | DEBUG | MEXCConnector was created
+2023-10-31 17:55:03.134710 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:55:03.134710 | DEBUG | MEXCConnector was created
+2023-10-31 17:55:06.089805 | DEBUG | Checking connections
+2023-10-31 17:55:06.728140 | INFO | MEXC-Connector started
+2023-10-31 17:56:45.647516 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:56:45.647516 | DEBUG | MEXCConnector was created
+2023-10-31 17:57:09.680232 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 17:57:09.680232 | DEBUG | MEXCConnector was created
+2023-10-31 17:57:14.125342 | DEBUG | Checking connections
+2023-10-31 17:57:15.276264 | INFO | MEXC-Connector started
+2023-10-31 18:10:41.182309 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 18:10:41.182309 | DEBUG | MEXCConnector was created
+2023-10-31 18:10:46.420297 | DEBUG | Checking connections
+2023-10-31 18:10:47.065574 | INFO | MEXC-Connector started
+2023-10-31 18:11:00.358019 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 18:11:00.358019 | DEBUG | MEXCConnector was created
+2023-10-31 18:11:08.228010 | DEBUG | Checking connections
+2023-10-31 18:11:08.874240 | INFO | MEXC-Connector started
+2023-10-31 18:12:34.828334 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 18:12:34.828334 | DEBUG | MEXCConnector was created
+2023-10-31 18:12:37.319669 | DEBUG | Checking connections
+2023-10-31 18:12:37.946992 | INFO | MEXC-Connector started
+2023-10-31 18:12:42.407064 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 18:12:42.407064 | DEBUG | MEXCConnector was created
+2023-10-31 18:12:45.042014 | DEBUG | Checking connections
+2023-10-31 18:12:45.665347 | INFO | MEXC-Connector started
+2023-10-31 18:13:05.810466 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 18:13:05.810466 | DEBUG | MEXCConnector was created
+2023-10-31 18:13:08.097348 | DEBUG | Checking connections
+2023-10-31 18:13:08.732649 | INFO | MEXC-Connector started
+2023-10-31 18:14:02.710271 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 18:14:02.711268 | DEBUG | MEXCConnector was created
+2023-10-31 18:14:04.973218 | DEBUG | Checking connections
+2023-10-31 18:14:05.622482 | INFO | MEXC-Connector started
+2023-10-31 18:15:19.376211 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 18:15:19.376211 | DEBUG | MEXCConnector was created
+2023-10-31 18:15:21.909435 | DEBUG | Checking connections
+2023-10-31 18:15:22.546761 | INFO | MEXC-Connector started
+2023-10-31 18:16:36.518872 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 18:16:36.518872 | DEBUG | MEXCConnector was created
+2023-10-31 18:16:39.010209 | DEBUG | Checking connections
+2023-10-31 18:16:39.622612 | INFO | MEXC-Connector started
+2023-10-31 18:17:39.230136 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 18:17:39.230136 | DEBUG | MEXCConnector was created
+2023-10-31 18:17:44.844120 | DEBUG | Checking connections
+2023-10-31 18:17:45.497403 | INFO | MEXC-Connector started
+2023-10-31 18:18:01.097645 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 18:18:01.097645 | DEBUG | MEXCConnector was created
+2023-10-31 18:18:04.286118 | DEBUG | Checking connections
+2023-10-31 18:18:05.000207 | INFO | MEXC-Connector started
+2023-10-31 18:18:24.843181 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 18:18:24.844176 | DEBUG | MEXCConnector was created
+2023-10-31 18:18:30.688498 | DEBUG | Checking connections
+2023-10-31 18:18:31.315819 | INFO | MEXC-Connector started
+2023-10-31 18:21:18.706253 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 18:21:18.707249 | DEBUG | MEXCConnector was created
+2023-10-31 18:21:40.350398 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 18:21:40.350398 | DEBUG | MEXCConnector was created
+2023-10-31 18:21:42.579398 | DEBUG | Checking connections
+2023-10-31 18:21:43.191791 | INFO | MEXC-Connector started
+2023-10-31 18:23:56.089329 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 18:23:56.089329 | DEBUG | MEXCConnector was created
+2023-10-31 18:23:58.369228 | DEBUG | Checking connections
+2023-10-31 18:23:59.013472 | INFO | MEXC-Connector started

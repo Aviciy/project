@@ -1,8 +1,10 @@
 import json
+import time
 
 import requests
 
 from MEXC.MEXC_connector import MEXCConnector
+from MEXC.MEXC_endpoints import MEXCEndpoints
 from Shared.logger import logger
 
 with open('MEXC_settings.json', 'r') as file:
@@ -42,7 +44,20 @@ class SubscriptionModel:
 
 logger.debug(settings)
 connector = MEXCConnector(logger, settings)
-connector.start()
-connector.subscribe(symbolMexc, SubscriptionModel.TopBook)
 
+request = requests.get(MEXCEndpoints.PING).text
+# subscribe = connector.subscribe(symbolMexc, SubscriptionModel.TopBook)
+# time.sleep(3)
+server_time = requests.get(MEXCEndpoints.SERVER_TIME).text
+exchange_info = requests.get(MEXCEndpoints.EXCHANGE_INFO).json()
+
+connector.start()
+while True:
+    ticker = requests.get(MEXCEndpoints.TICKER).json()
+    decired_symbol = 'BTCUSDT'
+    for item in ticker:
+        if item['symbol'] == decired_symbol:
+            decired_price = item['price']
+            print(f'{decired_symbol}:{decired_price}')
+    time.sleep(5)
 input()
