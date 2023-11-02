@@ -1,5 +1,4 @@
 import json
-import time
 
 import requests
 
@@ -66,12 +65,13 @@ connector.start()
 # time.sleep(5)
 
 # V2
-while True:
-    book = requests.get(MEXCEndpoints.BOOK_TICKER).json()
-    decired_symbol = 'BTCUSDT'
-    for item in book:
-        bid_price = item['bidPrice']
-        ask_price = item['askPrice']
-        print(f'{decired_symbol}:"BidPrice" {bid_price} "AskPrice" {ask_price}')
-        time.sleep(5)
+# while True:
+#   book = requests.get(MEXCEndpoints.BOOK_TICKER).json()
+#  decired_symbol = 'BTCUSDT'
+# for item in book:
+#    bid_price = item['bidPrice']
+#   ask_price = item['askPrice']
+#  print(f'{decired_symbol}:"BidPrice" {bid_price} "AskPrice" {ask_price}')
+# time.sleep(5)
+print(exchange_info)
 input()
