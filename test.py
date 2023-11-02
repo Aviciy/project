@@ -6,7 +6,7 @@ import hashlib
 import json
 import time
 
-from MEXC.MEXC_connector import MEXCConnector
+import MEXC
 from Shared.connector import Connector
 from Shared.logger import logger
 
@@ -18,7 +18,7 @@ if __name__ == '__main__':
 
     logger.debug(settings)
 
-    connector: Connector = MEXCConnector(logger, settings)
+    connector: Connector = MEXC.Connector(logger, settings)
 
     assert connector.get_name() == EXCHANGE_NAME, 'Wrong exchange name'
     logger.info('Exchange name is correct')

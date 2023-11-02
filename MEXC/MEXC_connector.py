@@ -3,7 +3,7 @@ import json
 import requests
 from requests import Response
 
-from MEXC.MEXC_endpoints import MEXCEndpoints
+from MEXC import Endpoints
 from Shared.connector import Connector
 from Shared.logger import SimpleLogger
 
@@ -45,7 +45,7 @@ class MEXCConnector(Connector):
         '''Checking the relevance of the connection'''
         try:
             self.__logger.debug('Checking connections')
-            return requests.get(MEXCEndpoints.PING)
+            return requests.get(Endpoints.PING)
             # return requests.get(self.__make_endpoint(MEXCEndpoints.PING)).json()['PING'].ok
         except Exception as e:
             self.__logger.error(f'Connection error: {e} ')
@@ -53,7 +53,7 @@ class MEXCConnector(Connector):
 
     def get_server_time(self) -> int | None:
         try:
-            response = requests.get(MEXCEndpoints.SERVER_TIME)
+            response = requests.get(Endpoints.SERVER_TIME)
             if not response.ok:
                 print(f'Error getting server time: {response.text}')
                 return None
@@ -68,7 +68,7 @@ class MEXCConnector(Connector):
         '''Returns the exchange data'''
         self.__logger.debug('Get exchange info')
         try:
-            response = requests.get(MEXCEndpoints.EXCHANGE_INFO).json()
+            response = requests.get(Endpoints.EXCHANGE_INFO).json()
             exchange_info = response.get('data', [])
             return [item['symbol'] for item in exchange_info]
         except Exception as e:
@@ -78,20 +78,20 @@ class MEXCConnector(Connector):
     def get_ticker(self, symbol: str) -> float:
         '''Returns information about the Symbol'''
         self.__logger.debug('Return ticker')
-        responce = requests.get(MEXCEndpoints.TICKER).json()
+        responce = requests.get(Endpoints.TICKER).json()
         _ticker = responce.json()
 
     def get_book(self, symbol: str) -> dict | None:
         '''Returns  book ticker'''
         self.__logger.debug('Return book')
-        responce = requests.get(MEXCEndpoints.BOOK_TICKER).json()
+        responce = requests.get(Endpoints.BOOK_TICKER).json()
         _book = responce.json()
         return
 
     def get_balances(self) -> dict | None:
         '''Returns balance information'''
         self.__logger.debug('Return balance data')
-        responce = requests.get(MEXCEndpoints.BALANCES).json()
+        responce = requests.get(Endpoints.BALANCES).json()
         _balance = responce.json()
         return
 
