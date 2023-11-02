@@ -1,10 +1,29 @@
 import json
 
 import requests
+from requests import Response
 
 from MEXC.MEXC_endpoints import MEXCEndpoints
 from Shared.connector import Connector
 from Shared.logger import SimpleLogger
+
+
+def subscribe() -> None:
+    subscription = {
+        "method": "SUBSCRIPTION",
+        "params": ["spot@public.deals.v3.api@BTCUSDT"]
+    }
+
+    json.dumps(subscription)
+
+
+def unsubscribe() -> None:
+    unsubscription = {
+        "method": "UNSUBSCRIPTION",
+        "params": ["spot@public.deals.v3.api@BTCUSDT", "spot@public.increase.depth.v3.api@BTCUSDT"]
+    }
+
+    json.dumps(unsubscription)
 
 
 class MEXCConnector(Connector):
@@ -22,7 +41,7 @@ class MEXCConnector(Connector):
         '''Returns the name of the exchange'''
         return 'MEXC'
 
-    def check_connection(self) -> bool:
+    def check_connection(self) -> Response | bool:
         '''Checking the relevance of the connection'''
         try:
             self.__logger.debug('Checking connections')
@@ -33,38 +52,46 @@ class MEXCConnector(Connector):
             return False
 
     def get_server_time(self) -> int | None:
-        '''returning the server time'''
-        self.__logger.debug('Return server time')
         try:
-            return requests.get(MEXCEndpoints.SERVER_TIME).json()['SERVER_TIME']
+            response = requests.get(MEXCEndpoints.SERVER_TIME)
+            if not response.ok:
+                print(f'Error getting server time: {response.text}')
+                return None
+            server_time_data = response.json()
+            server_time = server_time_data.get('serverTime')
+            return server_time
         except Exception as e:
-            self.__logger.error(f'Error getting server time: {e}')
-            raise e
+            print(f'Error getting server time: {e}')
+            return None
 
     def get_exchange_info(self) -> [str]:
         '''Returns the exchange data'''
         self.__logger.debug('Get exchange info')
-        responce = requests.get(MEXCEndpoints.EXCHANGE_INFO).json()
-        _exchange_info = responce.json()
-        return
+        try:
+            response = requests.get(MEXCEndpoints.EXCHANGE_INFO).json()
+            exchange_info = response.get('data', [])
+            return [item['symbol'] for item in exchange_info]
+        except Exception as e:
+            print(f'Error getting exchange info: {e}')
+            return []
 
     def get_ticker(self, symbol: str) -> float:
         '''Returns information about the Symbol'''
         self.__logger.debug('Return ticker')
-        responce = requests.get(MEXCEndpoints.TICKER).json()['TICKER']
+        responce = requests.get(MEXCEndpoints.TICKER).json()
         _ticker = responce.json()
 
-    def get_book(self, symbol: str) -> dict:
+    def get_book(self, symbol: str) -> dict | None:
         '''Returns  book ticker'''
         self.__logger.debug('Return book')
-        responce = requests.get(MEXCEndpoints.BOOK_TICKER).json()['BOOK_TICKER']
+        responce = requests.get(MEXCEndpoints.BOOK_TICKER).json()
         _book = responce.json()
         return
 
-    def get_balances(self) -> dict:
+    def get_balances(self) -> dict | None:
         '''Returns balance information'''
         self.__logger.debug('Return balance data')
-        responce = requests.get(MEXCEndpoints.BALANCES).json()['BALANCES']
+        responce = requests.get(MEXCEndpoints.BALANCES).json()
         _balance = responce.json()
         return
 
@@ -74,9 +101,9 @@ class MEXCConnector(Connector):
             return
         self.__logger.info('MEXC-Connector started')
 
-    def on_event(exchange_name, broker_event: object, details: object = "") -> object:
+    def on_event(self, broker_event: object, details: object) -> None:
         print('--- {}-{}-{}'.
-              format(exchange_name,
+              format(self,
                      broker_event,
                      details
                      )
@@ -85,32 +112,10 @@ class MEXCConnector(Connector):
     def __make_endpoint(self, endpoint: str) -> str:
         return f"{self.__base_url}{endpoint}"
 
-    def subscribe(self: object, symbol: str, type: object) -> float:
-        subscription = {
-            "method": "SUBSCRIPTION",
-            "params": ["spot@public.deals.v3.api@BTCUSDT"]
-        }
-
-        json.dumps(subscription)
-
-    def unsubscribe(self: object, symbol: str, type: object) -> float:
-        unsubscription = {
-            "method": "UNSUBSCRIPTION",
-            "params": ["spot@public.deals.v3.api@BTCUSDT", "spot@public.increase.depth.v3.api@BTCUSDT"]
-        }
-
-        json.dumps(unsubscription)
-
-    def top_parse(self, message: object) -> float:
+    def top_parse(self, message: str) -> None:
         msg = json.loads(message)
         md = msg['d']
-        data = {}
-        data['bid'] = float(md['b'])
-        data['ask'] = float(md['a'])
-        data['bidSize'] = float(md['B'])
-        data['askSize'] = float(md['A'])
-        data['symbol'] = msg['s']
-        data['ts'] = msg['t']
+        data = {'bid': float(md['b']), 'ask': float(md['a']), 'bidSize': float(md['B']), 'askSize': float(md['A']), 'symbol': msg['s'], 'ts': msg['t']}
 
         self.__callback(self.__instance_name, data['symbol'], data)
 

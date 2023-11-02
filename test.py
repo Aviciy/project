@@ -6,10 +6,7 @@ import hashlib
 import json
 import time
 
-import requests
-
 from MEXC.MEXC_connector import MEXCConnector
-from MEXC.MEXC_endpoints import MEXCEndpoints
 from Shared.connector import Connector
 from Shared.logger import logger
 
@@ -26,8 +23,6 @@ if __name__ == '__main__':
     assert connector.get_name() == EXCHANGE_NAME, 'Wrong exchange name'
     logger.info('Exchange name is correct')
 
-    check_connection = connector.check_connection()
-    requests.get(MEXCEndpoints.PING).json()
     assert connector.check_connection(), 'Connection error'
     logger.info('Check connection is correct')
 

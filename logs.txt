@@ -984,3 +984,248 @@
 2023-10-31 21:21:09.991566 | DEBUG | MEXCConnector was created
 2023-10-31 21:21:14.378801 | DEBUG | Checking connections
 2023-10-31 21:21:15.138768 | INFO | MEXC-Connector started
+2023-11-02 18:24:26.255038 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:24:26.256036 | DEBUG | MEXCConnector was created
+2023-11-02 18:24:32.020240 | DEBUG | Checking connections
+2023-11-02 18:24:32.719063 | INFO | MEXC-Connector started
+2023-11-02 18:26:47.904144 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:26:47.904144 | DEBUG | MEXCConnector was created
+2023-11-02 18:26:47.904144 | INFO | Exchange name is correct
+2023-11-02 18:26:47.904144 | DEBUG | Checking connections
+2023-11-02 18:26:49.496136 | DEBUG | Checking connections
+2023-11-02 18:26:50.214018 | INFO | Check connection is correct
+2023-11-02 18:26:50.214018 | DEBUG | Return server time
+2023-11-02 18:29:45.858910 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:29:45.858910 | DEBUG | MEXCConnector was created
+2023-11-02 18:29:45.859908 | INFO | Exchange name is correct
+2023-11-02 18:29:45.859908 | DEBUG | Checking connections
+2023-11-02 18:29:47.507500 | DEBUG | Checking connections
+2023-11-02 18:29:48.221454 | INFO | Check connection is correct
+2023-11-02 18:29:48.222451 | DEBUG | Return server time
+2023-11-02 18:32:18.003314 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:32:18.003314 | DEBUG | MEXCConnector was created
+2023-11-02 18:32:18.004290 | INFO | Exchange name is correct
+2023-11-02 18:32:18.004290 | DEBUG | Checking connections
+2023-11-02 18:32:26.781948 | DEBUG | Checking connections
+2023-11-02 18:32:27.514987 | INFO | Check connection is correct
+2023-11-02 18:32:27.516021 | DEBUG | Return server time
+2023-11-02 18:35:35.825549 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:35:35.825549 | DEBUG | MEXCConnector was created
+2023-11-02 18:35:35.826518 | INFO | Exchange name is correct
+2023-11-02 18:35:35.826518 | DEBUG | Checking connections
+2023-11-02 18:35:37.371425 | DEBUG | Checking connections
+2023-11-02 18:35:38.093557 | INFO | Check connection is correct
+2023-11-02 18:35:38.094555 | DEBUG | Return server time
+2023-11-02 18:36:37.127580 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:36:37.128603 | DEBUG | MEXCConnector was created
+2023-11-02 18:36:37.128603 | INFO | Exchange name is correct
+2023-11-02 18:36:37.128603 | DEBUG | Checking connections
+2023-11-02 18:36:38.608784 | DEBUG | Checking connections
+2023-11-02 18:36:39.322876 | INFO | Check connection is correct
+2023-11-02 18:36:39.322876 | DEBUG | Return server time
+2023-11-02 18:37:00.875316 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:37:00.875316 | DEBUG | MEXCConnector was created
+2023-11-02 18:37:00.875316 | INFO | Exchange name is correct
+2023-11-02 18:37:00.876312 | DEBUG | Checking connections
+2023-11-02 18:37:02.337406 | DEBUG | Checking connections
+2023-11-02 18:37:03.092417 | INFO | Check connection is correct
+2023-11-02 18:37:03.092417 | DEBUG | Return server time
+2023-11-02 18:38:10.032415 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:38:10.032415 | DEBUG | MEXCConnector was created
+2023-11-02 18:38:10.032415 | INFO | Exchange name is correct
+2023-11-02 18:38:10.032415 | DEBUG | Checking connections
+2023-11-02 18:38:10.829523 | INFO | Check connection is correct
+2023-11-02 18:38:10.829523 | DEBUG | Return server time
+2023-11-02 18:41:26.686321 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:41:26.686321 | DEBUG | MEXCConnector was created
+2023-11-02 18:41:26.687329 | INFO | Exchange name is correct
+2023-11-02 18:41:26.687329 | DEBUG | Checking connections
+2023-11-02 18:41:27.462346 | INFO | Check connection is correct
+2023-11-02 18:41:27.462346 | DEBUG | Return server time
+2023-11-02 18:43:42.560710 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:43:42.560710 | DEBUG | MEXCConnector was created
+2023-11-02 18:43:42.560710 | INFO | Exchange name is correct
+2023-11-02 18:43:42.561705 | DEBUG | Checking connections
+2023-11-02 18:43:43.275825 | INFO | Check connection is correct
+2023-11-02 18:43:43.275825 | DEBUG | Return server time
+2023-11-02 18:43:51.644750 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:43:51.645747 | DEBUG | MEXCConnector was created
+2023-11-02 18:43:51.645747 | INFO | Exchange name is correct
+2023-11-02 18:43:51.645747 | DEBUG | Checking connections
+2023-11-02 18:43:52.374797 | INFO | Check connection is correct
+2023-11-02 18:43:52.374797 | DEBUG | Return server time
+2023-11-02 18:46:22.712827 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:46:22.712827 | DEBUG | MEXCConnector was created
+2023-11-02 18:46:22.712827 | INFO | Exchange name is correct
+2023-11-02 18:46:22.713784 | DEBUG | Checking connections
+2023-11-02 18:46:23.455842 | INFO | Check connection is correct
+2023-11-02 18:46:23.455842 | DEBUG | Return server time
+2023-11-02 18:50:19.534163 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:50:19.534163 | DEBUG | MEXCConnector was created
+2023-11-02 18:50:19.534163 | INFO | Exchange name is correct
+2023-11-02 18:50:19.534163 | DEBUG | Checking connections
+2023-11-02 18:50:20.287150 | INFO | Check connection is correct
+2023-11-02 18:50:20.287150 | DEBUG | Return server time
+2023-11-02 18:50:31.273522 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:50:31.273522 | DEBUG | MEXCConnector was created
+2023-11-02 18:50:31.274518 | INFO | Exchange name is correct
+2023-11-02 18:50:31.274518 | DEBUG | Checking connections
+2023-11-02 18:50:32.001605 | INFO | Check connection is correct
+2023-11-02 18:50:32.001605 | DEBUG | Return server time
+2023-11-02 18:51:09.003429 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:51:09.003429 | DEBUG | MEXCConnector was created
+2023-11-02 18:51:09.003429 | INFO | Exchange name is correct
+2023-11-02 18:51:09.003429 | DEBUG | Checking connections
+2023-11-02 18:51:09.746404 | INFO | Check connection is correct
+2023-11-02 18:51:25.611986 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:51:25.611986 | DEBUG | MEXCConnector was created
+2023-11-02 18:51:25.611986 | INFO | Exchange name is correct
+2023-11-02 18:51:25.611986 | DEBUG | Checking connections
+2023-11-02 18:51:26.326076 | INFO | Check connection is correct
+2023-11-02 18:51:35.400937 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:51:35.400937 | DEBUG | MEXCConnector was created
+2023-11-02 18:51:35.400937 | INFO | Exchange name is correct
+2023-11-02 18:51:35.400937 | DEBUG | Checking connections
+2023-11-02 18:51:36.152966 | INFO | Check connection is correct
+2023-11-02 18:51:47.215973 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:51:47.215973 | DEBUG | MEXCConnector was created
+2023-11-02 18:51:47.215973 | INFO | Exchange name is correct
+2023-11-02 18:51:47.215973 | DEBUG | Checking connections
+2023-11-02 18:51:47.950213 | INFO | Check connection is correct
+2023-11-02 18:51:51.477960 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:51:51.478957 | DEBUG | MEXCConnector was created
+2023-11-02 18:51:51.478957 | INFO | Exchange name is correct
+2023-11-02 18:51:51.478957 | DEBUG | Checking connections
+2023-11-02 18:51:52.220974 | INFO | Check connection is correct
+2023-11-02 18:51:59.754144 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:51:59.755141 | DEBUG | MEXCConnector was created
+2023-11-02 18:51:59.755141 | INFO | Exchange name is correct
+2023-11-02 18:51:59.755141 | DEBUG | Checking connections
+2023-11-02 18:52:00.492244 | INFO | Check connection is correct
+2023-11-02 18:53:06.006639 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:53:06.006639 | DEBUG | MEXCConnector was created
+2023-11-02 18:53:06.007635 | INFO | Exchange name is correct
+2023-11-02 18:53:06.007635 | DEBUG | Checking connections
+2023-11-02 18:53:08.575768 | INFO | Check connection is correct
+2023-11-02 18:53:28.792690 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:53:28.793667 | DEBUG | MEXCConnector was created
+2023-11-02 18:53:28.793667 | INFO | Exchange name is correct
+2023-11-02 18:53:28.793667 | DEBUG | Checking connections
+2023-11-02 18:53:29.505733 | INFO | Check connection is correct
+2023-11-02 18:53:29.505733 | DEBUG | Return server time
+2023-11-02 18:56:20.507070 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 18:56:20.508067 | DEBUG | MEXCConnector was created
+2023-11-02 18:56:20.508067 | INFO | Exchange name is correct
+2023-11-02 18:56:20.508067 | DEBUG | Checking connections
+2023-11-02 18:56:21.270078 | INFO | Check connection is correct
+2023-11-02 18:56:21.270078 | DEBUG | Return server time
+2023-11-02 19:03:24.491440 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 19:03:24.492465 | DEBUG | MEXCConnector was created
+2023-11-02 19:03:24.492465 | INFO | Exchange name is correct
+2023-11-02 19:03:24.492465 | DEBUG | Checking connections
+2023-11-02 19:03:25.442044 | INFO | Check connection is correct
+2023-11-02 19:03:25.443051 | DEBUG | Return server time
+2023-11-02 19:06:41.524632 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 19:06:41.524632 | DEBUG | MEXCConnector was created
+2023-11-02 19:06:41.524632 | INFO | Exchange name is correct
+2023-11-02 19:06:41.524632 | DEBUG | Checking connections
+2023-11-02 19:06:42.269719 | INFO | Check connection is correct
+2023-11-02 19:07:19.576734 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 19:07:19.576734 | DEBUG | MEXCConnector was created
+2023-11-02 19:07:19.576734 | INFO | Exchange name is correct
+2023-11-02 19:07:19.577680 | DEBUG | Checking connections
+2023-11-02 19:07:20.319729 | INFO | Check connection is correct
+2023-11-02 19:14:01.922008 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 19:14:01.922008 | DEBUG | MEXCConnector was created
+2023-11-02 19:14:01.922008 | INFO | Exchange name is correct
+2023-11-02 19:14:01.922008 | DEBUG | Checking connections
+2023-11-02 19:14:02.657001 | INFO | Check connection is correct
+2023-11-02 19:14:02.657001 | DEBUG | Return server time
+2023-11-02 19:14:28.114240 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 19:14:28.114240 | DEBUG | MEXCConnector was created
+2023-11-02 19:14:28.114240 | INFO | Exchange name is correct
+2023-11-02 19:14:28.115239 | DEBUG | Checking connections
+2023-11-02 19:14:28.846282 | INFO | Check connection is correct
+2023-11-02 19:14:28.846282 | DEBUG | Return server time
+2023-11-02 19:22:47.535129 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 19:22:47.535129 | DEBUG | MEXCConnector was created
+2023-11-02 19:22:47.535129 | INFO | Exchange name is correct
+2023-11-02 19:22:47.535129 | DEBUG | Checking connections
+2023-11-02 19:22:48.176414 | INFO | Check connection is correct
+2023-11-02 19:24:25.368884 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 19:24:25.369881 | DEBUG | MEXCConnector was created
+2023-11-02 19:24:25.369881 | INFO | Exchange name is correct
+2023-11-02 19:24:25.369881 | DEBUG | Checking connections
+2023-11-02 19:24:25.988258 | INFO | Check connection is correct
+2023-11-02 19:24:45.126673 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 19:24:45.126673 | DEBUG | MEXCConnector was created
+2023-11-02 19:24:45.126673 | INFO | Exchange name is correct
+2023-11-02 19:24:45.127670 | DEBUG | Checking connections
+2023-11-02 19:24:45.748011 | INFO | Check connection is correct
+2023-11-02 19:25:00.055727 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 19:25:00.055727 | DEBUG | MEXCConnector was created
+2023-11-02 19:25:00.055727 | INFO | Exchange name is correct
+2023-11-02 19:25:00.056688 | DEBUG | Checking connections
+2023-11-02 19:25:00.718957 | INFO | Check connection is correct
+2023-11-02 19:26:25.987991 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 19:26:25.987991 | DEBUG | MEXCConnector was created
+2023-11-02 19:26:25.987991 | INFO | Exchange name is correct
+2023-11-02 19:26:25.987991 | DEBUG | Checking connections
+2023-11-02 19:26:26.657201 | INFO | Check connection is correct
+2023-11-02 19:26:27.311450 | INFO | Server time is correct: delta = abs(1698945988582 - 1698945987311) < 65536ms
+2023-11-02 19:26:27.311450 | DEBUG | Get exchange info
+2023-11-02 19:28:07.026351 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 19:28:07.026351 | DEBUG | MEXCConnector was created
+2023-11-02 19:28:07.026351 | INFO | Exchange name is correct
+2023-11-02 19:28:07.026351 | DEBUG | Checking connections
+2023-11-02 19:28:07.747422 | INFO | Check connection is correct
+2023-11-02 19:28:08.417630 | INFO | Server time is correct: delta = abs(1698946089690 - 1698946088417) < 65536ms
+2023-11-02 19:28:08.418626 | DEBUG | Get exchange info
+2023-11-02 19:29:10.724449 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 19:29:10.724449 | DEBUG | MEXCConnector was created
+2023-11-02 19:29:10.724449 | INFO | Exchange name is correct
+2023-11-02 19:29:10.724449 | DEBUG | Checking connections
+2023-11-02 19:29:11.483421 | INFO | Check connection is correct
+2023-11-02 19:29:12.196737 | INFO | Server time is correct: delta = abs(1698946153472 - 1698946152196) < 65536ms
+2023-11-02 19:29:12.196737 | DEBUG | Get exchange info
+2023-11-02 19:32:03.356569 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 19:32:03.357567 | DEBUG | MEXCConnector was created
+2023-11-02 19:32:03.357567 | INFO | Exchange name is correct
+2023-11-02 19:32:03.357567 | DEBUG | Checking connections
+2023-11-02 19:32:04.033762 | INFO | Check connection is correct
+2023-11-02 19:32:04.636150 | INFO | Server time is correct: delta = abs(1698946325910 - 1698946324636) < 65536ms
+2023-11-02 19:33:42.973387 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 19:33:42.973387 | DEBUG | MEXCConnector was created
+2023-11-02 19:33:42.973387 | INFO | Exchange name is correct
+2023-11-02 19:33:42.973387 | DEBUG | Checking connections
+2023-11-02 19:33:43.692748 | INFO | Check connection is correct
+2023-11-02 19:33:44.354558 | INFO | Server time is correct: delta = abs(1698946425632 - 1698946424354) < 65536ms
+2023-11-02 19:33:44.355555 | DEBUG | Get exchange info
+2023-11-02 19:36:50.853464 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 19:36:50.853464 | DEBUG | MEXCConnector was created
+2023-11-02 19:36:50.853464 | INFO | Exchange name is correct
+2023-11-02 19:36:50.854461 | DEBUG | Checking connections
+2023-11-02 19:36:51.484884 | INFO | Check connection is correct
+2023-11-02 19:36:52.185010 | INFO | Server time is correct: delta = abs(1698946613460 - 1698946612185) < 65536ms
+2023-11-02 19:36:52.186007 | DEBUG | Get exchange info
+2023-11-02 19:41:31.619261 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 19:41:31.619261 | DEBUG | MEXCConnector was created
+2023-11-02 19:41:31.619261 | INFO | Exchange name is correct
+2023-11-02 19:41:31.619261 | DEBUG | Checking connections
+2023-11-02 19:41:32.386218 | INFO | Check connection is correct
+2023-11-02 19:41:33.095306 | INFO | Server time is correct: delta = abs(1698946894373 - 1698946893095) < 65536ms
+2023-11-02 19:41:33.096303 | DEBUG | Get exchange info
+2023-11-02 19:50:39.540317 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 19:50:39.540317 | DEBUG | MEXCConnector was created
+2023-11-02 19:50:39.540317 | INFO | Exchange name is correct
+2023-11-02 19:50:39.540317 | DEBUG | Checking connections
+2023-11-02 19:50:40.255448 | INFO | Check connection is correct
+2023-11-02 19:50:40.866807 | INFO | Server time is correct: delta = abs(1698947442143 - 1698947440866) < 65536ms
+2023-11-02 19:50:40.866807 | DEBUG | Get exchange info
+2023-11-02 19:50:43.935975 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-02 19:50:43.935975 | DEBUG | MEXCConnector was created
+2023-11-02 19:50:43.935975 | INFO | Exchange name is correct
+2023-11-02 19:50:43.935975 | DEBUG | Checking connections
+2023-11-02 19:50:44.824696 | INFO | Check connection is correct
+2023-11-02 19:50:45.482909 | INFO | Server time is correct: delta = abs(1698947446761 - 1698947445482) < 65536ms
+2023-11-02 19:50:45.482909 | DEBUG | Get exchange info

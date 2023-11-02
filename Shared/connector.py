@@ -28,16 +28,16 @@ class Connector(object):
         raise NotImplementedError
 
     @abstractmethod
-    def get_ticker(self, symbol: str) -> float:
+    def get_ticker(self, symbol: str) -> float | None:
         '''return current symbol market price'''
         raise NotImplementedError
 
     @abstractmethod
-    def get_book(self, symbol: str) -> dict:
+    def get_book(self, symbol: str) -> dict | None:
         '''Returns order book'''
         raise NotImplementedError
 
     @abstractmethod
-    def get_balances(self) -> dict:
+    def get_balances(self) -> dict | None:
         '''Returns balance information'''
         raise NotImplementedError
