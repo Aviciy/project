@@ -66,11 +66,11 @@ class MEXCConnector(Connector):
 
     def get_exchange_info(self) -> [str]:
         '''Returns the exchange data'''
-        self.__logger.debug('Get exchange info')
         try:
             response = requests.get(Endpoints.EXCHANGE_INFO).json()
             exchange_info = response.get('data', [])
-            return [item['symbol'] for item in exchange_info]
+            symbols = [item['symbol'] for item in exchange_info]
+            return symbols
         except Exception as e:
             print(f'Error getting exchange info: {e}')
             return []

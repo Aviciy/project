@@ -1,7 +1,7 @@
 from abc import ABCMeta, abstractmethod
 
 
-class Connector(object):
+class Connector(metaclass=ABCMeta):
     __metadata__ = ABCMeta
 
     def __init__(self) -> None:
