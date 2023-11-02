@@ -980,3 +980,7 @@
 2023-10-31 21:18:55.454418 | DEBUG | MEXCConnector was created
 2023-10-31 21:18:59.971346 | DEBUG | Checking connections
 2023-10-31 21:19:00.729277 | INFO | MEXC-Connector started
+2023-10-31 21:21:09.991566 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-10-31 21:21:09.991566 | DEBUG | MEXCConnector was created
+2023-10-31 21:21:14.378801 | DEBUG | Checking connections
+2023-10-31 21:21:15.138768 | INFO | MEXC-Connector started

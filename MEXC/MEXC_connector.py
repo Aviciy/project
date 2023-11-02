@@ -18,17 +18,6 @@ class MEXCConnector(Connector):
         self.__base_url = "https://api.mexc.com"
         self.__logger.debug('MEXCConnector was created')
 
-    def on_event(exchange_name, broker_event: object, details: object = "") -> object:
-        print('--- {}-{}-{}'.
-              format(exchange_name,
-                     broker_event,
-                     details
-                     )
-              )
-
-    def __make_endpoint(self, endpoint: str) -> str:
-        return f"{self.__base_url}{endpoint}"
-
     def get_name(self) -> str:
         '''Returns the name of the exchange'''
         return 'MEXC'
@@ -79,6 +68,23 @@ class MEXCConnector(Connector):
         _balance = responce.json()
         return
 
+    def start(self) -> object:
+        if not self.check_connection():
+            self.__logger.error('Connection to MEXC failed.')
+            return
+        self.__logger.info('MEXC-Connector started')
+
+    def on_event(exchange_name, broker_event: object, details: object = "") -> object:
+        print('--- {}-{}-{}'.
+              format(exchange_name,
+                     broker_event,
+                     details
+                     )
+              )
+
+    def __make_endpoint(self, endpoint: str) -> str:
+        return f"{self.__base_url}{endpoint}"
+
     def subscribe(self: object, symbol: str, type: object) -> float:
         subscription = {
             "method": "SUBSCRIPTION",
@@ -110,9 +116,3 @@ class MEXCConnector(Connector):
 
     def __callback(self, __instance_name, param, data):
         pass
-
-    def start(self) -> object:
-        if not self.check_connection():
-            self.__logger.error('Connection to MEXC failed.')
-            return
-        self.__logger.info('MEXC-Connector started')
