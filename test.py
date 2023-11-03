@@ -2,6 +2,7 @@
 #   1.  Make type hints for all methods.
 #   2.  Implement base Connector class methods for MEXCConnector.
 #   3.  Test MEXCConnector.
+import hashlib
 import json
 import time
 
@@ -30,9 +31,9 @@ if __name__ == '__main__':
     assert server_time is not None and abs(server_time - current_time) < 2 ** 16, 'Server time error'
     logger.info(f'Server time is correct: delta = abs({server_time} - {current_time}) < {2 ** 16}ms')
 
-    expected_hash = 'e43468edbbddaba43b3b370658c76b594c5c0ddf729c96c9f7aa57892d0f05b4e7e504ca93d9a3c9745944ed693458419a65b01277d7b4e74635c4191dc70bb0'
-    computed_hash = connector.get_exchange_info()
-    assert computed_hash == expected_hash, f'Expected hash: {expected_hash}, Computed hash: {computed_hash}'
+    exchange_info = connector.get_exchange_info()
+    assert hashlib.sha512(str.encode(', '.join(sorted(exchange_info)))).hexdigest() == \
+           '28a90e53cb087356a5c5ca6d54d576736c0f5232c6177904076963f88773639468ea4c63a661c20396822bd36b07bf22dd6a0d3407e4d408d57d0ca2dba8449b', 'Exchange info error'
     logger.info('Exchange info is correct')
 
     input('Press Enter to continue...')

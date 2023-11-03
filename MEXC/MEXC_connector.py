@@ -65,7 +65,7 @@ class MEXCConnector(Connector):
             print(f'Error getting server time: {e}')
             return None
 
-    def get_exchange_info(self) -> str:
+    def get_exchange_info(self) -> [str]:
         try:
             response = requests.get(Endpoints.EXCHANGE_INFO).json()
             exchange_symbols = [item['symbol'] for item in response['symbols']]
