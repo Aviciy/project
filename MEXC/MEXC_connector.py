@@ -68,10 +68,9 @@ class MEXCConnector(Connector):
     def get_exchange_info(self) -> str:
         try:
             response = requests.get(Endpoints.EXCHANGE_INFO).json()
-            exchange_info = response
-            exchange_symbols = [item['symbol'] for item in exchange_info]
+            exchange_symbols = [item['symbol'] for item in response['symbols']]
             sorted_exchange_info = ', '.join(sorted(exchange_symbols))
-            computed_hash = hashlib.sha512(str.encode(sorted_exchange_info)).hexdigest()
+            computed_hash = hashlib.sha512(sorted_exchange_info.encode()).hexdigest()
             return computed_hash
         except Exception as e:
             print(f'Error getting exchange info: {e}')

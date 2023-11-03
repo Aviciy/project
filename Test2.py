@@ -1,3 +1,4 @@
+import hashlib
 import json
 
 import requests
@@ -22,7 +23,7 @@ if __name__ == '__main__':
               )
 
 
-    def get_ticker(self, symbol: str) -> object:
+    def get_ticker(self) -> object:
         '''Returns information about the Symbol'''
         self.__logger.debug('Return ticker')
         responce = requests.get('/api/v3/ticker')
@@ -73,5 +74,9 @@ connector.start()
 #   ask_price = item['askPrice']
 #  print(f'{decired_symbol}:"BidPrice" {bid_price} "AskPrice" {ask_price}')
 # time.sleep(5)
-print(exchange_info)
+response = requests.get(MEXCEndpoints.EXCHANGE_INFO).json()
+exchange_symbols = [item['symbol'] for item in response['symbols']]
+sorted_exchange_info = ', '.join(sorted(exchange_symbols))
+computed_hash = hashlib.sha512(sorted_exchange_info.encode()).hexdigest()
+print(computed_hash)
 input()
