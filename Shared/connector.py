@@ -38,6 +38,6 @@ class Connector(metaclass=ABCMeta):
         raise NotImplementedError
 
     @abstractmethod
-    def get_balances(self) -> dict:
+    def get_balances(self) -> dict | Exception:
         '''Returns balance information'''
         raise NotImplementedError
