@@ -1,4 +1,3 @@
-import hashlib
 import json
 
 import requests
@@ -65,16 +64,15 @@ class MEXCConnector(Connector):
             print(f'Error getting server time: {e}')
             return None
 
-    def get_exchange_info(self) -> [str]:
+    def get_exchange_info(self) -> [str] or None:
         try:
             response = requests.get(Endpoints.EXCHANGE_INFO).json()
             exchange_symbols = [item['symbol'] for item in response['symbols']]
             sorted_exchange_info = ', '.join(sorted(exchange_symbols))
-            computed_hash = hashlib.sha512(sorted_exchange_info.encode()).hexdigest()
-            return computed_hash
+            return exchange_symbols
         except Exception as e:
             print(f'Error getting exchange info: {e}')
-            return ''
+            return None
 
     def get_ticker(self, symbol: str) -> float:
         '''Returns information about the Symbol'''

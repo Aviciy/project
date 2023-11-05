@@ -23,7 +23,7 @@ class Connector(metaclass=ABCMeta):
         raise NotImplementedError
 
     @abstractmethod
-    def get_exchange_info(self) -> [str]:
+    def get_exchange_info(self) -> [str] or None:
         '''Resolve get exchange symbols'''
         raise NotImplementedError
 
