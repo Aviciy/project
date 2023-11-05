@@ -40,7 +40,7 @@ class MEXCConnector(Connector):
         '''Returns the name of the exchange'''
         return 'MEXC'
 
-    def check_connection(self) -> bool:  # Response or bool, WTF???
+    def check_connection(self) -> bool:
         '''Checking the relevance of the connection'''
         try:
             self.__logger.debug('Checking connections')
@@ -63,12 +63,16 @@ class MEXCConnector(Connector):
             self.__loger.debug(f'Error getting server time: {e}')
             return None
 
-    def get_ticker(self, symbol: str) -> float | None:  # where return statement?  method no return in any execution path, fix it
+    def get_ticker(self, symbol: str) -> float | None:
         '''Returns information about the Symbol'''
-        self.__logger.debug('Return ticker')
-        responce = requests.get(Endpoints.TICKER).json()
-        _ticker = responce
-        return _ticker
+        try:
+            self.__logger.debug('Return ticker')
+            responce = requests.get(Endpoints.TICKER).json()
+            _ticker = responce
+            return _ticker
+        except Exception as e:
+            self.__logger.debug(f'Error getting ticker: {e}')
+            return None
 
     def get_exchange_info(self) -> [str] or None:
         try:
@@ -79,28 +83,33 @@ class MEXCConnector(Connector):
             self.__logger.debug(f'Error getting exchange info: {e}')
             return None
 
-    def get_book(self, symbol: str) -> dict | None:  # dict or None, OK | where return statement?  method no return in any execution path, fix it
+    def get_book(self, symbol: str) -> dict | None:
         '''Returns  book ticker'''
-        self.__logger.debug('Return book')
-        responce = requests.get(Endpoints.BOOK_TICKER).json()
-        _book = responce
-        return _book
+        try:
+            self.__logger.debug('Return book')
+            responce = requests.get(Endpoints.BOOK_TICKER).json()
+            _book = responce
+            return _book
+        except Exception as e:
+            self.__logger.debug(f'Error getting book: {e}')
+            return None
 
-    def get_balances(self) -> dict | Exception:
+    def get_balances(self) -> dict | None:
         '''Returns balance information'''
         try:
             self.__logger.debug('Return balance data')
             response = requests.get(Endpoints.BALANCES).json()
             return response
         except Exception as e:
+            self.__logger.debug(f'Error getting balance info: {e}')
+            return None
 
-            return e
-
-    def start(self) -> object:  # return object?  WTF???
+    def start(self) -> bool:
         if not self.check_connection():
             self.__logger.error('Connection to MEXC failed.')
-            return
+            return False
         self.__logger.info('MEXC-Connector started')
+        return True
 
     def on_event(self, broker_event: object, details: object) -> None:
         print('--- {}-{}-{}'.
