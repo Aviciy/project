@@ -41,4 +41,7 @@ if __name__ == '__main__':
     assert connector.get_book('BTCUSDT') is not None, 'Book error'
     logger.info('Book is correct')
 
+    assert connector.get_balances() is not None, 'Balance error'
+    logger.info('Balance is correct')
+
     input('Press Enter to continue...')
