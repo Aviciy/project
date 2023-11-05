@@ -13,7 +13,7 @@ class Connector(metaclass=ABCMeta):
         raise NotImplementedError
 
     @abstractmethod
-    def check_connection(self) -> bool:         #   only bool, OK
+    def check_connection(self) -> bool:  # only bool, OK
         '''Checking the relevance of the connection'''
         raise NotImplementedError
 
@@ -38,6 +38,6 @@ class Connector(metaclass=ABCMeta):
         raise NotImplementedError
 
     @abstractmethod
-    def get_balances(self) -> dict | None:
+    def get_balances(self) -> dict:
         '''Returns balance information'''
         raise NotImplementedError

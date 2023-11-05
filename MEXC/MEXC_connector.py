@@ -44,7 +44,7 @@ class MEXCConnector(Connector):
         '''Checking the relevance of the connection'''
         try:
             self.__logger.debug('Checking connections')
-            return requests.get(Endpoints.PING)
+            return requests.get(Endpoints.PING).ok
             # return requests.get(self.__make_endpoint(MEXCEndpoints.PING)).json()['PING'].ok
         except Exception as e:
             self.__logger.error(f'Connection error: {e} ')
@@ -54,16 +54,16 @@ class MEXCConnector(Connector):
         try:
             response = requests.get(Endpoints.SERVER_TIME)
             if not response.ok:
-                print(f'Error getting server time: {response.text}')
+                self.__logger.debug(f'Error getting server time: {response.text}')
                 return None
             server_time_data = response.json()
             server_time = server_time_data.get('serverTime')
             return server_time
         except Exception as e:
-            print(f'Error getting server time: {e}')
+            self.__loger.debug(f'Error getting server time: {e}')
             return None
 
-    def get_ticker(self, symbol: str) -> float:  # where return statement?  method no return in any execution path, fix it
+    def get_ticker(self, symbol: str) -> float | None:  # where return statement?  method no return in any execution path, fix it
         '''Returns information about the Symbol'''
         self.__logger.debug('Return ticker')
         responce = requests.get(Endpoints.TICKER).json()
@@ -74,10 +74,9 @@ class MEXCConnector(Connector):
         try:
             response = requests.get(Endpoints.EXCHANGE_INFO).json()
             exchange_symbols = [item['symbol'] for item in response['symbols']]
-            sorted_exchange_info = ', '.join(sorted(exchange_symbols))  # unused line, delete
             return exchange_symbols
         except Exception as e:
-            print(f'Error getting exchange info: {e}')
+            self.__logger.debug(f'Error getting exchange info: {e}')
             return None
 
     def get_book(self, symbol: str) -> dict | None:  # dict or None, OK | where return statement?  method no return in any execution path, fix it
@@ -87,12 +86,15 @@ class MEXCConnector(Connector):
         _book = responce
         return _book
 
-    def get_balances(self) -> dict | None:  # where return statement?  method no return in any execution path, fix it
+    def get_balances(self) -> dict | Exception:
         '''Returns balance information'''
-        self.__logger.debug('Return balance data')
-        responce = requests.get(Endpoints.BALANCES).json()
-        _balance = responce.json()
-        return
+        try:
+            self.__logger.debug('Return balance data')
+            response = requests.get(Endpoints.BALANCES).json()
+            return response
+        except Exception as e:
+
+            return e
 
     def start(self) -> object:  # return object?  WTF???
         if not self.check_connection():
@@ -107,9 +109,6 @@ class MEXCConnector(Connector):
                      details
                      )
               )
-
-    def __make_endpoint(self, endpoint: str) -> str:
-        return f"{self.__base_url}{endpoint}"
 
     def top_parse(self, message: str) -> None:
         msg = json.loads(message)
