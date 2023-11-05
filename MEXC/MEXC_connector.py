@@ -41,7 +41,7 @@ class MEXCConnector(Connector):
         '''Returns the name of the exchange'''
         return 'MEXC'
 
-    def check_connection(self) -> Response | bool:
+    def check_connection(self) -> Response | bool:      #   Response or bool, WTF???
         '''Checking the relevance of the connection'''
         try:
             self.__logger.debug('Checking connections')
@@ -64,37 +64,37 @@ class MEXCConnector(Connector):
             print(f'Error getting server time: {e}')
             return None
 
-    def get_exchange_info(self) -> [str] or None:
-        try:
-            response = requests.get(Endpoints.EXCHANGE_INFO).json()
-            exchange_symbols = [item['symbol'] for item in response['symbols']]
-            sorted_exchange_info = ', '.join(sorted(exchange_symbols))
-            return exchange_symbols
-        except Exception as e:
-            print(f'Error getting exchange info: {e}')
-            return None
-
-    def get_ticker(self, symbol: str) -> float:
+    def get_ticker(self, symbol: str) -> float:                     #   where return statement?  method no return in any execution path, fix it
         '''Returns information about the Symbol'''
         self.__logger.debug('Return ticker')
         responce = requests.get(Endpoints.TICKER).json()
         _ticker = responce.json()
 
-    def get_book(self, symbol: str) -> dict | None:
+    def get_exchange_info(self) -> [str] or None:
+        try:
+            response = requests.get(Endpoints.EXCHANGE_INFO).json()
+            exchange_symbols = [item['symbol'] for item in response['symbols']]
+            sorted_exchange_info = ', '.join(sorted(exchange_symbols))          #   unused line, delete
+            return exchange_symbols
+        except Exception as e:
+            print(f'Error getting exchange info: {e}')
+            return None
+
+    def get_book(self, symbol: str) -> dict | None:             #   dict or None, OK | where return statement?  method no return in any execution path, fix it
         '''Returns  book ticker'''
         self.__logger.debug('Return book')
         responce = requests.get(Endpoints.BOOK_TICKER).json()
         _book = responce.json()
         return
 
-    def get_balances(self) -> dict | None:
+    def get_balances(self) -> dict | None:                      #   where return statement?  method no return in any execution path, fix it
         '''Returns balance information'''
         self.__logger.debug('Return balance data')
         responce = requests.get(Endpoints.BALANCES).json()
         _balance = responce.json()
         return
 
-    def start(self) -> object:
+    def start(self) -> object:                                  #   return object?  WTF???
         if not self.check_connection():
             self.__logger.error('Connection to MEXC failed.')
             return

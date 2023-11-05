@@ -13,7 +13,7 @@ class Connector(metaclass=ABCMeta):
         raise NotImplementedError
 
     @abstractmethod
-    def check_connection(self) -> bool:
+    def check_connection(self) -> bool:         #   only bool, OK
         '''Checking the relevance of the connection'''
         raise NotImplementedError
 

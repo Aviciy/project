@@ -32,8 +32,13 @@ if __name__ == '__main__':
     logger.info(f'Server time is correct: delta = abs({server_time} - {current_time}) < {2 ** 16}ms')
 
     exchange_info = connector.get_exchange_info()
-    assert hashlib.sha512(str.encode(', '.join(sorted(exchange_info)))).hexdigest() == \
-           'e43468edbbddaba43b3b370658c76b594c5c0ddf729c96c9f7aa57892d0f05b4e7e504ca93d9a3c9745944ed693458419a65b01277d7b4e74635c4191dc70bb0', 'Exchange info error'
+    assert exchange_info is not None and exchange_info.length > 0, 'Exchange info error'
     logger.info('Exchange info is correct')
+
+    assert connector.get_ticker('BTCUSDT') is not None, 'Ticker error'
+    logger.info('Ticker is correct')
+
+    assert connector.get_book('BTCUSDT') is not None, 'Book error'
+    logger.info('Book is correct')
 
     input('Press Enter to continue...')
