@@ -2,7 +2,6 @@
 #   1.  Make type hints for all methods.
 #   2.  Implement base Connector class methods for MEXCConnector.
 #   3.  Test MEXCConnector.
-import hashlib
 import json
 import time
 
