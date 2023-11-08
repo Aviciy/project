@@ -33,8 +33,8 @@ class MEXCConnector(Connector):
         self.__server = None
         self.__logger = logger
         self.__settings = settings
-        self.__base_url = "https://api.mexc.com"
-        self.__logger.debug('MEXCConnector was created')
+
+        self.__logger.trace('MEXCConnector was created')
 
     def get_name(self) -> str:
         '''Returns the name of the exchange'''
@@ -43,7 +43,7 @@ class MEXCConnector(Connector):
     def check_connection(self) -> bool:
         '''Checking the relevance of the connection'''
         try:
-            self.__logger.debug('Checking connections')
+            self.__logger.trace('Checking connection')
             return requests.get(Endpoints.PING).ok
             # return requests.get(self.__make_endpoint(MEXCEndpoints.PING)).json()['PING'].ok
         except Exception as e:
@@ -54,21 +54,21 @@ class MEXCConnector(Connector):
         try:
             response = requests.get(Endpoints.SERVER_TIME)
             if not response.ok:
-                self.__logger.debug(f'Error getting server time: {response.text}')
+                self.__logger.error(f'Error getting server time: {response.text}')
                 return None
             server_time_data = response.json()
             server_time = server_time_data.get('serverTime')
             return server_time
         except Exception as e:
-            self.__loger.debug(f'Error getting server time: {e}')
+            self.__loger.error(f'Error getting server time: {e}')
             return None
 
     def get_ticker(self, symbol: str) -> float | None:
         '''Returns information about the Symbol'''
         try:
-            self.__logger.debug('Return ticker')
-            responce = requests.get(Endpoints.TICKER).json()
-            _ticker = responce
+            self.__logger.trace('Return ticker')
+            response = requests.get(Endpoints.TICKER).json()
+            _ticker = response
             return _ticker
         except Exception as e:
             self.__logger.debug(f'Error getting ticker: {e}')
@@ -86,9 +86,10 @@ class MEXCConnector(Connector):
     def get_book(self, symbol: str) -> dict | None:
         '''Returns  book ticker'''
         try:
-            self.__logger.debug('Return book')
-            responce = requests.get(Endpoints.BOOK_TICKER).json()
-            _book = responce
+            self.__logger.trace('Return book')
+            response = requests.get(Endpoints.BOOK_TICKER).json()
+            _book = response
+
             return _book
         except Exception as e:
             self.__logger.debug(f'Error getting book: {e}')
@@ -97,7 +98,7 @@ class MEXCConnector(Connector):
     def get_balances(self) -> dict | None:
         '''Returns balance information'''
         try:
-            self.__logger.debug('Return balance data')
+            self.__logger.trace('Return balance data')
             response = requests.get(Endpoints.BALANCES).json()
             return response
         except Exception as e:
