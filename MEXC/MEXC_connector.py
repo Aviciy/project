@@ -71,7 +71,7 @@ class MEXCConnector(Connector):
             _ticker = response
             return _ticker
         except Exception as e:
-            self.__logger.debug(f'Error getting ticker: {e}')
+            self.__logger.error(f'Error getting ticker: {e}')
             return None
 
     def get_exchange_info(self) -> [str] or None:
@@ -80,7 +80,7 @@ class MEXCConnector(Connector):
             exchange_symbols = [item['symbol'] for item in response['symbols']]
             return exchange_symbols
         except Exception as e:
-            self.__logger.debug(f'Error getting exchange info: {e}')
+            self.__logger.error(f'Error getting exchange info: {e}')
             return None
 
     def get_book(self, symbol: str) -> dict | None:
@@ -92,7 +92,7 @@ class MEXCConnector(Connector):
 
             return _book
         except Exception as e:
-            self.__logger.debug(f'Error getting book: {e}')
+            self.__logger.error(f'Error getting book: {e}')
             return None
 
     def get_balances(self) -> dict | None:
@@ -102,7 +102,7 @@ class MEXCConnector(Connector):
             response = requests.get(Endpoints.BALANCES).json()
             return response
         except Exception as e:
-            self.__logger.debug(f'Error getting balance info: {e}')
+            self.__logger.error(f'Error getting balance info: {e}')
             return None
 
     def start(self) -> bool:
