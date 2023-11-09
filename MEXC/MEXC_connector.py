@@ -16,7 +16,7 @@ def subscribe() -> None:
     json.dumps(subscription)
 
 
-def unsubscribe() -> None:
+def unsubscr7ibe() -> None:
     unsubscription = {
         "method": "UNSUBSCRIPTION",
         "params": ["spot@public.deals.v3.api@BTCUSDT", "spot@public.increase.depth.v3.api@BTCUSDT"]
@@ -37,11 +37,9 @@ class MEXCConnector(Connector):
         self.__logger.trace('MEXCConnector was created')
 
     def get_name(self) -> str:
-        """Returns the name of the exchange"""
         return 'MEXC'
 
     def check_connection(self) -> bool:
-        """Checking the relevance of the connection"""
         try:
             self.__logger.trace('Checking connection')
             return requests.get(Endpoints.PING).ok
@@ -64,7 +62,6 @@ class MEXCConnector(Connector):
             return None
 
     def get_ticker(self, symbol: str) -> float | None:
-        """Returns information about the Symbol"""
         try:
             self.__logger.trace('Return ticker')
             response = requests.get(Endpoints.TICKER).json()
@@ -84,7 +81,6 @@ class MEXCConnector(Connector):
             return None
 
     def get_book(self, symbol: str) -> dict | None:
-        """Returns  book ticker"""
         try:
             self.__logger.trace('Return book')
             response = requests.get(Endpoints.BOOK_TICKER).json()
@@ -96,7 +92,6 @@ class MEXCConnector(Connector):
             return None
 
     def get_balances(self) -> dict | None:
-        """Returns balance information"""
         try:
             self.__logger.trace('Return balance data')
             response = requests.get(Endpoints.BALANCES).json()

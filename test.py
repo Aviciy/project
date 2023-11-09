@@ -1,7 +1,3 @@
-#   0. * Add trace/debug/info/warning/error/critical methods to SimpleLogger. (optional)
-#   1.  Make type hints for all methods.
-#   2.  Implement base Connector class methods for MEXCConnector.
-#   3.  Test MEXCConnector.
 import json
 import time
 
