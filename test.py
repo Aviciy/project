@@ -2,8 +2,15 @@ import json
 import time
 
 import MEXC
-from Shared.connector import Connector
-from Shared.logger import logger
+from Abstract.connector import Connector
+from Abstract.logger import Logger
+from Loggers.composite_logger import CompositeLogger
+from Loggers.console_logger import ConsoleLogger
+from Loggers.file_logger import FileLogger
+
+console_logger: Logger = ConsoleLogger()
+file_logger: Logger = FileLogger('log.txt')
+logger: Logger = CompositeLogger(console_logger, file_logger)
 
 EXCHANGE_NAME = 'MEXC'
 
