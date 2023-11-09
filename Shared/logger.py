@@ -5,7 +5,7 @@ class SimpleLogger:
     def __init__(self, log_file: str):
         self.__log_file = log_file
 
-    def log(self, message: str, level: str):                    #   no return type annotation, fix it
+    def log(self, message: str, level: str) -> None:  # no return type annotation, fix it
         output = SimpleLogger.format_message(message, level)
         print(output)
         with open(self.__log_file, 'a') as file:
