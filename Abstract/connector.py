@@ -41,3 +41,10 @@ class Connector(metaclass=ABCMeta):
     def get_balances(self) -> dict | None:
         """Returns balance information"""
         raise NotImplementedError
+
+    @abstractmethod
+    def balances(self) -> dict:
+        raise NotImplementedError
+    @abstractmethod
+    def get_timestamp(self) -> str:
+        raise NotImplementedError

@@ -1,11 +1,9 @@
-import json
+import hashlib
+import hmac
 import time
 from urllib.parse import urlencode
-import hmac
-import hashlib
 
 import requests
-from requests import Response
 
 from Abstract.connector import Connector
 from Abstract.logger import Logger
@@ -100,12 +98,13 @@ class MEXCConnector(Connector):
         try:
             self.__logger.trace('Return balance data')
             response = self.__make_signed_request(Endpoints.BALANCES, 'get').json()
+            print(response)
             return response
         except Exception as e:
             self.__logger.error(f'Error getting balance info: {e}')
             return None
 
-    def __make_signed_request(self, url: str, method: str, **kwargs) -> Response:
+    def __make_signed_request(self, url: str, method: str, **kwargs) -> dict:
         kwargs['timestamp'] = time.time_ns() // 1000000
         encoded_params = urlencode(kwargs)
         signature = hmac.new(str.encode(self.__settings['secret'], encoding='utf-8'), str.encode(encoded_params, encoding='utf-8'), hashlib.sha256).hexdigest().lower()
@@ -133,13 +132,31 @@ class MEXCConnector(Connector):
         else:
             raise ValueError(f'Unknown method: {method}')
 
+    def get_timestamp(self) -> str:
+        return int(round(time.time() * 1000))
+
+    def balances(self) -> dict:
+        balances = {}
+        key = 'mx0vglWmEenQD2ddFS'
+
+        params = {"timestamp": self.get_timestamp()}
+        headers = {
+            'X-MEXC-APIKEY': key,
+            'Content-Type': 'application/json'
+        }
+        query = urlencode(params)
+        params["signature"] = hmac.new(query.encode("utf8"),
+                                       digestmod=hashlib.sha256).hexdigest()
+        url = Endpoints.BASE + "/api/v3/account" + "?" + urlencode(params)
+        res = requests.get(url, headers=headers).json()
+        return res
     # def start(self) -> bool:
     #     if not self.check_connection():
     #         self.__logger.error('Connection to MEXC failed.')
     #         return False
     #     self.__logger.info('MEXC-Connector started')
     #     return True
-    # 
+    #
     # def on_event(self, broker_event: object, details: object) -> None:
     #     print('--- {}-{}-{}'.
     #           format(self,
@@ -147,13 +164,13 @@ class MEXCConnector(Connector):
     #                  details
     #                  )
     #           )
-    # 
+    #
     # def top_parse(self, message: str) -> None:
     #     msg = json.loads(message)
     #     md = msg['d']
     #     data = {'bid': float(md['b']), 'ask': float(md['a']), 'bidSize': float(md['B']), 'askSize': float(md['A']), 'symbol': msg['s'], 'ts': msg['t']}
-    # 
+    #
     #     self.__callback(self.__instance_name, data['symbol'], data)
-    # 
+    #
     # def __callback(self, __instance_name, param, data):
     #     pass

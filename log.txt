@@ -1,0 +1,938 @@
+2023-11-10 13:56:39.777532 | 2023-11-10 13:56:39.776499 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-10 13:56:39.777887 | 2023-11-10 13:56:39.777850 | TRACE | MEXCConnector was created
+2023-11-10 13:56:39.778045 | 2023-11-10 13:56:39.778045 | INFO | Exchange name is correct
+2023-11-10 13:56:39.778233 | 2023-11-10 13:56:39.778233 | TRACE | Checking connection
+2023-11-10 13:56:40.816878 | 2023-11-10 13:56:40.816807 | INFO | Check connection is correct
+2023-11-10 13:56:41.691007 | 2023-11-10 13:56:41.691007 | INFO | Server time is correct: delta = abs(1699617402202 - 1699617401691) < 65536ms
+2023-11-10 13:56:42.973630 | 2023-11-10 13:56:42.973630 | INFO | Exchange info is correct
+2023-11-10 13:56:42.973630 | 2023-11-10 13:56:42.973630 | TRACE | Return ticker
+2023-11-10 13:56:43.695747 | 2023-11-10 13:56:43.695747 | INFO | Ticker is correct
+2023-11-10 13:56:43.695747 | 2023-11-10 13:56:43.695747 | TRACE | Return book
+2023-11-10 13:56:44.440052 | 2023-11-10 13:56:44.440052 | INFO | Book is correct
+2023-11-10 13:56:44.440052 | 2023-11-10 13:56:44.440052 | TRACE | Return balance data
+2023-11-10 13:56:46.698928 | 2023-11-10 13:56:46.698928 | ERROR | Error getting balance info: HTTPSConnectionPool(host='api', port=443): Max retries exceeded with url: /v3/capital/config/getall?timestamp=1699617404440&signature=9522f256e3eb90f04f4a3248d8bac05d028a47ac7d4f11af52f8952e41ab1117 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000263A70F5350>: Failed to resolve 'api' ([Errno 11001] getaddrinfo failed)"))
+2023-11-12 11:29:02.405841 | 2023-11-12 11:29:02.405841 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 11:29:02.406838 | 2023-11-12 11:29:02.406838 | TRACE | MEXCConnector was created
+2023-11-12 11:29:02.406838 | 2023-11-12 11:29:02.406838 | INFO | Exchange name is correct
+2023-11-12 11:29:02.407835 | 2023-11-12 11:29:02.406838 | TRACE | Checking connection
+2023-11-12 11:29:03.992596 | 2023-11-12 11:29:03.992596 | INFO | Check connection is correct
+2023-11-12 11:29:05.192464 | 2023-11-12 11:29:05.192464 | INFO | Server time is correct: delta = abs(1699781345792 - 1699781345192) < 65536ms
+2023-11-12 11:29:06.911864 | 2023-11-12 11:29:06.911864 | INFO | Exchange info is correct
+2023-11-12 11:29:06.912862 | 2023-11-12 11:29:06.911864 | TRACE | Return ticker
+2023-11-12 11:29:08.042274 | 2023-11-12 11:29:08.042274 | INFO | Ticker is correct
+2023-11-12 11:29:08.042274 | 2023-11-12 11:29:08.042274 | TRACE | Return book
+2023-11-12 11:29:09.007704 | 2023-11-12 11:29:09.007704 | INFO | Book is correct
+2023-11-12 11:29:09.007704 | 2023-11-12 11:29:09.007704 | TRACE | Return balance data
+2023-11-12 11:29:11.265100 | 2023-11-12 11:29:11.265100 | ERROR | Error getting balance info: HTTPSConnectionPool(host='api', port=443): Max retries exceeded with url: /v3/capital/config/getall?timestamp=1699781349008&signature=fb5261c8b1579f5d674972664976410b2540bc1369f03a7f57b19a67db5ebc2e (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002E464F653D0>: Failed to resolve 'api' ([Errno 11001] getaddrinfo failed)"))
+2023-11-12 11:30:28.314067 | 2023-11-12 11:30:28.314067 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 11:30:28.314067 | 2023-11-12 11:30:28.314067 | TRACE | MEXCConnector was created
+2023-11-12 11:30:28.314067 | 2023-11-12 11:30:28.314067 | INFO | Exchange name is correct
+2023-11-12 11:30:28.315065 | 2023-11-12 11:30:28.315065 | TRACE | Checking connection
+2023-11-12 11:30:29.019770 | 2023-11-12 11:30:29.019770 | INFO | Check connection is correct
+2023-11-12 11:30:29.708749 | 2023-11-12 11:30:29.708749 | INFO | Server time is correct: delta = abs(1699781430318 - 1699781429708) < 65536ms
+2023-11-12 11:30:30.494214 | 2023-11-12 11:30:30.494214 | INFO | Exchange info is correct
+2023-11-12 11:30:30.494214 | 2023-11-12 11:30:30.494214 | TRACE | Return ticker
+2023-11-12 11:30:31.205317 | 2023-11-12 11:30:31.205317 | INFO | Ticker is correct
+2023-11-12 11:30:31.205317 | 2023-11-12 11:30:31.205317 | TRACE | Return book
+2023-11-12 11:30:31.948795 | 2023-11-12 11:30:31.948795 | INFO | Book is correct
+2023-11-12 11:30:31.948795 | 2023-11-12 11:30:31.948795 | TRACE | Return balance data
+2023-11-12 11:30:34.202803 | 2023-11-12 11:30:34.202139 | ERROR | Error getting balance info: HTTPSConnectionPool(host='api', port=443): Max retries exceeded with url: /v3/capital/config/getall?timestamp=1699781431948&signature=f8e3be05471951fc3fe38da04aa2f53d725aff64bded866c63dbdee8d092f3d7 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000011E39514F90>: Failed to resolve 'api' ([Errno 11001] getaddrinfo failed)"))
+2023-11-12 11:47:07.783228 | 2023-11-12 11:47:07.783228 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 11:47:07.783228 | 2023-11-12 11:47:07.783228 | TRACE | MEXCConnector was created
+2023-11-12 11:47:07.783228 | 2023-11-12 11:47:07.783228 | INFO | Exchange name is correct
+2023-11-12 11:47:07.784206 | 2023-11-12 11:47:07.784206 | TRACE | Checking connection
+2023-11-12 11:47:15.621883 | 2023-11-12 11:47:15.621883 | INFO | Check connection is correct
+2023-11-12 11:47:16.316547 | 2023-11-12 11:47:16.316547 | INFO | Server time is correct: delta = abs(1699782436919 - 1699782436316) < 65536ms
+2023-11-12 11:47:17.308715 | 2023-11-12 11:47:17.307686 | INFO | Exchange info is correct
+2023-11-12 11:47:17.308715 | 2023-11-12 11:47:17.308715 | TRACE | Return ticker
+2023-11-12 11:47:18.014133 | 2023-11-12 11:47:18.014133 | INFO | Ticker is correct
+2023-11-12 11:47:18.014133 | 2023-11-12 11:47:18.014133 | TRACE | Return book
+2023-11-12 11:47:19.019327 | 2023-11-12 11:47:19.019327 | INFO | Book is correct
+2023-11-12 11:47:19.019327 | 2023-11-12 11:47:19.019327 | TRACE | Return balance data
+2023-11-12 11:47:21.274163 | 2023-11-12 11:47:21.273451 | ERROR | Error getting balance info: HTTPSConnectionPool(host='api', port=443): Max retries exceeded with url: /v3/capital/config/getall?timestamp=1699782439019&signature=24504afa155f35ce90d3be31289bc30c1316afa8e5ccdc1a0c972aea56dd1ff1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002F54F904FD0>: Failed to resolve 'api' ([Errno 11001] getaddrinfo failed)"))
+2023-11-12 11:55:54.190136 | 2023-11-12 11:55:54.190136 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 11:55:54.190136 | 2023-11-12 11:55:54.190136 | TRACE | MEXCConnector was created
+2023-11-12 11:55:54.190136 | 2023-11-12 11:55:54.190136 | INFO | Exchange name is correct
+2023-11-12 11:55:54.190136 | 2023-11-12 11:55:54.190136 | TRACE | Checking connection
+2023-11-12 11:55:54.968056 | 2023-11-12 11:55:54.968056 | INFO | Check connection is correct
+2023-11-12 11:55:55.658424 | 2023-11-12 11:55:55.658424 | INFO | Server time is correct: delta = abs(1699782956270 - 1699782955658) < 65536ms
+2023-11-12 11:55:56.651606 | 2023-11-12 11:55:56.651606 | INFO | Exchange info is correct
+2023-11-12 11:55:56.651606 | 2023-11-12 11:55:56.651606 | TRACE | Return ticker
+2023-11-12 11:55:57.372200 | 2023-11-12 11:55:57.372200 | INFO | Ticker is correct
+2023-11-12 11:55:57.373169 | 2023-11-12 11:55:57.373169 | TRACE | Return book
+2023-11-12 11:55:58.115144 | 2023-11-12 11:55:58.115144 | INFO | Book is correct
+2023-11-12 11:56:20.344597 | 2023-11-12 11:56:20.344597 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 11:56:20.344597 | 2023-11-12 11:56:20.344597 | TRACE | MEXCConnector was created
+2023-11-12 11:56:20.344597 | 2023-11-12 11:56:20.344597 | INFO | Exchange name is correct
+2023-11-12 11:56:20.345595 | 2023-11-12 11:56:20.344597 | TRACE | Checking connection
+2023-11-12 11:56:21.066688 | 2023-11-12 11:56:21.065688 | INFO | Check connection is correct
+2023-11-12 11:56:21.756848 | 2023-11-12 11:56:21.755851 | INFO | Server time is correct: delta = abs(1699782982359 - 1699782981755) < 65536ms
+2023-11-12 11:56:22.756176 | 2023-11-12 11:56:22.756176 | INFO | Exchange info is correct
+2023-11-12 11:56:22.756176 | 2023-11-12 11:56:22.756176 | TRACE | Return ticker
+2023-11-12 11:56:23.486675 | 2023-11-12 11:56:23.486675 | INFO | Ticker is correct
+2023-11-12 11:56:23.487663 | 2023-11-12 11:56:23.487663 | TRACE | Return book
+2023-11-12 11:56:24.476043 | 2023-11-12 11:56:24.476043 | INFO | Book is correct
+2023-11-12 11:56:24.476043 | 2023-11-12 11:56:24.476043 | TRACE | Return balance data
+2023-11-12 11:56:26.730362 | 2023-11-12 11:56:26.730362 | ERROR | Error getting balance info: HTTPSConnectionPool(host='api', port=443): Max retries exceeded with url: /v3/capital/config/getall?timestamp=1699782984476&signature=77d891a67ce5274b4c7a87f697c087deea9720b168f4e06b0ee2a30733f67565 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001E3218B5190>: Failed to resolve 'api' ([Errno 11001] getaddrinfo failed)"))
+2023-11-12 11:56:46.654065 | 2023-11-12 11:56:46.654065 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 11:56:46.654065 | 2023-11-12 11:56:46.654065 | TRACE | MEXCConnector was created
+2023-11-12 11:56:46.654065 | 2023-11-12 11:56:46.654065 | INFO | Exchange name is correct
+2023-11-12 11:56:46.654065 | 2023-11-12 11:56:46.654065 | TRACE | Checking connection
+2023-11-12 11:56:47.382183 | 2023-11-12 11:56:47.382183 | INFO | Check connection is correct
+2023-11-12 11:56:48.072950 | 2023-11-12 11:56:48.072950 | INFO | Server time is correct: delta = abs(1699783008683 - 1699783008072) < 65536ms
+2023-11-12 11:56:48.849007 | 2023-11-12 11:56:48.849007 | INFO | Exchange info is correct
+2023-11-12 11:56:48.849007 | 2023-11-12 11:56:48.849007 | TRACE | Return ticker
+2023-11-12 11:56:49.607156 | 2023-11-12 11:56:49.607156 | INFO | Ticker is correct
+2023-11-12 11:56:49.607156 | 2023-11-12 11:56:49.607156 | TRACE | Return book
+2023-11-12 11:56:50.355513 | 2023-11-12 11:56:50.355513 | INFO | Book is correct
+2023-11-12 11:56:50.356511 | 2023-11-12 11:56:50.355513 | TRACE | Return balance data
+2023-11-12 11:56:52.610280 | 2023-11-12 11:56:52.609673 | ERROR | Error getting balance info: HTTPSConnectionPool(host='api', port=443): Max retries exceeded with url: /v3/capital/config/getall?timestamp=1699783010356&signature=bcbdaf6f6aa1d082636aff4d537df8ef5f5140ad6c0fd038401afff1a223c668 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025E37285250>: Failed to resolve 'api' ([Errno 11001] getaddrinfo failed)"))
+2023-11-12 11:59:06.794049 | 2023-11-12 11:59:06.794049 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 11:59:06.794049 | 2023-11-12 11:59:06.794049 | TRACE | MEXCConnector was created
+2023-11-12 11:59:06.794049 | 2023-11-12 11:59:06.794049 | INFO | Exchange name is correct
+2023-11-12 11:59:06.794049 | 2023-11-12 11:59:06.794049 | TRACE | Checking connection
+2023-11-12 11:59:08.541462 | 2023-11-12 11:59:08.541462 | INFO | Check connection is correct
+2023-11-12 11:59:09.235830 | 2023-11-12 11:59:09.234834 | INFO | Server time is correct: delta = abs(1699783149834 - 1699783149234) < 65536ms
+2023-11-12 11:59:10.249960 | 2023-11-12 11:59:10.249960 | INFO | Exchange info is correct
+2023-11-12 11:59:10.250957 | 2023-11-12 11:59:10.250957 | TRACE | Return ticker
+2023-11-12 11:59:10.977596 | 2023-11-12 11:59:10.977596 | INFO | Ticker is correct
+2023-11-12 11:59:10.977596 | 2023-11-12 11:59:10.977596 | TRACE | Return book
+2023-11-12 11:59:11.734971 | 2023-11-12 11:59:11.734971 | INFO | Book is correct
+2023-11-12 11:59:11.734971 | 2023-11-12 11:59:11.734971 | TRACE | Return balance data
+2023-11-12 11:59:13.989510 | 2023-11-12 11:59:13.989510 | ERROR | Error getting balance info: HTTPSConnectionPool(host='api', port=443): Max retries exceeded with url: /v3/capital/config/getall?timestamp=1699783151735&signature=eacad6b67e90987aa4f24575bad193e808ed89d04c265b9fa9fa07749db0c097 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000131C4B155D0>: Failed to resolve 'api' ([Errno 11001] getaddrinfo failed)"))
+2023-11-12 12:04:42.647147 | 2023-11-12 12:04:42.647147 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 12:04:42.648144 | 2023-11-12 12:04:42.648144 | TRACE | MEXCConnector was created
+2023-11-12 12:04:42.648144 | 2023-11-12 12:04:42.648144 | INFO | Exchange name is correct
+2023-11-12 12:04:42.648144 | 2023-11-12 12:04:42.648144 | TRACE | Checking connection
+2023-11-12 12:04:43.415306 | 2023-11-12 12:04:43.415306 | INFO | Check connection is correct
+2023-11-12 12:04:44.121101 | 2023-11-12 12:04:44.120104 | INFO | Server time is correct: delta = abs(1699783484726 - 1699783484120) < 65536ms
+2023-11-12 12:04:45.140868 | 2023-11-12 12:04:45.140868 | INFO | Exchange info is correct
+2023-11-12 12:04:45.140868 | 2023-11-12 12:04:45.140868 | TRACE | Return ticker
+2023-11-12 12:04:45.963283 | 2023-11-12 12:04:45.963283 | INFO | Ticker is correct
+2023-11-12 12:04:45.963283 | 2023-11-12 12:04:45.963283 | TRACE | Return book
+2023-11-12 12:04:46.730916 | 2023-11-12 12:04:46.729921 | INFO | Book is correct
+2023-11-12 12:04:46.730916 | 2023-11-12 12:04:46.730916 | TRACE | Return balance data
+2023-11-12 12:05:26.794515 | 2023-11-12 12:05:26.794515 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 12:05:26.795492 | 2023-11-12 12:05:26.794515 | TRACE | MEXCConnector was created
+2023-11-12 12:05:26.795492 | 2023-11-12 12:05:26.795492 | INFO | Exchange name is correct
+2023-11-12 12:05:26.795492 | 2023-11-12 12:05:26.795492 | TRACE | Checking connection
+2023-11-12 12:05:27.648291 | 2023-11-12 12:05:27.647295 | INFO | Check connection is correct
+2023-11-12 12:05:28.346112 | 2023-11-12 12:05:28.346112 | INFO | Server time is correct: delta = abs(1699783528957 - 1699783528346) < 65536ms
+2023-11-12 12:05:29.444785 | 2023-11-12 12:05:29.444785 | INFO | Exchange info is correct
+2023-11-12 12:05:29.444785 | 2023-11-12 12:05:29.444785 | TRACE | Return ticker
+2023-11-12 12:05:30.164831 | 2023-11-12 12:05:30.164831 | INFO | Ticker is correct
+2023-11-12 12:05:30.164831 | 2023-11-12 12:05:30.164831 | TRACE | Return book
+2023-11-12 12:05:30.911379 | 2023-11-12 12:05:30.911379 | INFO | Book is correct
+2023-11-12 12:05:30.912346 | 2023-11-12 12:05:30.912346 | TRACE | Return balance data
+2023-11-12 12:05:52.873333 | 2023-11-12 12:05:52.873333 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 12:05:52.874336 | 2023-11-12 12:05:52.874336 | TRACE | MEXCConnector was created
+2023-11-12 12:05:52.874336 | 2023-11-12 12:05:52.874336 | INFO | Exchange name is correct
+2023-11-12 12:05:52.874336 | 2023-11-12 12:05:52.874336 | TRACE | Checking connection
+2023-11-12 12:05:53.765151 | 2023-11-12 12:05:53.765151 | INFO | Check connection is correct
+2023-11-12 12:05:54.471734 | 2023-11-12 12:05:54.470738 | INFO | Server time is correct: delta = abs(1699783555077 - 1699783554470) < 65536ms
+2023-11-12 12:05:55.262382 | 2023-11-12 12:05:55.262382 | INFO | Exchange info is correct
+2023-11-12 12:05:55.262382 | 2023-11-12 12:05:55.262382 | TRACE | Return ticker
+2023-11-12 12:05:55.971696 | 2023-11-12 12:05:55.971696 | INFO | Ticker is correct
+2023-11-12 12:05:55.971696 | 2023-11-12 12:05:55.971696 | TRACE | Return book
+2023-11-12 12:05:56.725290 | 2023-11-12 12:05:56.725290 | INFO | Book is correct
+2023-11-12 12:05:56.725290 | 2023-11-12 12:05:56.725290 | TRACE | Return balance data
+2023-11-12 12:05:58.979070 | 2023-11-12 12:05:58.978402 | ERROR | Error getting balance info: HTTPSConnectionPool(host='api', port=443): Max retries exceeded with url: /v3/capital/config/getall?timestamp=1699783556725&signature=8d501ec9a65967447474a4ed51843f16cac72ed4377a694c197ff7cd144ea3a8 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000016A620F5210>: Failed to resolve 'api' ([Errno 11001] getaddrinfo failed)"))
+2023-11-12 12:06:22.725133 | 2023-11-12 12:06:22.725133 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 12:06:22.726131 | 2023-11-12 12:06:22.726131 | TRACE | MEXCConnector was created
+2023-11-12 12:06:22.726131 | 2023-11-12 12:06:22.726131 | INFO | Exchange name is correct
+2023-11-12 12:06:22.726131 | 2023-11-12 12:06:22.726131 | TRACE | Checking connection
+2023-11-12 12:06:25.779136 | 2023-11-12 12:06:25.779136 | INFO | Check connection is correct
+2023-11-12 12:06:29.451667 | 2023-11-12 12:06:29.451667 | INFO | Server time is correct: delta = abs(1699783590055 - 1699783589451) < 65536ms
+2023-11-12 12:06:30.447725 | 2023-11-12 12:06:30.446716 | INFO | Exchange info is correct
+2023-11-12 12:06:30.447725 | 2023-11-12 12:06:30.447725 | TRACE | Return ticker
+2023-11-12 12:06:31.176643 | 2023-11-12 12:06:31.176643 | INFO | Ticker is correct
+2023-11-12 12:06:31.176643 | 2023-11-12 12:06:31.176643 | TRACE | Return book
+2023-11-12 12:06:31.926667 | 2023-11-12 12:06:31.926667 | INFO | Book is correct
+2023-11-12 12:06:31.927661 | 2023-11-12 12:06:31.927661 | TRACE | Return balance data
+2023-11-12 12:06:34.183383 | 2023-11-12 12:06:34.182720 | ERROR | Error getting balance info: HTTPSConnectionPool(host='api', port=443): Max retries exceeded with url: /v3/capital/config/getall?timestamp=1699783591927&signature=7bd6fc7987c9a70d9b8ad1845b605d72f5800b5456013fa70d2e39862b3f6f3d (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022A670E5210>: Failed to resolve 'api' ([Errno 11001] getaddrinfo failed)"))
+2023-11-12 12:07:03.041138 | 2023-11-12 12:07:03.040141 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 12:07:03.041138 | 2023-11-12 12:07:03.041138 | TRACE | MEXCConnector was created
+2023-11-12 12:07:03.041138 | 2023-11-12 12:07:03.041138 | INFO | Exchange name is correct
+2023-11-12 12:07:03.041138 | 2023-11-12 12:07:03.041138 | TRACE | Checking connection
+2023-11-12 12:07:03.908528 | 2023-11-12 12:07:03.908528 | INFO | Check connection is correct
+2023-11-12 12:07:04.610693 | 2023-11-12 12:07:04.610693 | INFO | Server time is correct: delta = abs(1699783625211 - 1699783624610) < 65536ms
+2023-11-12 12:07:05.623874 | 2023-11-12 12:07:05.623874 | INFO | Exchange info is correct
+2023-11-12 12:07:05.623874 | 2023-11-12 12:07:05.623874 | TRACE | Return ticker
+2023-11-12 12:07:06.349240 | 2023-11-12 12:07:06.349240 | INFO | Ticker is correct
+2023-11-12 12:07:06.349240 | 2023-11-12 12:07:06.349240 | TRACE | Return book
+2023-11-12 12:07:07.107189 | 2023-11-12 12:07:07.106191 | INFO | Book is correct
+2023-11-12 12:07:07.107189 | 2023-11-12 12:07:07.107189 | TRACE | Return balance data
+2023-11-12 12:07:09.361021 | 2023-11-12 12:07:09.360351 | ERROR | Error getting balance info: HTTPSConnectionPool(host='api', port=443): Max retries exceeded with url: /v3/capital/config/getall?timestamp=1699783627107&signature=c84049046d741651e012810cdf0c4b6c0d96a0feb97a066368bb455085b2da41 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F479395310>: Failed to resolve 'api' ([Errno 11001] getaddrinfo failed)"))
+2023-11-12 12:34:57.641626 | 2023-11-12 12:34:57.641626 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 12:34:57.641626 | 2023-11-12 12:34:57.641626 | TRACE | MEXCConnector was created
+2023-11-12 12:34:57.641626 | 2023-11-12 12:34:57.641626 | INFO | Exchange name is correct
+2023-11-12 12:34:57.642625 | 2023-11-12 12:34:57.642625 | TRACE | Checking connection
+2023-11-12 12:34:58.461465 | 2023-11-12 12:34:58.461465 | INFO | Check connection is correct
+2023-11-12 12:34:59.158602 | 2023-11-12 12:34:59.158602 | INFO | Server time is correct: delta = abs(1699785299758 - 1699785299158) < 65536ms
+2023-11-12 12:34:59.941476 | 2023-11-12 12:34:59.941476 | INFO | Exchange info is correct
+2023-11-12 12:34:59.941476 | 2023-11-12 12:34:59.941476 | TRACE | Return ticker
+2023-11-12 12:35:00.673528 | 2023-11-12 12:35:00.673528 | INFO | Ticker is correct
+2023-11-12 12:35:00.673528 | 2023-11-12 12:35:00.673528 | TRACE | Return book
+2023-11-12 12:35:01.452969 | 2023-11-12 12:35:01.452969 | INFO | Book is correct
+2023-11-12 12:35:09.591573 | 2023-11-12 12:35:09.591573 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 12:35:09.591573 | 2023-11-12 12:35:09.591573 | TRACE | MEXCConnector was created
+2023-11-12 12:35:09.591573 | 2023-11-12 12:35:09.591573 | INFO | Exchange name is correct
+2023-11-12 12:35:09.591573 | 2023-11-12 12:35:09.591573 | TRACE | Checking connection
+2023-11-12 12:35:10.408892 | 2023-11-12 12:35:10.408892 | INFO | Check connection is correct
+2023-11-12 12:35:11.107019 | 2023-11-12 12:35:11.107019 | INFO | Server time is correct: delta = abs(1699785311703 - 1699785311107) < 65536ms
+2023-11-12 12:35:11.917205 | 2023-11-12 12:35:11.916207 | INFO | Exchange info is correct
+2023-11-12 12:35:11.917205 | 2023-11-12 12:35:11.917205 | TRACE | Return ticker
+2023-11-12 12:35:12.634782 | 2023-11-12 12:35:12.634782 | INFO | Ticker is correct
+2023-11-12 12:35:12.635789 | 2023-11-12 12:35:12.635789 | TRACE | Return book
+2023-11-12 12:35:13.401782 | 2023-11-12 12:35:13.401782 | INFO | Book is correct
+2023-11-12 12:35:13.401782 | 2023-11-12 12:35:13.401782 | TRACE | Return balance data
+2023-11-12 12:35:13.401782 | 2023-11-12 12:35:13.401782 | ERROR | Error getting balance info: 'MEXCConnector' object has no attribute '_MEXCConnector__make_signed_request'
+2023-11-12 12:35:28.481752 | 2023-11-12 12:35:28.481752 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 12:35:28.482749 | 2023-11-12 12:35:28.481752 | TRACE | MEXCConnector was created
+2023-11-12 12:35:28.482749 | 2023-11-12 12:35:28.482749 | INFO | Exchange name is correct
+2023-11-12 12:35:28.482749 | 2023-11-12 12:35:28.482749 | TRACE | Checking connection
+2023-11-12 12:35:29.210309 | 2023-11-12 12:35:29.210309 | INFO | Check connection is correct
+2023-11-12 12:35:29.912216 | 2023-11-12 12:35:29.912216 | INFO | Server time is correct: delta = abs(1699785330507 - 1699785329912) < 65536ms
+2023-11-12 12:35:30.701779 | 2023-11-12 12:35:30.701779 | INFO | Exchange info is correct
+2023-11-12 12:35:30.701779 | 2023-11-12 12:35:30.701779 | TRACE | Return ticker
+2023-11-12 12:35:31.424148 | 2023-11-12 12:35:31.424148 | INFO | Ticker is correct
+2023-11-12 12:35:31.424148 | 2023-11-12 12:35:31.424148 | TRACE | Return book
+2023-11-12 12:35:32.178566 | 2023-11-12 12:35:32.178566 | INFO | Book is correct
+2023-11-12 12:35:32.178566 | 2023-11-12 12:35:32.178566 | TRACE | Return balance data
+2023-11-12 12:35:34.431519 | 2023-11-12 12:35:34.430858 | ERROR | Error getting balance info: HTTPSConnectionPool(host='api', port=443): Max retries exceeded with url: /v2/user/account?timestamp=1699785332178&signature=d0e617b943aace19769aa7f8c34355fd12ffdd6924a75ea2a8a16552ecade33a (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F22AD75410>: Failed to resolve 'api' ([Errno 11001] getaddrinfo failed)"))
+2023-11-12 12:39:41.891113 | 2023-11-12 12:39:41.891113 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 12:39:41.892111 | 2023-11-12 12:39:41.892111 | TRACE | MEXCConnector was created
+2023-11-12 12:39:41.892111 | 2023-11-12 12:39:41.892111 | INFO | Exchange name is correct
+2023-11-12 12:39:41.892111 | 2023-11-12 12:39:41.892111 | TRACE | Checking connection
+2023-11-12 12:39:42.631427 | 2023-11-12 12:39:42.631427 | INFO | Check connection is correct
+2023-11-12 12:39:43.332470 | 2023-11-12 12:39:43.332470 | INFO | Server time is correct: delta = abs(1699785583936 - 1699785583332) < 65536ms
+2023-11-12 12:39:44.130478 | 2023-11-12 12:39:44.130478 | INFO | Exchange info is correct
+2023-11-12 12:39:44.131476 | 2023-11-12 12:39:44.131476 | TRACE | Return ticker
+2023-11-12 12:39:44.868494 | 2023-11-12 12:39:44.867496 | INFO | Ticker is correct
+2023-11-12 12:39:44.868494 | 2023-11-12 12:39:44.868494 | TRACE | Return book
+2023-11-12 12:39:45.627609 | 2023-11-12 12:39:45.627609 | INFO | Book is correct
+2023-11-12 12:39:45.628621 | 2023-11-12 12:39:45.627609 | TRACE | Return balance data
+2023-11-12 12:39:47.883909 | 2023-11-12 12:39:47.883909 | ERROR | Error getting balance info: HTTPSConnectionPool(host='api', port=443): Max retries exceeded with url: /v2/user/account?timestamp=1699785585628&signature=d70d36531e1f46598e36162378857d756726288be90bf02da476898a74afe99b (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000245609854D0>: Failed to resolve 'api' ([Errno 11001] getaddrinfo failed)"))
+2023-11-12 12:41:52.316007 | 2023-11-12 12:41:52.316007 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 12:41:52.316007 | 2023-11-12 12:41:52.316007 | TRACE | MEXCConnector was created
+2023-11-12 12:41:52.316007 | 2023-11-12 12:41:52.316007 | INFO | Exchange name is correct
+2023-11-12 12:41:52.316007 | 2023-11-12 12:41:52.316007 | TRACE | Checking connection
+2023-11-12 12:41:53.087475 | 2023-11-12 12:41:53.087475 | INFO | Check connection is correct
+2023-11-12 12:41:53.793592 | 2023-11-12 12:41:53.793592 | INFO | Server time is correct: delta = abs(1699785714395 - 1699785713793) < 65536ms
+2023-11-12 12:41:54.812095 | 2023-11-12 12:41:54.812095 | INFO | Exchange info is correct
+2023-11-12 12:41:54.812095 | 2023-11-12 12:41:54.812095 | TRACE | Return ticker
+2023-11-12 12:41:55.547523 | 2023-11-12 12:41:55.547523 | INFO | Ticker is correct
+2023-11-12 12:41:55.547523 | 2023-11-12 12:41:55.547523 | TRACE | Return book
+2023-11-12 12:41:56.305387 | 2023-11-12 12:41:56.305387 | INFO | Book is correct
+2023-11-12 12:41:56.305387 | 2023-11-12 12:41:56.305387 | TRACE | Return balance data
+2023-11-12 12:41:58.560057 | 2023-11-12 12:41:58.559440 | ERROR | Error getting balance info: HTTPSConnectionPool(host='api', port=443): Max retries exceeded with url: /v3/capital/config/getall?timestamp=1699785716305&signature=ca942c77ce50038bb516ba72561d5ab8e5ca2477b923b889e7a0a85e0e00231b (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002791E9754D0>: Failed to resolve 'api' ([Errno 11001] getaddrinfo failed)"))
+2023-11-12 13:00:34.630816 | 2023-11-12 13:00:34.630816 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 13:00:34.631801 | 2023-11-12 13:00:34.630816 | TRACE | MEXCConnector was created
+2023-11-12 13:00:34.631801 | 2023-11-12 13:00:34.631801 | INFO | Exchange name is correct
+2023-11-12 13:00:34.631801 | 2023-11-12 13:00:34.631801 | TRACE | Checking connection
+2023-11-12 13:00:36.462493 | 2023-11-12 13:00:36.462493 | INFO | Check connection is correct
+2023-11-12 13:00:37.179003 | 2023-11-12 13:00:37.179003 | INFO | Server time is correct: delta = abs(1699786837776 - 1699786837179) < 65536ms
+2023-11-12 13:00:38.439726 | 2023-11-12 13:00:38.439726 | INFO | Exchange info is correct
+2023-11-12 13:00:38.439726 | 2023-11-12 13:00:38.439726 | TRACE | Return ticker
+2023-11-12 13:00:39.163088 | 2023-11-12 13:00:39.163088 | INFO | Ticker is correct
+2023-11-12 13:00:39.163088 | 2023-11-12 13:00:39.163088 | TRACE | Return book
+2023-11-12 13:00:39.920557 | 2023-11-12 13:00:39.920557 | INFO | Book is correct
+2023-11-12 13:00:39.920557 | 2023-11-12 13:00:39.920557 | TRACE | Return balance data
+2023-11-12 13:00:42.176724 | 2023-11-12 13:00:42.176724 | ERROR | Error getting balance info: HTTPSConnectionPool(host='api', port=443): Max retries exceeded with url: /v3/capital/config?timestamp=1699786839920&signature=7bdb107c85fc2a33f795e5786239705006cb39553f8334b9c9180acc79b03f8b (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000023AE3B15590>: Failed to resolve 'api' ([Errno 11001] getaddrinfo failed)"))
+2023-11-12 13:01:30.461817 | 2023-11-12 13:01:30.460817 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 13:01:30.461817 | 2023-11-12 13:01:30.461817 | TRACE | MEXCConnector was created
+2023-11-12 13:01:30.461817 | 2023-11-12 13:01:30.461817 | TRACE | Return balance data
+2023-11-12 13:01:32.723602 | 2023-11-12 13:01:32.722937 | ERROR | Error getting balance info: HTTPSConnectionPool(host='api', port=443): Max retries exceeded with url: /v3/capital/config?timestamp=1699786890461&signature=9276d6ca09b1aac95613225901d251cf24aba885e3db831577a5fcd4897ec254 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BD8E93D690>: Failed to resolve 'api' ([Errno 11001] getaddrinfo failed)"))
+2023-11-12 13:01:43.158101 | 2023-11-12 13:01:43.158101 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 13:01:43.158101 | 2023-11-12 13:01:43.158101 | TRACE | MEXCConnector was created
+2023-11-12 13:01:43.158101 | 2023-11-12 13:01:43.158101 | TRACE | Return balance data
+2023-11-12 13:01:45.417879 | 2023-11-12 13:01:45.417238 | ERROR | Error getting balance info: HTTPSConnectionPool(host='api', port=443): Max retries exceeded with url: /v3/capital?timestamp=1699786903159&signature=530ac1ab9e20dd0d0855a53e0f4b800a6cea4859fceee09ca7883a46cca36b6b (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000016AB76A1210>: Failed to resolve 'api' ([Errno 11001] getaddrinfo failed)"))
+2023-11-12 13:02:03.623665 | 2023-11-12 13:02:03.623665 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 13:02:03.624663 | 2023-11-12 13:02:03.624663 | TRACE | MEXCConnector was created
+2023-11-12 13:02:03.624663 | 2023-11-12 13:02:03.624663 | TRACE | Return balance data
+2023-11-12 13:02:05.883193 | 2023-11-12 13:02:05.883193 | ERROR | Error getting balance info: HTTPSConnectionPool(host='api', port=443): Max retries exceeded with url: /v3/capital/info?timestamp=1699786923624&signature=549261ec38ba5ce335d38faedfb052b87663712e07b89b1a514c41cd0802bd79 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018038E11190>: Failed to resolve 'api' ([Errno 11001] getaddrinfo failed)"))
+2023-11-12 13:02:13.693692 | 2023-11-12 13:02:13.693692 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 13:02:13.693692 | 2023-11-12 13:02:13.693692 | TRACE | MEXCConnector was created
+2023-11-12 13:02:13.694689 | 2023-11-12 13:02:13.694689 | TRACE | Return balance data
+2023-11-12 13:02:15.952422 | 2023-11-12 13:02:15.951717 | ERROR | Error getting balance info: HTTPSConnectionPool(host='api', port=443): Max retries exceeded with url: /v3/capital/balance?timestamp=1699786933694&signature=8ffa0fe9770eb8a6a50fcd8eae5bf887d9041186469c88cde8a90ac1eaa3fd6b (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001DF3E661190>: Failed to resolve 'api' ([Errno 11001] getaddrinfo failed)"))
+2023-11-12 13:13:52.942306 | 2023-11-12 13:13:52.942306 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 13:13:52.942306 | 2023-11-12 13:13:52.942306 | TRACE | MEXCConnector was created
+2023-11-12 13:13:52.942306 | 2023-11-12 13:13:52.942306 | TRACE | Return balance data
+2023-11-12 13:13:53.929666 | 2023-11-12 13:13:53.929666 | INFO | Balance is correct
+2023-11-12 13:13:59.029438 | 2023-11-12 13:13:59.029438 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 13:13:59.029438 | 2023-11-12 13:13:59.029438 | TRACE | MEXCConnector was created
+2023-11-12 13:13:59.029438 | 2023-11-12 13:13:59.029438 | TRACE | Return balance data
+2023-11-12 13:13:59.837383 | 2023-11-12 13:13:59.837383 | INFO | Balance is correct
+2023-11-12 13:14:27.268022 | 2023-11-12 13:14:27.268022 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 13:14:27.268022 | 2023-11-12 13:14:27.268022 | TRACE | MEXCConnector was created
+2023-11-12 13:14:27.268022 | 2023-11-12 13:14:27.268022 | TRACE | Return balance data
+2023-11-12 13:14:43.227863 | 2023-11-12 13:14:43.227863 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 13:14:43.227863 | 2023-11-12 13:14:43.227863 | TRACE | MEXCConnector was created
+2023-11-12 13:14:43.227863 | 2023-11-12 13:14:43.227863 | INFO | Exchange name is correct
+2023-11-12 13:14:43.229859 | 2023-11-12 13:14:43.229859 | TRACE | Checking connection
+2023-11-12 13:14:44.026762 | 2023-11-12 13:14:44.026762 | INFO | Check connection is correct
+2023-11-12 13:14:44.736928 | 2023-11-12 13:14:44.736928 | INFO | Server time is correct: delta = abs(1699787685335 - 1699787684736) < 65536ms
+2023-11-12 13:14:45.755611 | 2023-11-12 13:14:45.755611 | INFO | Exchange info is correct
+2023-11-12 13:14:45.755611 | 2023-11-12 13:14:45.755611 | TRACE | Return ticker
+2023-11-12 13:14:46.568526 | 2023-11-12 13:14:46.568526 | INFO | Ticker is correct
+2023-11-12 13:14:46.569542 | 2023-11-12 13:14:46.569542 | TRACE | Return book
+2023-11-12 13:14:47.365511 | 2023-11-12 13:14:47.364513 | INFO | Book is correct
+2023-11-12 13:14:47.365511 | 2023-11-12 13:14:47.365511 | TRACE | Return balance data
+2023-11-12 13:14:48.067887 | 2023-11-12 13:14:48.067887 | INFO | Balance is correct
+2023-11-12 13:16:22.072851 | 2023-11-12 13:16:22.072851 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 13:16:22.072851 | 2023-11-12 13:16:22.072851 | TRACE | MEXCConnector was created
+2023-11-12 13:16:22.072851 | 2023-11-12 13:16:22.072851 | INFO | Exchange name is correct
+2023-11-12 13:16:22.072851 | 2023-11-12 13:16:22.072851 | TRACE | Checking connection
+2023-11-12 13:16:22.796915 | 2023-11-12 13:16:22.795931 | INFO | Check connection is correct
+2023-11-12 13:16:23.503578 | 2023-11-12 13:16:23.503578 | INFO | Server time is correct: delta = abs(1699787784098 - 1699787783503) < 65536ms
+2023-11-12 13:16:24.756751 | 2023-11-12 13:16:24.756751 | INFO | Exchange info is correct
+2023-11-12 13:16:24.757749 | 2023-11-12 13:16:24.757749 | TRACE | Return ticker
+2023-11-12 13:16:25.487760 | 2023-11-12 13:16:25.487760 | INFO | Ticker is correct
+2023-11-12 13:16:25.487760 | 2023-11-12 13:16:25.487760 | TRACE | Return book
+2023-11-12 13:16:26.241255 | 2023-11-12 13:16:26.241255 | INFO | Book is correct
+2023-11-12 13:16:26.242272 | 2023-11-12 13:16:26.242272 | TRACE | Return balance data
+2023-11-12 13:16:26.945702 | 2023-11-12 13:16:26.945702 | INFO | Balance is correct
+2023-11-12 13:16:26.945702 | 2023-11-12 13:16:26.945702 | TRACE | Return balance data
+2023-11-12 13:16:42.967059 | 2023-11-12 13:16:42.967059 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 13:16:42.968057 | 2023-11-12 13:16:42.968057 | TRACE | MEXCConnector was created
+2023-11-12 13:16:42.968057 | 2023-11-12 13:16:42.968057 | INFO | Exchange name is correct
+2023-11-12 13:16:42.968057 | 2023-11-12 13:16:42.968057 | TRACE | Checking connection
+2023-11-12 13:16:43.789860 | 2023-11-12 13:16:43.789860 | INFO | Check connection is correct
+2023-11-12 13:16:44.530878 | 2023-11-12 13:16:44.530878 | INFO | Server time is correct: delta = abs(1699787805126 - 1699787804530) < 65536ms
+2023-11-12 13:16:45.705949 | 2023-11-12 13:16:45.705949 | INFO | Exchange info is correct
+2023-11-12 13:16:45.705949 | 2023-11-12 13:16:45.705949 | TRACE | Return ticker
+2023-11-12 13:16:46.422506 | 2023-11-12 13:16:46.422506 | INFO | Ticker is correct
+2023-11-12 13:16:46.422506 | 2023-11-12 13:16:46.422506 | TRACE | Return book
+2023-11-12 13:16:47.163524 | 2023-11-12 13:16:47.163524 | INFO | Book is correct
+2023-11-12 13:16:47.164521 | 2023-11-12 13:16:47.164521 | TRACE | Return balance data
+2023-11-12 13:16:47.862652 | 2023-11-12 13:16:47.862652 | INFO | Balance is correct
+2023-11-12 13:16:47.862652 | 2023-11-12 13:16:47.862652 | TRACE | Return balance data
+2023-11-12 13:17:26.904917 | 2023-11-12 13:17:26.904917 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 13:17:26.905915 | 2023-11-12 13:17:26.904917 | TRACE | MEXCConnector was created
+2023-11-12 13:17:26.905915 | 2023-11-12 13:17:26.905915 | INFO | Exchange name is correct
+2023-11-12 13:17:26.905915 | 2023-11-12 13:17:26.905915 | TRACE | Checking connection
+2023-11-12 13:17:27.662890 | 2023-11-12 13:17:27.662890 | INFO | Check connection is correct
+2023-11-12 13:17:28.384676 | 2023-11-12 13:17:28.384676 | INFO | Server time is correct: delta = abs(1699787848982 - 1699787848384) < 65536ms
+2023-11-12 13:17:29.185984 | 2023-11-12 13:17:29.185984 | INFO | Exchange info is correct
+2023-11-12 13:17:29.186981 | 2023-11-12 13:17:29.186981 | TRACE | Return ticker
+2023-11-12 13:17:29.916530 | 2023-11-12 13:17:29.916530 | INFO | Ticker is correct
+2023-11-12 13:17:29.916530 | 2023-11-12 13:17:29.916530 | TRACE | Return book
+2023-11-12 13:17:30.895418 | 2023-11-12 13:17:30.895418 | INFO | Book is correct
+2023-11-12 13:17:30.895418 | 2023-11-12 13:17:30.895418 | TRACE | Return balance data
+2023-11-12 13:17:31.595964 | 2023-11-12 13:17:31.595964 | INFO | Balance is correct
+2023-11-12 13:17:31.596961 | 2023-11-12 13:17:31.596961 | TRACE | Return balance data
+2023-11-12 13:18:06.947766 | 2023-11-12 13:18:06.947766 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 13:18:06.948763 | 2023-11-12 13:18:06.948763 | TRACE | MEXCConnector was created
+2023-11-12 13:18:06.948763 | 2023-11-12 13:18:06.948763 | INFO | Exchange name is correct
+2023-11-12 13:18:06.948763 | 2023-11-12 13:18:06.948763 | TRACE | Checking connection
+2023-11-12 13:18:07.703744 | 2023-11-12 13:18:07.703744 | INFO | Check connection is correct
+2023-11-12 13:18:08.429325 | 2023-11-12 13:18:08.429325 | INFO | Server time is correct: delta = abs(1699787889030 - 1699787888429) < 65536ms
+2023-11-12 13:18:09.217473 | 2023-11-12 13:18:09.217473 | INFO | Exchange info is correct
+2023-11-12 13:18:09.217473 | 2023-11-12 13:18:09.217473 | TRACE | Return ticker
+2023-11-12 13:18:09.953070 | 2023-11-12 13:18:09.953070 | INFO | Ticker is correct
+2023-11-12 13:18:09.953070 | 2023-11-12 13:18:09.953070 | TRACE | Return book
+2023-11-12 13:18:10.706539 | 2023-11-12 13:18:10.706539 | INFO | Book is correct
+2023-11-12 13:18:10.706539 | 2023-11-12 13:18:10.706539 | TRACE | Return balance data
+2023-11-12 13:18:11.407497 | 2023-11-12 13:18:11.406491 | INFO | Balance is correct
+2023-11-12 13:34:08.759405 | 2023-11-12 13:34:08.758407 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 13:34:08.759405 | 2023-11-12 13:34:08.759405 | TRACE | MEXCConnector was created
+2023-11-12 13:34:08.759405 | 2023-11-12 13:34:08.759405 | INFO | Exchange name is correct
+2023-11-12 13:34:08.759405 | 2023-11-12 13:34:08.759405 | TRACE | Checking connection
+2023-11-12 13:34:09.579212 | 2023-11-12 13:34:09.579212 | INFO | Check connection is correct
+2023-11-12 13:34:10.359126 | 2023-11-12 13:34:10.359126 | INFO | Server time is correct: delta = abs(1699788850964 - 1699788850359) < 65536ms
+2023-11-12 13:34:11.915875 | 2023-11-12 13:34:11.915875 | INFO | Exchange info is correct
+2023-11-12 13:34:11.916862 | 2023-11-12 13:34:11.915875 | TRACE | Return ticker
+2023-11-12 13:34:12.644611 | 2023-11-12 13:34:12.644611 | INFO | Ticker is correct
+2023-11-12 13:34:12.645607 | 2023-11-12 13:34:12.644611 | TRACE | Return book
+2023-11-12 13:34:13.404070 | 2023-11-12 13:34:13.404070 | INFO | Book is correct
+2023-11-12 13:34:13.404070 | 2023-11-12 13:34:13.404070 | TRACE | Return balance data
+2023-11-12 13:34:14.253808 | 2023-11-12 13:34:14.253808 | INFO | Balance is correct
+2023-11-12 13:38:00.539915 | 2023-11-12 13:38:00.539915 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 13:38:00.539915 | 2023-11-12 13:38:00.539915 | TRACE | MEXCConnector was created
+2023-11-12 13:38:00.539915 | 2023-11-12 13:38:00.539915 | INFO | Exchange name is correct
+2023-11-12 13:38:00.539915 | 2023-11-12 13:38:00.539915 | TRACE | Checking connection
+2023-11-12 13:38:01.263704 | 2023-11-12 13:38:01.263704 | INFO | Check connection is correct
+2023-11-12 13:38:01.954185 | 2023-11-12 13:38:01.954185 | INFO | Server time is correct: delta = abs(1699789082559 - 1699789081954) < 65536ms
+2023-11-12 13:38:04.235122 | 2023-11-12 13:38:04.235122 | INFO | Exchange info is correct
+2023-11-12 13:38:04.235122 | 2023-11-12 13:38:04.235122 | TRACE | Return ticker
+2023-11-12 13:38:04.949445 | 2023-11-12 13:38:04.949445 | INFO | Ticker is correct
+2023-11-12 13:38:04.950445 | 2023-11-12 13:38:04.950445 | TRACE | Return book
+2023-11-12 13:38:05.695429 | 2023-11-12 13:38:05.695429 | INFO | Book is correct
+2023-11-12 13:38:05.696484 | 2023-11-12 13:38:05.695429 | TRACE | Return balance data
+2023-11-12 13:38:06.379526 | 2023-11-12 13:38:06.379526 | INFO | Balance is correct
+2023-11-12 13:38:18.051183 | 2023-11-12 13:38:18.051183 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-12 13:38:18.051183 | 2023-11-12 13:38:18.051183 | TRACE | MEXCConnector was created
+2023-11-12 13:38:18.051183 | 2023-11-12 13:38:18.051183 | INFO | Exchange name is correct
+2023-11-12 13:38:18.051183 | 2023-11-12 13:38:18.051183 | TRACE | Checking connection
+2023-11-12 13:38:18.752649 | 2023-11-12 13:38:18.752649 | INFO | Check connection is correct
+2023-11-12 13:38:19.442770 | 2023-11-12 13:38:19.442770 | INFO | Server time is correct: delta = abs(1699789100042 - 1699789099442) < 65536ms
+2023-11-12 13:38:20.437370 | 2023-11-12 13:38:20.437370 | INFO | Exchange info is correct
+2023-11-12 13:38:20.437370 | 2023-11-12 13:38:20.437370 | TRACE | Return ticker
+2023-11-12 13:38:21.156707 | 2023-11-12 13:38:21.156707 | INFO | Ticker is correct
+2023-11-12 13:38:21.156707 | 2023-11-12 13:38:21.156707 | TRACE | Return book
+2023-11-12 13:38:21.929255 | 2023-11-12 13:38:21.929255 | INFO | Book is correct
+2023-11-12 13:38:21.929255 | 2023-11-12 13:38:21.929255 | TRACE | Return balance data
+2023-11-12 13:38:22.637831 | 2023-11-12 13:38:22.637831 | INFO | Balance is correct
+2023-11-14 17:39:09.224525 | 2023-11-14 17:39:09.224525 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-14 17:39:09.225491 | 2023-11-14 17:39:09.225491 | TRACE | MEXCConnector was created
+2023-11-14 17:39:09.225491 | 2023-11-14 17:39:09.225491 | INFO | Exchange name is correct
+2023-11-14 17:39:09.225491 | 2023-11-14 17:39:09.225491 | TRACE | Checking connection
+2023-11-14 17:39:10.096844 | 2023-11-14 17:39:10.096844 | INFO | Check connection is correct
+2023-11-14 17:39:10.801979 | 2023-11-14 17:39:10.801979 | INFO | Server time is correct: delta = abs(1699976349897 - 1699976350801) < 65536ms
+2023-11-14 17:39:11.816746 | 2023-11-14 17:39:11.815764 | INFO | Exchange info is correct
+2023-11-14 17:39:11.816746 | 2023-11-14 17:39:11.816746 | TRACE | Return ticker
+2023-11-14 17:39:12.536502 | 2023-11-14 17:39:12.536502 | INFO | Ticker is correct
+2023-11-14 17:39:12.537508 | 2023-11-14 17:39:12.537508 | TRACE | Return book
+2023-11-14 17:39:13.291283 | 2023-11-14 17:39:13.291283 | INFO | Book is correct
+2023-11-14 17:39:13.291283 | 2023-11-14 17:39:13.291283 | TRACE | Return balance data
+2023-11-14 17:39:13.990968 | 2023-11-14 17:39:13.990968 | INFO | Balance is correct
+2023-11-14 17:39:38.658336 | 2023-11-14 17:39:38.657339 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-14 17:39:38.658336 | 2023-11-14 17:39:38.658336 | TRACE | MEXCConnector was created
+2023-11-14 17:39:38.658336 | 2023-11-14 17:39:38.658336 | INFO | Exchange name is correct
+2023-11-14 17:39:38.658336 | 2023-11-14 17:39:38.658336 | TRACE | Checking connection
+2023-11-14 17:39:39.402346 | 2023-11-14 17:39:39.401348 | INFO | Check connection is correct
+2023-11-14 17:39:40.099954 | 2023-11-14 17:39:40.099954 | INFO | Server time is correct: delta = abs(1699976379198 - 1699976380099) < 65536ms
+2023-11-14 17:39:41.312747 | 2023-11-14 17:39:41.312747 | INFO | Exchange info is correct
+2023-11-14 17:39:41.313769 | 2023-11-14 17:39:41.313769 | TRACE | Return ticker
+2023-11-14 17:39:42.031336 | 2023-11-14 17:39:42.031336 | INFO | Ticker is correct
+2023-11-14 17:39:42.031336 | 2023-11-14 17:39:42.031336 | TRACE | Return book
+2023-11-14 17:39:42.802293 | 2023-11-14 17:39:42.801265 | INFO | Book is correct
+2023-11-14 17:39:42.802293 | 2023-11-14 17:39:42.802293 | TRACE | Return balance data
+2023-11-14 17:39:43.502389 | 2023-11-14 17:39:43.502389 | INFO | Balance is correct
+2023-11-14 17:40:10.577796 | 2023-11-14 17:40:10.577796 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-14 17:40:10.577796 | 2023-11-14 17:40:10.577796 | TRACE | MEXCConnector was created
+2023-11-14 17:40:10.577796 | 2023-11-14 17:40:10.577796 | INFO | Exchange name is correct
+2023-11-14 17:40:10.578840 | 2023-11-14 17:40:10.577796 | TRACE | Checking connection
+2023-11-14 17:40:11.356925 | 2023-11-14 17:40:11.356925 | INFO | Check connection is correct
+2023-11-14 17:40:12.075004 | 2023-11-14 17:40:12.075004 | INFO | Server time is correct: delta = abs(1699976411162 - 1699976412075) < 65536ms
+2023-11-14 17:40:13.087426 | 2023-11-14 17:40:13.087426 | INFO | Exchange info is correct
+2023-11-14 17:40:13.088398 | 2023-11-14 17:40:13.087426 | TRACE | Return ticker
+2023-11-14 17:40:13.809313 | 2023-11-14 17:40:13.808280 | INFO | Ticker is correct
+2023-11-14 17:40:13.809313 | 2023-11-14 17:40:13.809313 | TRACE | Return book
+2023-11-14 17:40:14.564294 | 2023-11-14 17:40:14.563296 | INFO | Book is correct
+2023-11-14 17:40:14.564294 | 2023-11-14 17:40:14.564294 | TRACE | Return balance data
+2023-11-14 17:40:15.251214 | 2023-11-14 17:40:15.251214 | INFO | Balance is correct
+2023-11-15 11:49:47.954570 | 2023-11-15 11:49:47.954570 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-15 11:49:47.955569 | 2023-11-15 11:49:47.954570 | TRACE | MEXCConnector was created
+2023-11-15 11:49:47.955569 | 2023-11-15 11:49:47.955569 | INFO | Exchange name is correct
+2023-11-15 11:49:47.956124 | 2023-11-15 11:49:47.955569 | TRACE | Checking connection
+2023-11-15 11:49:49.083700 | 2023-11-15 11:49:49.083700 | INFO | Check connection is correct
+2023-11-15 11:49:49.900745 | 2023-11-15 11:49:49.900745 | INFO | Server time is correct: delta = abs(1700041790078 - 1700041789900) < 65536ms
+2023-11-15 11:49:51.221485 | 2023-11-15 11:49:51.221485 | INFO | Exchange info is correct
+2023-11-15 11:49:51.221485 | 2023-11-15 11:49:51.221485 | TRACE | Return ticker
+2023-11-15 11:49:52.104923 | 2023-11-15 11:49:52.104923 | INFO | Ticker is correct
+2023-11-15 11:49:52.104923 | 2023-11-15 11:49:52.104923 | TRACE | Return book
+2023-11-15 11:49:52.943659 | 2023-11-15 11:49:52.943659 | INFO | Book is correct
+2023-11-15 11:49:52.944192 | 2023-11-15 11:49:52.943659 | TRACE | Return balance data
+2023-11-15 11:49:53.722083 | 2023-11-15 11:49:53.722083 | INFO | Balance is correct
+2023-11-15 11:50:21.581994 | 2023-11-15 11:50:21.581994 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-15 11:50:21.582990 | 2023-11-15 11:50:21.582990 | TRACE | MEXCConnector was created
+2023-11-15 11:50:21.583252 | 2023-11-15 11:50:21.583252 | INFO | Exchange name is correct
+2023-11-15 11:50:21.583450 | 2023-11-15 11:50:21.583450 | TRACE | Checking connection
+2023-11-15 11:50:22.441347 | 2023-11-15 11:50:22.441306 | INFO | Check connection is correct
+2023-11-15 11:50:23.138971 | 2023-11-15 11:50:23.138971 | INFO | Server time is correct: delta = abs(1700041823317 - 1700041823138) < 65536ms
+2023-11-15 11:50:24.126101 | 2023-11-15 11:50:24.126101 | INFO | Exchange info is correct
+2023-11-15 11:50:24.126101 | 2023-11-15 11:50:24.126101 | TRACE | Return ticker
+2023-11-15 11:50:24.833690 | 2023-11-15 11:50:24.833690 | INFO | Ticker is correct
+2023-11-15 11:50:24.833690 | 2023-11-15 11:50:24.833690 | TRACE | Return book
+2023-11-15 11:50:25.575921 | 2023-11-15 11:50:25.575921 | INFO | Book is correct
+2023-11-15 11:50:25.575921 | 2023-11-15 11:50:25.575921 | TRACE | Return balance data
+2023-11-15 11:50:26.264322 | 2023-11-15 11:50:26.263328 | INFO | Balance is correct
+2023-11-15 11:50:40.788928 | 2023-11-15 11:50:40.788928 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-15 11:50:40.788928 | 2023-11-15 11:50:40.788928 | TRACE | MEXCConnector was created
+2023-11-15 11:50:40.789478 | 2023-11-15 11:50:40.789478 | INFO | Exchange name is correct
+2023-11-15 11:50:40.789675 | 2023-11-15 11:50:40.789675 | TRACE | Checking connection
+2023-11-15 11:50:41.535044 | 2023-11-15 11:50:41.535044 | INFO | Check connection is correct
+2023-11-15 11:50:42.269681 | 2023-11-15 11:50:42.269681 | INFO | Server time is correct: delta = abs(1700041842441 - 1700041842269) < 65536ms
+2023-11-15 11:50:43.267740 | 2023-11-15 11:50:43.266743 | INFO | Exchange info is correct
+2023-11-15 11:50:43.267740 | 2023-11-15 11:50:43.267740 | TRACE | Return ticker
+2023-11-15 11:50:44.007654 | 2023-11-15 11:50:44.007654 | INFO | Ticker is correct
+2023-11-15 11:50:44.007654 | 2023-11-15 11:50:44.007654 | TRACE | Return book
+2023-11-15 11:50:44.747631 | 2023-11-15 11:50:44.747631 | INFO | Book is correct
+2023-11-15 11:50:44.747631 | 2023-11-15 11:50:44.747631 | TRACE | Return balance data
+2023-11-15 11:50:45.437567 | 2023-11-15 11:50:45.437567 | INFO | Balance is correct
+2023-11-15 11:50:59.188165 | 2023-11-15 11:50:59.188165 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-15 11:50:59.188165 | 2023-11-15 11:50:59.188165 | TRACE | MEXCConnector was created
+2023-11-15 11:50:59.189161 | 2023-11-15 11:50:59.189161 | INFO | Exchange name is correct
+2023-11-15 11:50:59.189161 | 2023-11-15 11:50:59.189161 | TRACE | Checking connection
+2023-11-15 11:50:59.911894 | 2023-11-15 11:50:59.911894 | INFO | Check connection is correct
+2023-11-15 11:51:00.768972 | 2023-11-15 11:51:00.768972 | INFO | Server time is correct: delta = abs(1700041860945 - 1700041860768) < 65536ms
+2023-11-15 11:51:02.006938 | 2023-11-15 11:51:02.006938 | INFO | Exchange info is correct
+2023-11-15 11:51:02.007936 | 2023-11-15 11:51:02.007936 | TRACE | Return ticker
+2023-11-15 11:51:02.721029 | 2023-11-15 11:51:02.721029 | INFO | Ticker is correct
+2023-11-15 11:51:02.721029 | 2023-11-15 11:51:02.721029 | TRACE | Return book
+2023-11-15 11:51:03.471144 | 2023-11-15 11:51:03.471144 | INFO | Book is correct
+2023-11-15 11:52:08.190272 | 2023-11-15 11:52:08.190272 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-15 11:52:08.190272 | 2023-11-15 11:52:08.190272 | TRACE | MEXCConnector was created
+2023-11-15 11:52:08.191085 | 2023-11-15 11:52:08.191085 | INFO | Exchange name is correct
+2023-11-15 11:52:08.191236 | 2023-11-15 11:52:08.191085 | TRACE | Checking connection
+2023-11-15 11:52:08.908649 | 2023-11-15 11:52:08.908649 | INFO | Check connection is correct
+2023-11-15 11:52:09.595255 | 2023-11-15 11:52:09.595255 | INFO | Server time is correct: delta = abs(1700041929770 - 1700041929595) < 65536ms
+2023-11-15 11:52:10.815213 | 2023-11-15 11:52:10.815213 | INFO | Exchange info is correct
+2023-11-15 11:52:10.815838 | 2023-11-15 11:52:10.815770 | TRACE | Return ticker
+2023-11-15 11:52:11.524356 | 2023-11-15 11:52:11.524356 | INFO | Ticker is correct
+2023-11-15 11:52:11.524356 | 2023-11-15 11:52:11.524356 | TRACE | Return book
+2023-11-15 11:52:12.257957 | 2023-11-15 11:52:12.257957 | INFO | Book is correct
+2023-11-15 11:52:12.257957 | 2023-11-15 11:52:12.257957 | TRACE | Return balance data
+2023-11-15 11:53:34.795421 | 2023-11-15 11:53:34.794388 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-15 11:53:34.795421 | 2023-11-15 11:53:34.795421 | TRACE | MEXCConnector was created
+2023-11-15 11:53:34.795421 | 2023-11-15 11:53:34.795421 | INFO | Exchange name is correct
+2023-11-15 11:53:34.796004 | 2023-11-15 11:53:34.795951 | TRACE | Checking connection
+2023-11-15 11:53:35.676752 | 2023-11-15 11:53:35.676752 | INFO | Check connection is correct
+2023-11-15 11:53:36.355279 | 2023-11-15 11:53:36.355227 | INFO | Server time is correct: delta = abs(1700042016533 - 1700042016354) < 65536ms
+2023-11-15 11:53:37.706817 | 2023-11-15 11:53:37.706817 | INFO | Exchange info is correct
+2023-11-15 11:53:37.706817 | 2023-11-15 11:53:37.706817 | TRACE | Return ticker
+2023-11-15 11:53:38.497931 | 2023-11-15 11:53:38.497931 | INFO | Ticker is correct
+2023-11-15 11:53:38.497931 | 2023-11-15 11:53:38.497931 | TRACE | Return book
+2023-11-15 11:53:39.251699 | 2023-11-15 11:53:39.251699 | INFO | Book is correct
+2023-11-15 11:53:39.252747 | 2023-11-15 11:53:39.252747 | TRACE | Return balance data
+2023-11-15 11:53:39.939827 | 2023-11-15 11:53:39.939827 | INFO | Balance is correct
+2023-11-15 12:18:41.956457 | 2023-11-15 12:18:41.956457 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-15 12:18:41.956457 | 2023-11-15 12:18:41.956457 | TRACE | MEXCConnector was created
+2023-11-15 12:18:41.957342 | 2023-11-15 12:18:41.957319 | INFO | Exchange name is correct
+2023-11-15 12:18:41.957486 | 2023-11-15 12:18:41.957486 | TRACE | Checking connection
+2023-11-15 12:18:42.737258 | 2023-11-15 12:18:42.737173 | INFO | Check connection is correct
+2023-11-15 12:18:43.422795 | 2023-11-15 12:18:43.422795 | INFO | Server time is correct: delta = abs(1700043523596 - 1700043523422) < 65536ms
+2023-11-15 12:18:44.587674 | 2023-11-15 12:18:44.587674 | INFO | Exchange info is correct
+2023-11-15 12:18:44.588269 | 2023-11-15 12:18:44.588209 | TRACE | Return ticker
+2023-11-15 12:18:45.296566 | 2023-11-15 12:18:45.296566 | INFO | Ticker is correct
+2023-11-15 12:18:45.296566 | 2023-11-15 12:18:45.296566 | TRACE | Return book
+2023-11-15 12:18:46.037664 | 2023-11-15 12:18:46.037664 | INFO | Book is correct
+2023-11-15 12:18:46.037664 | 2023-11-15 12:18:46.037664 | TRACE | Return balance data
+2023-11-15 12:18:46.738731 | 2023-11-15 12:18:46.738731 | INFO | Balance is correct
+2023-11-15 12:19:00.829173 | 2023-11-15 12:19:00.829173 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-15 12:19:00.829173 | 2023-11-15 12:19:00.829173 | TRACE | MEXCConnector was created
+2023-11-15 12:19:00.830170 | 2023-11-15 12:19:00.830170 | INFO | Exchange name is correct
+2023-11-15 12:19:00.830396 | 2023-11-15 12:19:00.830170 | TRACE | Checking connection
+2023-11-15 12:19:01.557982 | 2023-11-15 12:19:01.556974 | INFO | Check connection is correct
+2023-11-15 12:19:02.280249 | 2023-11-15 12:19:02.279144 | INFO | Server time is correct: delta = abs(1700043542445 - 1700043542279) < 65536ms
+2023-11-15 12:19:03.287170 | 2023-11-15 12:19:03.286172 | INFO | Exchange info is correct
+2023-11-15 12:19:03.287170 | 2023-11-15 12:19:03.287170 | TRACE | Return ticker
+2023-11-15 12:19:03.989546 | 2023-11-15 12:19:03.989546 | INFO | Ticker is correct
+2023-11-15 12:19:03.989546 | 2023-11-15 12:19:03.989546 | TRACE | Return book
+2023-11-15 12:19:04.723981 | 2023-11-15 12:19:04.723981 | INFO | Book is correct
+2023-11-15 12:19:04.723981 | 2023-11-15 12:19:04.723981 | TRACE | Return balance data
+2023-11-15 12:19:24.826281 | 2023-11-15 12:19:24.826281 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-15 12:19:24.826281 | 2023-11-15 12:19:24.826281 | TRACE | MEXCConnector was created
+2023-11-15 12:19:24.826725 | 2023-11-15 12:19:24.826725 | INFO | Exchange name is correct
+2023-11-15 12:19:24.826871 | 2023-11-15 12:19:24.826871 | TRACE | Checking connection
+2023-11-15 12:19:25.550382 | 2023-11-15 12:19:25.550382 | INFO | Check connection is correct
+2023-11-15 12:19:26.239346 | 2023-11-15 12:19:26.239346 | INFO | Server time is correct: delta = abs(1700043566405 - 1700043566239) < 65536ms
+2023-11-15 12:19:27.273490 | 2023-11-15 12:19:27.272454 | INFO | Exchange info is correct
+2023-11-15 12:19:27.273490 | 2023-11-15 12:19:27.273490 | TRACE | Return ticker
+2023-11-15 12:19:27.991096 | 2023-11-15 12:19:27.991096 | INFO | Ticker is correct
+2023-11-15 12:19:27.991096 | 2023-11-15 12:19:27.991096 | TRACE | Return book
+2023-11-15 12:19:28.723309 | 2023-11-15 12:19:28.723309 | INFO | Book is correct
+2023-11-15 12:19:28.723309 | 2023-11-15 12:19:28.723309 | TRACE | Return balance data
+2023-11-15 12:20:53.407139 | 2023-11-15 12:20:53.407139 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-15 12:20:53.408147 | 2023-11-15 12:20:53.408147 | TRACE | MEXCConnector was created
+2023-11-15 12:20:53.408318 | 2023-11-15 12:20:53.408318 | INFO | Exchange name is correct
+2023-11-15 12:20:53.408463 | 2023-11-15 12:20:53.408463 | TRACE | Checking connection
+2023-11-15 12:20:54.276112 | 2023-11-15 12:20:54.276112 | INFO | Check connection is correct
+2023-11-15 12:20:54.978390 | 2023-11-15 12:20:54.978390 | INFO | Server time is correct: delta = abs(1700043655145 - 1700043654978) < 65536ms
+2023-11-15 12:20:56.193969 | 2023-11-15 12:20:56.193969 | INFO | Exchange info is correct
+2023-11-15 12:20:56.193969 | 2023-11-15 12:20:56.193969 | TRACE | Return ticker
+2023-11-15 12:20:56.905264 | 2023-11-15 12:20:56.905264 | INFO | Ticker is correct
+2023-11-15 12:20:56.905264 | 2023-11-15 12:20:56.905264 | TRACE | Return book
+2023-11-15 12:20:57.652544 | 2023-11-15 12:20:57.652544 | INFO | Book is correct
+2023-11-15 12:20:57.652544 | 2023-11-15 12:20:57.652544 | TRACE | Return balance data
+2023-11-15 12:20:58.175863 | 2023-11-15 12:20:58.174866 | ERROR | Error getting balance info: Expecting value: line 1 column 1 (char 0)
+2023-11-15 12:21:49.713706 | 2023-11-15 12:21:49.713706 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-15 12:21:49.713706 | 2023-11-15 12:21:49.713706 | TRACE | MEXCConnector was created
+2023-11-15 12:21:49.713706 | 2023-11-15 12:21:49.713706 | INFO | Exchange name is correct
+2023-11-15 12:21:49.714318 | 2023-11-15 12:21:49.714295 | TRACE | Checking connection
+2023-11-15 12:21:50.436336 | 2023-11-15 12:21:50.436336 | INFO | Check connection is correct
+2023-11-15 12:21:51.139557 | 2023-11-15 12:21:51.139557 | INFO | Server time is correct: delta = abs(1700043711309 - 1700043711139) < 65536ms
+2023-11-15 12:21:52.145825 | 2023-11-15 12:21:52.145825 | INFO | Exchange info is correct
+2023-11-15 12:21:52.146824 | 2023-11-15 12:21:52.145825 | TRACE | Return ticker
+2023-11-15 12:21:52.841027 | 2023-11-15 12:21:52.840901 | INFO | Ticker is correct
+2023-11-15 12:21:52.841027 | 2023-11-15 12:21:52.841027 | TRACE | Return book
+2023-11-15 12:21:53.586973 | 2023-11-15 12:21:53.586973 | INFO | Book is correct
+2023-11-15 12:21:53.586973 | 2023-11-15 12:21:53.586973 | TRACE | Return balance data
+2023-11-15 12:21:54.257856 | 2023-11-15 12:21:54.257856 | ERROR | Error getting balance info: Expecting value: line 1 column 1 (char 0)
+2023-11-15 12:22:08.391947 | 2023-11-15 12:22:08.390949 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-15 12:22:08.391947 | 2023-11-15 12:22:08.391947 | TRACE | MEXCConnector was created
+2023-11-15 12:22:08.392267 | 2023-11-15 12:22:08.392267 | INFO | Exchange name is correct
+2023-11-15 12:22:08.392422 | 2023-11-15 12:22:08.392422 | TRACE | Checking connection
+2023-11-15 12:22:09.130721 | 2023-11-15 12:22:09.130721 | INFO | Check connection is correct
+2023-11-15 12:22:09.828221 | 2023-11-15 12:22:09.828221 | INFO | Server time is correct: delta = abs(1700043729999 - 1700043729828) < 65536ms
+2023-11-15 12:22:10.835936 | 2023-11-15 12:22:10.835936 | INFO | Exchange info is correct
+2023-11-15 12:22:10.835936 | 2023-11-15 12:22:10.835936 | TRACE | Return ticker
+2023-11-15 12:22:11.543643 | 2023-11-15 12:22:11.542649 | INFO | Ticker is correct
+2023-11-15 12:22:11.543643 | 2023-11-15 12:22:11.543643 | TRACE | Return book
+2023-11-15 12:22:12.280529 | 2023-11-15 12:22:12.280529 | INFO | Book is correct
+2023-11-15 12:22:12.280529 | 2023-11-15 12:22:12.280529 | TRACE | Return balance data
+2023-11-16 12:26:20.465677 | 2023-11-16 12:26:20.465677 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 12:26:20.466387 | 2023-11-16 12:26:20.465677 | TRACE | MEXCConnector was created
+2023-11-16 12:26:20.466387 | 2023-11-16 12:26:20.466387 | INFO | Exchange name is correct
+2023-11-16 12:26:20.466641 | 2023-11-16 12:26:20.466641 | TRACE | Checking connection
+2023-11-16 12:26:21.483932 | 2023-11-16 12:26:21.483932 | INFO | Check connection is correct
+2023-11-16 12:26:22.206528 | 2023-11-16 12:26:22.206528 | INFO | Server time is correct: delta = abs(1700130381623 - 1700130382206) < 65536ms
+2023-11-16 12:26:23.497802 | 2023-11-16 12:26:23.497802 | INFO | Exchange info is correct
+2023-11-16 12:26:23.497802 | 2023-11-16 12:26:23.497802 | TRACE | Return ticker
+2023-11-16 12:26:24.715497 | 2023-11-16 12:26:24.714501 | INFO | Ticker is correct
+2023-11-16 12:26:24.715497 | 2023-11-16 12:26:24.715497 | TRACE | Return book
+2023-11-16 12:26:25.743058 | 2023-11-16 12:26:25.742026 | INFO | Book is correct
+2023-11-16 12:26:25.743058 | 2023-11-16 12:26:25.743058 | TRACE | Return balance data
+2023-11-16 12:26:39.930800 | 2023-11-16 12:26:39.930800 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 12:26:39.931670 | 2023-11-16 12:26:39.931670 | TRACE | MEXCConnector was created
+2023-11-16 12:26:39.932828 | 2023-11-16 12:26:39.932828 | INFO | Exchange name is correct
+2023-11-16 12:26:39.933056 | 2023-11-16 12:26:39.933056 | TRACE | Checking connection
+2023-11-16 12:26:40.695144 | 2023-11-16 12:26:40.695144 | INFO | Check connection is correct
+2023-11-16 12:26:41.428356 | 2023-11-16 12:26:41.428356 | INFO | Server time is correct: delta = abs(1700130400844 - 1700130401428) < 65536ms
+2023-11-16 12:26:42.923000 | 2023-11-16 12:26:42.923000 | INFO | Exchange info is correct
+2023-11-16 12:26:42.923000 | 2023-11-16 12:26:42.923000 | TRACE | Return ticker
+2023-11-16 12:26:43.687314 | 2023-11-16 12:26:43.687314 | INFO | Ticker is correct
+2023-11-16 12:26:43.688315 | 2023-11-16 12:26:43.688315 | TRACE | Return book
+2023-11-16 12:26:44.917145 | 2023-11-16 12:26:44.916148 | INFO | Book is correct
+2023-11-16 12:26:44.917145 | 2023-11-16 12:26:44.917145 | TRACE | Return balance data
+2023-11-16 12:45:40.804481 | 2023-11-16 12:45:40.804481 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 12:45:40.805478 | 2023-11-16 12:45:40.805478 | TRACE | MEXCConnector was created
+2023-11-16 12:45:40.805478 | 2023-11-16 12:45:40.805478 | INFO | Exchange name is correct
+2023-11-16 12:45:40.806018 | 2023-11-16 12:45:40.806018 | TRACE | Checking connection
+2023-11-16 12:45:41.540151 | 2023-11-16 12:45:41.540151 | INFO | Check connection is correct
+2023-11-16 12:45:42.230930 | 2023-11-16 12:45:42.229928 | INFO | Server time is correct: delta = abs(1700131541657 - 1700131542229) < 65536ms
+2023-11-16 12:45:44.428780 | 2023-11-16 12:45:44.428780 | INFO | Exchange info is correct
+2023-11-16 12:45:44.428780 | 2023-11-16 12:45:44.428780 | TRACE | Return ticker
+2023-11-16 12:45:45.132955 | 2023-11-16 12:45:45.132955 | INFO | Ticker is correct
+2023-11-16 12:45:45.132955 | 2023-11-16 12:45:45.132955 | TRACE | Return book
+2023-11-16 12:45:45.884362 | 2023-11-16 12:45:45.884362 | INFO | Book is correct
+2023-11-16 12:45:45.884362 | 2023-11-16 12:45:45.884362 | TRACE | Return balance data
+2023-11-16 12:45:57.060227 | 2023-11-16 12:45:57.060227 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 12:45:57.060227 | 2023-11-16 12:45:57.060227 | TRACE | MEXCConnector was created
+2023-11-16 12:45:57.061028 | 2023-11-16 12:45:57.061028 | INFO | Exchange name is correct
+2023-11-16 12:45:57.061194 | 2023-11-16 12:45:57.061194 | TRACE | Checking connection
+2023-11-16 12:45:57.782835 | 2023-11-16 12:45:57.782835 | INFO | Check connection is correct
+2023-11-16 12:45:58.469298 | 2023-11-16 12:45:58.469298 | INFO | Server time is correct: delta = abs(1700131557906 - 1700131558469) < 65536ms
+2023-11-16 12:45:59.693223 | 2023-11-16 12:45:59.693223 | INFO | Exchange info is correct
+2023-11-16 12:45:59.693223 | 2023-11-16 12:45:59.693223 | TRACE | Return ticker
+2023-11-16 12:46:00.392976 | 2023-11-16 12:46:00.392976 | INFO | Ticker is correct
+2023-11-16 12:46:00.392976 | 2023-11-16 12:46:00.392976 | TRACE | Return book
+2023-11-16 12:46:01.479561 | 2023-11-16 12:46:01.479561 | INFO | Book is correct
+2023-11-16 12:46:01.479561 | 2023-11-16 12:46:01.479561 | TRACE | Return balance data
+2023-11-16 12:46:18.077877 | 2023-11-16 12:46:18.077877 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 12:46:18.077877 | 2023-11-16 12:46:18.077877 | TRACE | MEXCConnector was created
+2023-11-16 12:46:18.077877 | 2023-11-16 12:46:18.077877 | INFO | Exchange name is correct
+2023-11-16 12:46:18.078653 | 2023-11-16 12:46:18.077877 | TRACE | Checking connection
+2023-11-16 12:46:18.765566 | 2023-11-16 12:46:18.765566 | INFO | Check connection is correct
+2023-11-16 12:46:19.439805 | 2023-11-16 12:46:19.439805 | INFO | Server time is correct: delta = abs(1700131578874 - 1700131579439) < 65536ms
+2023-11-16 12:46:20.656261 | 2023-11-16 12:46:20.656261 | INFO | Exchange info is correct
+2023-11-16 12:46:20.656261 | 2023-11-16 12:46:20.656261 | TRACE | Return ticker
+2023-11-16 12:46:21.395051 | 2023-11-16 12:46:21.395051 | INFO | Ticker is correct
+2023-11-16 12:46:21.396013 | 2023-11-16 12:46:21.395051 | TRACE | Return book
+2023-11-16 12:46:22.154416 | 2023-11-16 12:46:22.154416 | INFO | Book is correct
+2023-11-16 12:46:22.154416 | 2023-11-16 12:46:22.154416 | TRACE | Return balance data
+2023-11-16 13:21:40.263234 | 2023-11-16 13:21:40.263234 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:21:40.263234 | 2023-11-16 13:21:40.263234 | TRACE | MEXCConnector was created
+2023-11-16 13:21:40.263597 | 2023-11-16 13:21:40.263597 | INFO | Exchange name is correct
+2023-11-16 13:21:40.263733 | 2023-11-16 13:21:40.263733 | TRACE | Checking connection
+2023-11-16 13:21:41.051024 | 2023-11-16 13:21:41.051024 | INFO | Check connection is correct
+2023-11-16 13:21:41.737457 | 2023-11-16 13:21:41.737457 | INFO | Server time is correct: delta = abs(1700133701157 - 1700133701737) < 65536ms
+2023-11-16 13:21:43.657233 | 2023-11-16 13:21:43.657233 | INFO | Exchange info is correct
+2023-11-16 13:21:43.658288 | 2023-11-16 13:21:43.658230 | TRACE | Return ticker
+2023-11-16 13:21:44.363812 | 2023-11-16 13:21:44.363812 | INFO | Ticker is correct
+2023-11-16 13:21:44.363812 | 2023-11-16 13:21:44.363812 | TRACE | Return book
+2023-11-16 13:21:45.349764 | 2023-11-16 13:21:45.349764 | INFO | Book is correct
+2023-11-16 13:21:45.349764 | 2023-11-16 13:21:45.349764 | TRACE | Return balance data
+2023-11-16 13:24:02.793635 | 2023-11-16 13:24:02.793635 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:24:02.793635 | 2023-11-16 13:24:02.793635 | TRACE | MEXCConnector was created
+2023-11-16 13:24:02.794632 | 2023-11-16 13:24:02.794606 | INFO | Exchange name is correct
+2023-11-16 13:24:02.794772 | 2023-11-16 13:24:02.794772 | TRACE | Checking connection
+2023-11-16 13:24:03.689585 | 2023-11-16 13:24:03.689585 | INFO | Check connection is correct
+2023-11-16 13:24:04.363654 | 2023-11-16 13:24:04.363654 | INFO | Server time is correct: delta = abs(1700133843786 - 1700133844363) < 65536ms
+2023-11-16 13:24:06.591364 | 2023-11-16 13:24:06.591364 | INFO | Exchange info is correct
+2023-11-16 13:24:06.591364 | 2023-11-16 13:24:06.591364 | TRACE | Return ticker
+2023-11-16 13:24:07.526386 | 2023-11-16 13:24:07.526386 | INFO | Ticker is correct
+2023-11-16 13:24:07.526386 | 2023-11-16 13:24:07.526386 | TRACE | Return book
+2023-11-16 13:24:08.249373 | 2023-11-16 13:24:08.249373 | INFO | Book is correct
+2023-11-16 13:24:08.250435 | 2023-11-16 13:24:08.250435 | TRACE | Return balance data
+2023-11-16 13:24:26.649727 | 2023-11-16 13:24:26.649657 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:24:26.649893 | 2023-11-16 13:24:26.649893 | TRACE | MEXCConnector was created
+2023-11-16 13:24:26.649893 | 2023-11-16 13:24:26.649893 | INFO | Exchange name is correct
+2023-11-16 13:24:26.649893 | 2023-11-16 13:24:26.649893 | TRACE | Checking connection
+2023-11-16 13:24:27.551312 | 2023-11-16 13:24:27.550282 | INFO | Check connection is correct
+2023-11-16 13:24:28.260200 | 2023-11-16 13:24:28.260200 | INFO | Server time is correct: delta = abs(1700133867672 - 1700133868260) < 65536ms
+2023-11-16 13:24:29.744860 | 2023-11-16 13:24:29.744860 | INFO | Exchange info is correct
+2023-11-16 13:24:29.744860 | 2023-11-16 13:24:29.744860 | TRACE | Return ticker
+2023-11-16 13:24:30.461897 | 2023-11-16 13:24:30.461897 | INFO | Ticker is correct
+2023-11-16 13:24:30.461897 | 2023-11-16 13:24:30.461897 | TRACE | Return book
+2023-11-16 13:24:31.209311 | 2023-11-16 13:24:31.209311 | INFO | Book is correct
+2023-11-16 13:24:31.209311 | 2023-11-16 13:24:31.209311 | TRACE | Return balance data
+2023-11-16 13:24:31.903835 | 2023-11-16 13:24:31.903835 | ERROR | Error getting balance info: Expecting value: line 1 column 1 (char 0)
+2023-11-16 13:24:47.840327 | 2023-11-16 13:24:47.840327 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:24:47.840327 | 2023-11-16 13:24:47.840327 | TRACE | MEXCConnector was created
+2023-11-16 13:24:47.841379 | 2023-11-16 13:24:47.840327 | INFO | Exchange name is correct
+2023-11-16 13:24:47.841379 | 2023-11-16 13:24:47.841379 | TRACE | Checking connection
+2023-11-16 13:24:48.590742 | 2023-11-16 13:24:48.590742 | INFO | Check connection is correct
+2023-11-16 13:24:49.270681 | 2023-11-16 13:24:49.270681 | INFO | Server time is correct: delta = abs(1700133888698 - 1700133889270) < 65536ms
+2023-11-16 13:24:50.303954 | 2023-11-16 13:24:50.303954 | INFO | Exchange info is correct
+2023-11-16 13:24:50.304916 | 2023-11-16 13:24:50.304916 | TRACE | Return ticker
+2023-11-16 13:24:51.016801 | 2023-11-16 13:24:51.016801 | INFO | Ticker is correct
+2023-11-16 13:24:51.016801 | 2023-11-16 13:24:51.016801 | TRACE | Return book
+2023-11-16 13:24:51.987331 | 2023-11-16 13:24:51.986284 | INFO | Book is correct
+2023-11-16 13:24:51.987576 | 2023-11-16 13:24:51.987353 | TRACE | Return balance data
+2023-11-16 13:25:12.937122 | 2023-11-16 13:25:12.937122 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:25:12.937122 | 2023-11-16 13:25:12.937122 | TRACE | MEXCConnector was created
+2023-11-16 13:25:12.937122 | 2023-11-16 13:25:12.937122 | INFO | Exchange name is correct
+2023-11-16 13:25:12.937122 | 2023-11-16 13:25:12.937122 | TRACE | Checking connection
+2023-11-16 13:25:13.702344 | 2023-11-16 13:25:13.702344 | INFO | Check connection is correct
+2023-11-16 13:25:14.444692 | 2023-11-16 13:25:14.443653 | INFO | Server time is correct: delta = abs(1700133913863 - 1700133914443) < 65536ms
+2023-11-16 13:25:15.683507 | 2023-11-16 13:25:15.683507 | INFO | Exchange info is correct
+2023-11-16 13:25:15.683507 | 2023-11-16 13:25:15.683507 | TRACE | Return ticker
+2023-11-16 13:25:16.396570 | 2023-11-16 13:25:16.396570 | INFO | Ticker is correct
+2023-11-16 13:25:16.396570 | 2023-11-16 13:25:16.396570 | TRACE | Return book
+2023-11-16 13:25:17.146797 | 2023-11-16 13:25:17.146797 | INFO | Book is correct
+2023-11-16 13:25:17.146797 | 2023-11-16 13:25:17.146797 | TRACE | Return balance data
+2023-11-16 13:25:17.861233 | 2023-11-16 13:25:17.861233 | ERROR | Error getting balance info: Expecting value: line 1 column 1 (char 0)
+2023-11-16 13:25:41.839986 | 2023-11-16 13:25:41.839986 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:25:41.842248 | 2023-11-16 13:25:41.842248 | TRACE | MEXCConnector was created
+2023-11-16 13:25:41.842248 | 2023-11-16 13:25:41.842248 | INFO | Exchange name is correct
+2023-11-16 13:25:41.842248 | 2023-11-16 13:25:41.842248 | TRACE | Checking connection
+2023-11-16 13:25:42.576678 | 2023-11-16 13:25:42.576678 | INFO | Check connection is correct
+2023-11-16 13:25:43.289386 | 2023-11-16 13:25:43.289386 | INFO | Server time is correct: delta = abs(1700133942711 - 1700133943289) < 65536ms
+2023-11-16 13:25:44.519487 | 2023-11-16 13:25:44.519487 | INFO | Exchange info is correct
+2023-11-16 13:25:44.519487 | 2023-11-16 13:25:44.519487 | TRACE | Return ticker
+2023-11-16 13:25:45.475860 | 2023-11-16 13:25:45.475860 | INFO | Ticker is correct
+2023-11-16 13:25:45.476937 | 2023-11-16 13:25:45.476937 | TRACE | Return book
+2023-11-16 13:25:46.216737 | 2023-11-16 13:25:46.216737 | INFO | Book is correct
+2023-11-16 13:25:46.216737 | 2023-11-16 13:25:46.216737 | TRACE | Return balance data
+2023-11-16 13:26:00.060935 | 2023-11-16 13:26:00.060935 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:26:00.060935 | 2023-11-16 13:26:00.060935 | TRACE | MEXCConnector was created
+2023-11-16 13:26:00.061931 | 2023-11-16 13:26:00.061890 | INFO | Exchange name is correct
+2023-11-16 13:26:00.062069 | 2023-11-16 13:26:00.062069 | TRACE | Checking connection
+2023-11-16 13:26:00.778089 | 2023-11-16 13:26:00.778089 | INFO | Check connection is correct
+2023-11-16 13:26:01.471984 | 2023-11-16 13:26:01.471984 | INFO | Server time is correct: delta = abs(1700133960901 - 1700133961471) < 65536ms
+2023-11-16 13:26:03.879353 | 2023-11-16 13:26:03.879353 | INFO | Exchange info is correct
+2023-11-16 13:26:03.880350 | 2023-11-16 13:26:03.879353 | TRACE | Return ticker
+2023-11-16 13:26:04.594679 | 2023-11-16 13:26:04.594679 | INFO | Ticker is correct
+2023-11-16 13:26:04.594679 | 2023-11-16 13:26:04.594679 | TRACE | Return book
+2023-11-16 13:26:05.559061 | 2023-11-16 13:26:05.559061 | INFO | Book is correct
+2023-11-16 13:26:05.560055 | 2023-11-16 13:26:05.560055 | TRACE | Return balance data
+2023-11-16 13:26:25.909472 | 2023-11-16 13:26:25.909472 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:26:25.910016 | 2023-11-16 13:26:25.910016 | TRACE | MEXCConnector was created
+2023-11-16 13:26:25.910016 | 2023-11-16 13:26:25.910016 | INFO | Exchange name is correct
+2023-11-16 13:26:25.910414 | 2023-11-16 13:26:25.910395 | TRACE | Checking connection
+2023-11-16 13:26:26.652128 | 2023-11-16 13:26:26.651093 | INFO | Check connection is correct
+2023-11-16 13:26:27.332124 | 2023-11-16 13:26:27.332124 | INFO | Server time is correct: delta = abs(1700133986756 - 1700133987332) < 65536ms
+2023-11-16 13:26:29.513057 | 2023-11-16 13:26:29.513057 | INFO | Exchange info is correct
+2023-11-16 13:26:29.513057 | 2023-11-16 13:26:29.513057 | TRACE | Return ticker
+2023-11-16 13:26:30.220610 | 2023-11-16 13:26:30.220610 | INFO | Ticker is correct
+2023-11-16 13:26:30.220610 | 2023-11-16 13:26:30.220610 | TRACE | Return book
+2023-11-16 13:26:31.418816 | 2023-11-16 13:26:31.418816 | INFO | Book is correct
+2023-11-16 13:26:31.418816 | 2023-11-16 13:26:31.418816 | TRACE | Return balance data
+2023-11-16 13:33:11.206953 | 2023-11-16 13:33:11.206953 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:33:11.206953 | 2023-11-16 13:33:11.206953 | TRACE | MEXCConnector was created
+2023-11-16 13:33:11.207802 | 2023-11-16 13:33:11.207802 | TRACE | Checking connection
+2023-11-16 13:33:11.962549 | 2023-11-16 13:33:11.962549 | TRACE | Return balance data
+2023-11-16 13:33:40.210166 | 2023-11-16 13:33:40.210166 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:33:40.211160 | 2023-11-16 13:33:40.211160 | TRACE | MEXCConnector was created
+2023-11-16 13:33:40.211160 | 2023-11-16 13:33:40.211160 | TRACE | Checking connection
+2023-11-16 13:33:41.010522 | 2023-11-16 13:33:41.010522 | TRACE | Return balance data
+2023-11-16 13:34:02.738311 | 2023-11-16 13:34:02.738311 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:34:02.739407 | 2023-11-16 13:34:02.739353 | TRACE | MEXCConnector was created
+2023-11-16 13:34:02.739407 | 2023-11-16 13:34:02.739407 | TRACE | Checking connection
+2023-11-16 13:34:03.467713 | 2023-11-16 13:34:03.467713 | TRACE | Return balance data
+2023-11-16 13:38:34.272466 | 2023-11-16 13:38:34.272466 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:38:34.273494 | 2023-11-16 13:38:34.273494 | TRACE | MEXCConnector was created
+2023-11-16 13:38:34.273494 | 2023-11-16 13:38:34.273494 | TRACE | Checking connection
+2023-11-16 13:38:48.683945 | 2023-11-16 13:38:48.683945 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:38:48.683945 | 2023-11-16 13:38:48.683945 | TRACE | MEXCConnector was created
+2023-11-16 13:38:48.683945 | 2023-11-16 13:38:48.683945 | TRACE | Checking connection
+2023-11-16 13:39:01.748864 | 2023-11-16 13:39:01.748864 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:39:01.749867 | 2023-11-16 13:39:01.749867 | TRACE | MEXCConnector was created
+2023-11-16 13:39:01.750099 | 2023-11-16 13:39:01.749867 | TRACE | Checking connection
+2023-11-16 13:40:17.897158 | 2023-11-16 13:40:17.897158 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:40:17.897158 | 2023-11-16 13:40:17.897158 | TRACE | MEXCConnector was created
+2023-11-16 13:40:17.897711 | 2023-11-16 13:40:17.897711 | TRACE | Checking connection
+2023-11-16 13:41:21.571862 | 2023-11-16 13:41:21.571862 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:41:21.572859 | 2023-11-16 13:41:21.572859 | TRACE | MEXCConnector was created
+2023-11-16 13:41:21.572859 | 2023-11-16 13:41:21.572859 | TRACE | Checking connection
+2023-11-16 13:41:41.977170 | 2023-11-16 13:41:41.977170 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:41:41.977170 | 2023-11-16 13:41:41.977170 | TRACE | MEXCConnector was created
+2023-11-16 13:41:41.977837 | 2023-11-16 13:41:41.977837 | TRACE | Checking connection
+2023-11-16 13:43:34.762098 | 2023-11-16 13:43:34.762098 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:43:34.762098 | 2023-11-16 13:43:34.762098 | TRACE | MEXCConnector was created
+2023-11-16 13:43:34.762098 | 2023-11-16 13:43:34.762098 | TRACE | Checking connection
+2023-11-16 13:43:41.926894 | 2023-11-16 13:43:41.926894 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:43:41.926894 | 2023-11-16 13:43:41.926894 | TRACE | MEXCConnector was created
+2023-11-16 13:43:41.926894 | 2023-11-16 13:43:41.926894 | TRACE | Checking connection
+2023-11-16 13:44:24.034968 | 2023-11-16 13:44:24.034968 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:44:24.034968 | 2023-11-16 13:44:24.034968 | TRACE | MEXCConnector was created
+2023-11-16 13:44:24.035874 | 2023-11-16 13:44:24.035874 | TRACE | Checking connection
+2023-11-16 13:45:05.108234 | 2023-11-16 13:45:05.108234 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:45:05.108234 | 2023-11-16 13:45:05.108234 | TRACE | MEXCConnector was created
+2023-11-16 13:45:05.109097 | 2023-11-16 13:45:05.109097 | TRACE | Checking connection
+2023-11-16 13:50:16.218623 | 2023-11-16 13:50:16.218623 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:50:16.218623 | 2023-11-16 13:50:16.218623 | TRACE | MEXCConnector was created
+2023-11-16 13:50:16.219170 | 2023-11-16 13:50:16.219170 | TRACE | Checking connection
+2023-11-16 13:50:28.365408 | 2023-11-16 13:50:28.365408 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:50:28.365408 | 2023-11-16 13:50:28.365408 | TRACE | MEXCConnector was created
+2023-11-16 13:50:28.365897 | 2023-11-16 13:50:28.365408 | TRACE | Checking connection
+2023-11-16 13:51:03.770410 | 2023-11-16 13:51:03.770410 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:51:03.771388 | 2023-11-16 13:51:03.771388 | TRACE | MEXCConnector was created
+2023-11-16 13:51:03.771560 | 2023-11-16 13:51:03.771388 | TRACE | Checking connection
+2023-11-16 13:51:14.544365 | 2023-11-16 13:51:14.544365 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:51:14.544365 | 2023-11-16 13:51:14.544365 | TRACE | MEXCConnector was created
+2023-11-16 13:51:14.544365 | 2023-11-16 13:51:14.544365 | TRACE | Checking connection
+2023-11-16 13:51:32.574472 | 2023-11-16 13:51:32.574472 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:51:32.574472 | 2023-11-16 13:51:32.574472 | TRACE | MEXCConnector was created
+2023-11-16 13:51:32.574909 | 2023-11-16 13:51:32.574472 | TRACE | Checking connection
+2023-11-16 13:51:40.099369 | 2023-11-16 13:51:40.099369 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:51:40.100367 | 2023-11-16 13:51:40.100367 | TRACE | MEXCConnector was created
+2023-11-16 13:51:40.100367 | 2023-11-16 13:51:40.100367 | TRACE | Checking connection
+2023-11-16 13:51:54.688202 | 2023-11-16 13:51:54.688202 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:51:54.688202 | 2023-11-16 13:51:54.688202 | TRACE | MEXCConnector was created
+2023-11-16 13:51:54.688202 | 2023-11-16 13:51:54.688202 | TRACE | Checking connection
+2023-11-16 13:52:09.968673 | 2023-11-16 13:52:09.968673 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:52:09.969297 | 2023-11-16 13:52:09.968673 | TRACE | MEXCConnector was created
+2023-11-16 13:52:09.969297 | 2023-11-16 13:52:09.969297 | TRACE | Checking connection
+2023-11-16 13:52:20.874619 | 2023-11-16 13:52:20.874619 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:52:20.874619 | 2023-11-16 13:52:20.874619 | TRACE | MEXCConnector was created
+2023-11-16 13:52:20.874619 | 2023-11-16 13:52:20.874619 | TRACE | Checking connection
+2023-11-16 13:52:28.448559 | 2023-11-16 13:52:28.448559 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:52:28.448559 | 2023-11-16 13:52:28.448559 | TRACE | MEXCConnector was created
+2023-11-16 13:52:28.448559 | 2023-11-16 13:52:28.448559 | TRACE | Checking connection
+2023-11-16 13:52:35.839178 | 2023-11-16 13:52:35.839178 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:52:35.839178 | 2023-11-16 13:52:35.839178 | TRACE | MEXCConnector was created
+2023-11-16 13:52:35.839612 | 2023-11-16 13:52:35.839612 | TRACE | Checking connection
+2023-11-16 13:52:43.586182 | 2023-11-16 13:52:43.586182 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:52:43.586182 | 2023-11-16 13:52:43.586182 | TRACE | MEXCConnector was created
+2023-11-16 13:52:43.586182 | 2023-11-16 13:52:43.586182 | TRACE | Checking connection
+2023-11-16 13:55:50.837842 | 2023-11-16 13:55:50.837842 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:55:50.837842 | 2023-11-16 13:55:50.837842 | TRACE | MEXCConnector was created
+2023-11-16 13:55:50.838363 | 2023-11-16 13:55:50.837842 | TRACE | Checking connection
+2023-11-16 13:56:08.138731 | 2023-11-16 13:56:08.138731 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:56:08.141020 | 2023-11-16 13:56:08.141020 | TRACE | MEXCConnector was created
+2023-11-16 13:56:08.141020 | 2023-11-16 13:56:08.141020 | TRACE | Checking connection
+2023-11-16 13:56:19.345809 | 2023-11-16 13:56:19.345809 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:56:19.346808 | 2023-11-16 13:56:19.345809 | TRACE | MEXCConnector was created
+2023-11-16 13:56:19.346906 | 2023-11-16 13:56:19.346906 | TRACE | Checking connection
+2023-11-16 13:56:42.772878 | 2023-11-16 13:56:42.772878 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 13:56:42.773910 | 2023-11-16 13:56:42.773910 | TRACE | MEXCConnector was created
+2023-11-16 13:56:42.773910 | 2023-11-16 13:56:42.773910 | TRACE | Checking connection
+2023-11-16 14:26:44.601455 | 2023-11-16 14:26:44.601455 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:26:44.601455 | 2023-11-16 14:26:44.601455 | TRACE | MEXCConnector was created
+2023-11-16 14:26:44.601850 | 2023-11-16 14:26:44.601850 | TRACE | Checking connection
+2023-11-16 14:30:05.053281 | 2023-11-16 14:30:05.053281 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:30:05.053895 | 2023-11-16 14:30:05.053895 | TRACE | MEXCConnector was created
+2023-11-16 14:30:05.054279 | 2023-11-16 14:30:05.054279 | TRACE | Checking connection
+2023-11-16 14:31:27.936180 | 2023-11-16 14:31:27.936180 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:31:27.936667 | 2023-11-16 14:31:27.936667 | TRACE | MEXCConnector was created
+2023-11-16 14:31:27.936667 | 2023-11-16 14:31:27.936667 | TRACE | Checking connection
+2023-11-16 14:32:49.657841 | 2023-11-16 14:32:49.657841 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:32:49.658875 | 2023-11-16 14:32:49.658875 | TRACE | MEXCConnector was created
+2023-11-16 14:32:49.658875 | 2023-11-16 14:32:49.658875 | TRACE | Checking connection
+2023-11-16 14:33:32.784004 | 2023-11-16 14:33:32.784004 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:33:32.784004 | 2023-11-16 14:33:32.784004 | TRACE | MEXCConnector was created
+2023-11-16 14:33:32.785018 | 2023-11-16 14:33:32.785018 | TRACE | Checking connection
+2023-11-16 14:35:42.649085 | 2023-11-16 14:35:42.649085 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:35:42.649085 | 2023-11-16 14:35:42.649085 | TRACE | MEXCConnector was created
+2023-11-16 14:35:42.649804 | 2023-11-16 14:35:42.649804 | TRACE | Checking connection
+2023-11-16 14:40:18.046370 | 2023-11-16 14:40:18.046370 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:40:18.047296 | 2023-11-16 14:40:18.046370 | TRACE | MEXCConnector was created
+2023-11-16 14:40:18.047367 | 2023-11-16 14:40:18.047367 | TRACE | Checking connection
+2023-11-16 14:40:53.192987 | 2023-11-16 14:40:53.192987 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:40:53.192987 | 2023-11-16 14:40:53.192987 | TRACE | MEXCConnector was created
+2023-11-16 14:40:53.193984 | 2023-11-16 14:40:53.193936 | TRACE | Checking connection
+2023-11-16 14:41:17.231943 | 2023-11-16 14:41:17.231943 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:41:17.231943 | 2023-11-16 14:41:17.231943 | TRACE | MEXCConnector was created
+2023-11-16 14:41:17.233002 | 2023-11-16 14:41:17.233002 | TRACE | Checking connection
+2023-11-16 14:41:33.774492 | 2023-11-16 14:41:33.774492 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:41:33.775643 | 2023-11-16 14:41:33.775643 | TRACE | MEXCConnector was created
+2023-11-16 14:41:33.775643 | 2023-11-16 14:41:33.775643 | TRACE | Checking connection
+2023-11-16 14:41:47.367500 | 2023-11-16 14:41:47.367500 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:41:47.367500 | 2023-11-16 14:41:47.367500 | TRACE | MEXCConnector was created
+2023-11-16 14:41:47.367500 | 2023-11-16 14:41:47.367500 | TRACE | Checking connection
+2023-11-16 14:41:56.316990 | 2023-11-16 14:41:56.316990 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:41:56.317985 | 2023-11-16 14:41:56.317985 | TRACE | MEXCConnector was created
+2023-11-16 14:41:56.317985 | 2023-11-16 14:41:56.317985 | TRACE | Checking connection
+2023-11-16 14:42:15.284082 | 2023-11-16 14:42:15.284082 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:42:15.284082 | 2023-11-16 14:42:15.284082 | TRACE | MEXCConnector was created
+2023-11-16 14:42:15.284082 | 2023-11-16 14:42:15.284082 | TRACE | Checking connection
+2023-11-16 14:42:33.727970 | 2023-11-16 14:42:33.727970 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:42:33.727970 | 2023-11-16 14:42:33.727970 | TRACE | MEXCConnector was created
+2023-11-16 14:42:33.727970 | 2023-11-16 14:42:33.727970 | TRACE | Checking connection
+2023-11-16 14:42:49.113470 | 2023-11-16 14:42:49.113470 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:42:49.113470 | 2023-11-16 14:42:49.113470 | TRACE | MEXCConnector was created
+2023-11-16 14:42:49.113470 | 2023-11-16 14:42:49.113470 | TRACE | Checking connection
+2023-11-16 14:42:54.755903 | 2023-11-16 14:42:54.755903 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:42:54.755903 | 2023-11-16 14:42:54.755903 | TRACE | MEXCConnector was created
+2023-11-16 14:42:54.755903 | 2023-11-16 14:42:54.755903 | TRACE | Checking connection
+2023-11-16 14:43:40.977403 | 2023-11-16 14:43:40.977403 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:44:08.059903 | 2023-11-16 14:44:08.059903 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:44:08.060557 | 2023-11-16 14:44:08.059903 | TRACE | MEXCConnector was created
+2023-11-16 14:44:08.060557 | 2023-11-16 14:44:08.060557 | TRACE | Checking connection
+2023-11-16 14:45:23.912627 | 2023-11-16 14:45:23.912627 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:45:23.913676 | 2023-11-16 14:45:23.912627 | TRACE | MEXCConnector was created
+2023-11-16 14:45:23.913867 | 2023-11-16 14:45:23.913676 | TRACE | Checking connection
+2023-11-16 14:50:21.296071 | 2023-11-16 14:50:21.296071 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:50:35.830223 | 2023-11-16 14:50:35.830223 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 14:50:35.831221 | 2023-11-16 14:50:35.831221 | TRACE | MEXCConnector was created
+2023-11-16 14:50:35.832219 | 2023-11-16 14:50:35.832219 | TRACE | Checking connection
+2023-11-16 17:01:08.176557 | 2023-11-16 17:01:08.176557 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:01:08.176557 | 2023-11-16 17:01:08.176557 | TRACE | MEXCConnector was created
+2023-11-16 17:01:08.177443 | 2023-11-16 17:01:08.177301 | TRACE | Checking connection
+2023-11-16 17:01:40.718452 | 2023-11-16 17:01:40.718452 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:01:40.719324 | 2023-11-16 17:01:40.718452 | TRACE | MEXCConnector was created
+2023-11-16 17:01:40.719522 | 2023-11-16 17:01:40.719522 | TRACE | Checking connection
+2023-11-16 17:02:48.544847 | 2023-11-16 17:02:48.544847 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:02:48.545776 | 2023-11-16 17:02:48.544847 | TRACE | MEXCConnector was created
+2023-11-16 17:02:48.545844 | 2023-11-16 17:02:48.545844 | TRACE | Checking connection
+2023-11-16 17:03:34.727729 | 2023-11-16 17:03:34.727729 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:03:34.728499 | 2023-11-16 17:03:34.728380 | TRACE | MEXCConnector was created
+2023-11-16 17:03:34.728726 | 2023-11-16 17:03:34.728649 | TRACE | Checking connection
+2023-11-16 17:04:32.065795 | 2023-11-16 17:04:32.065795 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:04:32.065795 | 2023-11-16 17:04:32.065795 | TRACE | MEXCConnector was created
+2023-11-16 17:04:32.066290 | 2023-11-16 17:04:32.066290 | TRACE | Checking connection
+2023-11-16 17:04:53.175575 | 2023-11-16 17:04:53.175575 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:04:53.176773 | 2023-11-16 17:04:53.176572 | TRACE | MEXCConnector was created
+2023-11-16 17:04:53.176893 | 2023-11-16 17:04:53.176893 | TRACE | Checking connection
+2023-11-16 17:07:57.939527 | 2023-11-16 17:07:57.939527 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:07:57.940525 | 2023-11-16 17:07:57.939527 | TRACE | MEXCConnector was created
+2023-11-16 17:07:57.940525 | 2023-11-16 17:07:57.940525 | TRACE | Checking connection
+2023-11-16 17:09:12.673325 | 2023-11-16 17:09:12.673325 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:09:12.673325 | 2023-11-16 17:09:12.673325 | TRACE | MEXCConnector was created
+2023-11-16 17:09:12.675271 | 2023-11-16 17:09:12.674295 | TRACE | Checking connection
+2023-11-16 17:09:24.710399 | 2023-11-16 17:09:24.710399 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'wbs.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:09:24.710399 | 2023-11-16 17:09:24.710399 | TRACE | MEXCConnector was created
+2023-11-16 17:11:39.833248 | 2023-11-16 17:11:39.833248 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:11:39.833248 | 2023-11-16 17:11:39.833248 | TRACE | MEXCConnector was created
+2023-11-16 17:12:24.034100 | 2023-11-16 17:12:24.034100 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:12:24.035098 | 2023-11-16 17:12:24.035098 | TRACE | MEXCConnector was created
+2023-11-16 17:23:46.497289 | 2023-11-16 17:23:46.497289 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:28:31.413982 | 2023-11-16 17:28:31.413982 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:28:31.413982 | 2023-11-16 17:28:31.413982 | TRACE | MEXCConnector was created
+2023-11-16 17:32:50.128173 | 2023-11-16 17:32:50.128173 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:32:50.129173 | 2023-11-16 17:32:50.129173 | TRACE | MEXCConnector was created
+2023-11-16 17:33:50.225919 | 2023-11-16 17:33:50.225919 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:33:50.226918 | 2023-11-16 17:33:50.226918 | TRACE | MEXCConnector was created
+2023-11-16 17:34:06.571001 | 2023-11-16 17:34:06.570004 | DEBUG | {'key': 'mx0aBYs33eIilxBWC5', 'secret': '45d0b3c26f2644f19bfb98b07741b2f5', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:34:06.571001 | 2023-11-16 17:34:06.571001 | TRACE | MEXCConnector was created
+2023-11-16 17:41:34.189765 | 2023-11-16 17:41:34.189765 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:41:34.190057 | 2023-11-16 17:41:34.190057 | TRACE | MEXCConnector was created
+2023-11-16 17:42:15.645790 | 2023-11-16 17:42:15.645790 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:42:15.645790 | 2023-11-16 17:42:15.645790 | TRACE | MEXCConnector was created
+2023-11-16 17:42:15.646639 | 2023-11-16 17:42:15.645790 | INFO | Exchange name is correct
+2023-11-16 17:42:15.646790 | 2023-11-16 17:42:15.646774 | TRACE | Checking connection
+2023-11-16 17:42:17.573026 | 2023-11-16 17:42:17.572029 | INFO | Check connection is correct
+2023-11-16 17:42:21.158880 | 2023-11-16 17:42:21.158880 | INFO | Server time is correct: delta = abs(1700149340511 - 1700149341158) < 65536ms
+2023-11-16 17:42:25.754082 | 2023-11-16 17:42:25.754082 | INFO | Exchange info is correct
+2023-11-16 17:42:25.754082 | 2023-11-16 17:42:25.754082 | TRACE | Return ticker
+2023-11-16 17:42:27.469877 | 2023-11-16 17:42:27.469877 | INFO | Ticker is correct
+2023-11-16 17:42:27.469877 | 2023-11-16 17:42:27.469877 | TRACE | Return book
+2023-11-16 17:42:28.220088 | 2023-11-16 17:42:28.220088 | INFO | Book is correct
+2023-11-16 17:42:28.221055 | 2023-11-16 17:42:28.220088 | TRACE | Return balance data
+2023-11-16 17:43:05.359773 | 2023-11-16 17:43:05.359773 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:43:05.359773 | 2023-11-16 17:43:05.359773 | TRACE | MEXCConnector was created
+2023-11-16 17:43:05.361076 | 2023-11-16 17:43:05.361076 | INFO | Exchange name is correct
+2023-11-16 17:43:05.361330 | 2023-11-16 17:43:05.361330 | TRACE | Checking connection
+2023-11-16 17:43:06.149570 | 2023-11-16 17:43:06.149570 | INFO | Check connection is correct
+2023-11-16 17:43:06.834415 | 2023-11-16 17:43:06.833458 | INFO | Server time is correct: delta = abs(1700149386208 - 1700149386833) < 65536ms
+2023-11-16 17:43:07.842227 | 2023-11-16 17:43:07.842227 | INFO | Exchange info is correct
+2023-11-16 17:43:07.843481 | 2023-11-16 17:43:07.843224 | TRACE | Return ticker
+2023-11-16 17:43:08.560540 | 2023-11-16 17:43:08.560540 | INFO | Ticker is correct
+2023-11-16 17:43:08.561143 | 2023-11-16 17:43:08.560540 | TRACE | Return book
+2023-11-16 17:43:09.307657 | 2023-11-16 17:43:09.307657 | INFO | Book is correct
+2023-11-16 17:43:09.307657 | 2023-11-16 17:43:09.307657 | TRACE | Return balance data
+2023-11-16 17:43:41.918089 | 2023-11-16 17:43:41.918089 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:43:41.918089 | 2023-11-16 17:43:41.918089 | TRACE | MEXCConnector was created

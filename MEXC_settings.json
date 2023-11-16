@@ -1,6 +1,6 @@
 {
-    "key": "mx0aBYs33eIilxBWC5",
-    "secret": "45d0b3c26f2644f19bfb98b07741b2f5",
+    "key": "mx0vglWmEenQD2ddFS",
+    "secret": "8cddcb236e9944e7919ba7fddc6ba782",
     "url": "https://api.mexc.com",
     "wss": "wss://wbs.mexc.com/ws",
     "type_of_full_subscription": "orderBookL2",

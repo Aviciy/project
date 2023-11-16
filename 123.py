@@ -20,7 +20,7 @@ if __name__ == '__main__':
     logger.debug(settings)
 
     connector: Connector = MEXC.Connector(logger, settings)
-    connector.get_name()
-    connector.check_connection()
-    connector.get_balances()
+
+    print(connector.balances())
+
 input('Press Enter to continue...')

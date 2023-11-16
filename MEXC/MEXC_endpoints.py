@@ -3,6 +3,7 @@ from strenum import StrEnum
 
 class MEXCEndpoints(StrEnum):
     """MEXC API endpoints"""
+
     # Base Endpoint
     BASE = 'https://api.mexc.com'
 
@@ -12,7 +13,7 @@ class MEXCEndpoints(StrEnum):
     EXCHANGE_INFO = 'https://api.mexc.com/api/v3/exchangeInfo'
     TICKER = 'https://api.mexc.com/api/v3/ticker/price'
     BOOK_TICKER = 'https://api.mexc.com/api/v3/ticker/bookTicker'
-    BALANCES = 'https://api/v3/capital/config/getall'
+    BALANCES = 'https://api.mexc.com/open/api/v2/account/info'
 
     # Private
     ACCOUNT = 'https://api.mexc.com/api/v2/account'
