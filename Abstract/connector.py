@@ -28,7 +28,7 @@ class Connector(metaclass=ABCMeta):
         raise NotImplementedError
 
     @abstractmethod
-    def get_ticker(self, symbol: str) -> float | None:
+    def get_ticker(self, symbol: str) -> dict | None:
         """return current symbol market price"""
         raise NotImplementedError
 
@@ -40,11 +40,4 @@ class Connector(metaclass=ABCMeta):
     @abstractmethod
     def get_balances(self) -> dict | None:
         """Returns balance information"""
-        raise NotImplementedError
-
-    @abstractmethod
-    def balances(self) -> dict:
-        raise NotImplementedError
-    @abstractmethod
-    def get_timestamp(self) -> str:
         raise NotImplementedError

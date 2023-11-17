@@ -936,3 +936,104 @@
 2023-11-16 17:43:09.307657 | 2023-11-16 17:43:09.307657 | TRACE | Return balance data
 2023-11-16 17:43:41.918089 | 2023-11-16 17:43:41.918089 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
 2023-11-16 17:43:41.918089 | 2023-11-16 17:43:41.918089 | TRACE | MEXCConnector was created
+2023-11-16 17:56:45.420237 | 2023-11-16 17:56:45.420237 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 17:56:45.420237 | 2023-11-16 17:56:45.420237 | TRACE | MEXCConnector was created
+2023-11-16 18:00:53.327207 | 2023-11-16 18:00:53.327207 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 18:00:53.328205 | 2023-11-16 18:00:53.328205 | TRACE | MEXCConnector was created
+2023-11-16 20:38:37.695959 | 2023-11-16 20:38:37.695959 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 20:38:37.695959 | 2023-11-16 20:38:37.695959 | TRACE | MEXCConnector was created
+2023-11-16 20:38:51.602016 | 2023-11-16 20:38:51.602016 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 20:38:51.602016 | 2023-11-16 20:38:51.602016 | TRACE | MEXCConnector was created
+2023-11-16 20:39:02.509972 | 2023-11-16 20:39:02.509972 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 20:39:02.510970 | 2023-11-16 20:39:02.510970 | TRACE | MEXCConnector was created
+2023-11-16 20:39:02.510970 | 2023-11-16 20:39:02.510970 | INFO | Exchange name is correct
+2023-11-16 20:39:02.511516 | 2023-11-16 20:39:02.511479 | TRACE | Checking connection
+2023-11-16 20:39:03.233944 | 2023-11-16 20:39:03.233944 | INFO | Check connection is correct
+2023-11-16 20:39:03.916192 | 2023-11-16 20:39:03.916192 | INFO | Server time is correct: delta = abs(1700159943255 - 1700159943916) < 65536ms
+2023-11-16 20:39:04.745641 | 2023-11-16 20:39:04.745641 | INFO | Exchange info is correct
+2023-11-16 20:39:04.745641 | 2023-11-16 20:39:04.745641 | TRACE | Return ticker
+2023-11-16 20:39:05.463561 | 2023-11-16 20:39:05.463561 | INFO | Ticker is correct
+2023-11-16 20:39:05.463561 | 2023-11-16 20:39:05.463561 | TRACE | Return book
+2023-11-16 20:39:06.229908 | 2023-11-16 20:39:06.229908 | INFO | Book is correct
+2023-11-16 20:39:06.229908 | 2023-11-16 20:39:06.229908 | TRACE | Return balance data
+2023-11-16 20:39:38.981895 | 2023-11-16 20:39:38.981895 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 20:39:38.981895 | 2023-11-16 20:39:38.981895 | TRACE | MEXCConnector was created
+2023-11-16 20:39:38.982472 | 2023-11-16 20:39:38.981895 | INFO | Exchange name is correct
+2023-11-16 20:39:38.982472 | 2023-11-16 20:39:38.982472 | TRACE | Checking connection
+2023-11-16 20:39:39.722140 | 2023-11-16 20:39:39.721900 | INFO | Check connection is correct
+2023-11-16 20:39:40.412147 | 2023-11-16 20:39:40.411157 | INFO | Server time is correct: delta = abs(1700159979751 - 1700159980411) < 65536ms
+2023-11-16 20:39:41.433751 | 2023-11-16 20:39:41.433751 | INFO | Exchange info is correct
+2023-11-16 20:39:41.434717 | 2023-11-16 20:39:41.433751 | TRACE | Return ticker
+2023-11-16 20:39:42.153809 | 2023-11-16 20:39:42.153809 | INFO | Ticker is correct
+2023-11-16 20:39:42.153809 | 2023-11-16 20:39:42.153809 | TRACE | Return book
+2023-11-16 20:39:42.903519 | 2023-11-16 20:39:42.903519 | INFO | Book is correct
+2023-11-16 20:39:42.904548 | 2023-11-16 20:39:42.904548 | TRACE | Return balance data
+2023-11-16 20:39:43.603884 | 2023-11-16 20:39:43.603884 | INFO | Balance is correct
+2023-11-16 20:40:35.870287 | 2023-11-16 20:40:35.870287 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 20:40:35.870287 | 2023-11-16 20:40:35.870287 | TRACE | MEXCConnector was created
+2023-11-16 20:40:35.870947 | 2023-11-16 20:40:35.870947 | INFO | Exchange name is correct
+2023-11-16 20:40:35.871137 | 2023-11-16 20:40:35.871063 | TRACE | Checking connection
+2023-11-16 20:40:36.668010 | 2023-11-16 20:40:36.668010 | INFO | Check connection is correct
+2023-11-16 20:40:37.385330 | 2023-11-16 20:40:37.385330 | INFO | Server time is correct: delta = abs(1700160036732 - 1700160037385) < 65536ms
+2023-11-16 20:40:38.533891 | 2023-11-16 20:40:38.532831 | INFO | Exchange info is correct
+2023-11-16 20:40:38.533891 | 2023-11-16 20:40:38.533891 | TRACE | Return ticker
+2023-11-16 20:40:39.266541 | 2023-11-16 20:40:39.266541 | INFO | Ticker is correct
+2023-11-16 20:40:39.266541 | 2023-11-16 20:40:39.266541 | TRACE | Return book
+2023-11-16 20:40:40.064905 | 2023-11-16 20:40:40.064905 | INFO | Book is correct
+2023-11-16 20:40:40.065911 | 2023-11-16 20:40:40.064905 | TRACE | Return balance data
+2023-11-16 20:40:40.799703 | 2023-11-16 20:40:40.799703 | INFO | Balance is correct
+2023-11-16 20:42:12.117933 | 2023-11-16 20:42:12.117933 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 20:42:12.117933 | 2023-11-16 20:42:12.117933 | TRACE | MEXCConnector was created
+2023-11-16 20:42:12.117933 | 2023-11-16 20:42:12.117933 | INFO | Exchange name is correct
+2023-11-16 20:42:12.118972 | 2023-11-16 20:42:12.118972 | TRACE | Checking connection
+2023-11-16 20:42:12.850515 | 2023-11-16 20:42:12.850515 | INFO | Check connection is correct
+2023-11-16 20:42:13.690992 | 2023-11-16 20:42:13.689995 | INFO | Server time is correct: delta = abs(1700160133029 - 1700160133689) < 65536ms
+2023-11-16 20:42:15.932345 | 2023-11-16 20:42:15.932345 | INFO | Exchange info is correct
+2023-11-16 20:42:15.932345 | 2023-11-16 20:42:15.932345 | TRACE | Return ticker
+2023-11-16 20:42:16.653779 | 2023-11-16 20:42:16.653779 | INFO | Ticker is correct
+2023-11-16 20:42:16.653779 | 2023-11-16 20:42:16.653779 | TRACE | Return book
+2023-11-16 20:42:17.861191 | 2023-11-16 20:42:17.861191 | INFO | Book is correct
+2023-11-16 20:42:17.862149 | 2023-11-16 20:42:17.862149 | TRACE | Return balance data
+2023-11-16 20:42:18.579379 | 2023-11-16 20:42:18.578420 | INFO | Balance is correct
+2023-11-16 20:43:05.682409 | 2023-11-16 20:43:05.682409 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-16 20:43:05.683485 | 2023-11-16 20:43:05.682409 | TRACE | MEXCConnector was created
+2023-11-16 20:43:05.683485 | 2023-11-16 20:43:05.683485 | INFO | Exchange name is correct
+2023-11-16 20:43:05.683485 | 2023-11-16 20:43:05.683485 | TRACE | Checking connection
+2023-11-16 20:43:16.041199 | 2023-11-16 20:43:16.041199 | INFO | Check connection is correct
+2023-11-16 20:43:17.794704 | 2023-11-16 20:43:17.793710 | INFO | Server time is correct: delta = abs(1700160197131 - 1700160197793) < 65536ms
+2023-11-16 20:43:21.240851 | 2023-11-16 20:43:21.240851 | INFO | Exchange info is correct
+2023-11-16 20:43:21.240851 | 2023-11-16 20:43:21.240851 | TRACE | Return ticker
+2023-11-16 20:43:22.363869 | 2023-11-16 20:43:22.363869 | INFO | Ticker is correct
+2023-11-16 20:43:22.363869 | 2023-11-16 20:43:22.363869 | TRACE | Return book
+2023-11-16 20:43:23.180288 | 2023-11-16 20:43:23.180288 | INFO | Book is correct
+2023-11-16 20:43:23.180288 | 2023-11-16 20:43:23.180288 | TRACE | Return balance data
+2023-11-16 20:43:23.881364 | 2023-11-16 20:43:23.881364 | INFO | Balance is correct
+2023-11-17 17:07:41.941746 | 2023-11-17 17:07:41.941746 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-17 17:07:48.819453 | 2023-11-17 17:07:48.819453 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-17 17:08:14.759110 | 2023-11-17 17:08:14.759110 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-17 17:08:30.363787 | 2023-11-17 17:08:30.363787 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-17 17:08:30.363787 | 2023-11-17 17:08:30.363787 | TRACE | MEXCConnector was created
+2023-11-17 17:08:30.363787 | 2023-11-17 17:08:30.363787 | INFO | Exchange name is correct
+2023-11-17 17:08:30.363787 | 2023-11-17 17:08:30.363787 | TRACE | Checking connection
+2023-11-17 17:08:31.306114 | 2023-11-17 17:08:31.306114 | INFO | Check connection is correct
+2023-11-17 17:08:31.990150 | 2023-11-17 17:08:31.990150 | INFO | Server time is correct: delta = abs(1700233711619 - 1700233711990) < 65536ms
+2023-11-17 17:08:32.970820 | 2023-11-17 17:08:32.969823 | INFO | Exchange info is correct
+2023-11-17 17:08:32.970820 | 2023-11-17 17:08:32.970820 | TRACE | Return ticker
+2023-11-17 17:08:33.711844 | 2023-11-17 17:08:33.710847 | INFO | Ticker is correct
+2023-11-17 17:08:33.711844 | 2023-11-17 17:08:33.711844 | TRACE | Return book
+2023-11-17 17:08:34.436049 | 2023-11-17 17:08:34.436049 | INFO | Book is correct
+2023-11-17 17:08:34.436049 | 2023-11-17 17:08:34.436049 | TRACE | Return balance data
+2023-11-17 17:08:35.139089 | 2023-11-17 17:08:35.139089 | INFO | Balance is correct
+2023-11-17 17:11:59.081945 | 2023-11-17 17:11:59.080946 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-17 17:11:59.081945 | 2023-11-17 17:11:59.081945 | TRACE | MEXCConnector was created
+2023-11-17 17:11:59.081945 | 2023-11-17 17:11:59.081945 | INFO | Exchange name is correct
+2023-11-17 17:11:59.081945 | 2023-11-17 17:11:59.081945 | TRACE | Checking connection
+2023-11-17 17:11:59.804275 | 2023-11-17 17:11:59.804275 | INFO | Check connection is correct
+2023-11-17 17:12:00.970277 | 2023-11-17 17:12:00.970277 | INFO | Server time is correct: delta = abs(1700233920602 - 1700233920970) < 65536ms
+2023-11-17 17:12:01.978062 | 2023-11-17 17:12:01.978062 | INFO | Exchange info is correct
+2023-11-17 17:12:01.978062 | 2023-11-17 17:12:01.978062 | TRACE | Return ticker
+2023-11-17 17:12:02.692809 | 2023-11-17 17:12:02.691819 | INFO | Ticker is correct
+2023-11-17 17:12:02.692809 | 2023-11-17 17:12:02.692809 | TRACE | Return book
+2023-11-17 17:12:03.874614 | 2023-11-17 17:12:03.874614 | INFO | Book is correct
+2023-11-17 17:12:03.875612 | 2023-11-17 17:12:03.875612 | TRACE | Return balance data
+2023-11-17 17:12:04.582888 | 2023-11-17 17:12:04.582888 | INFO | Balance is correct
