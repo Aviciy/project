@@ -7,6 +7,7 @@ from Abstract.logger import Logger
 from Loggers.composite_logger import CompositeLogger
 from Loggers.console_logger import ConsoleLogger
 from Loggers.file_logger import FileLogger
+from MEXC.MEXC_connector import Stream
 
 console_logger: Logger = ConsoleLogger()
 file_logger: Logger = FileLogger('log.txt')
@@ -43,8 +44,13 @@ if __name__ == '__main__':
     assert connector.get_book('BTCUSDT') is not None, 'Book error'
     logger.info('Book is correct')
 
-    assert connector.get_balances() is not None, 'Balance error'
-    logger.info('Balance is correct')
+    # assert connector.get_balances() is not None, 'Balance error'
+    # logger.info('Balance is correct')
+    balances = connector.get_balances()
+    assert balances is not None, 'Balance error'
+    logger.info(f'balances: {balances}')
 
+    your_instance = Stream()
+    your_instance.subscribe_to_stream()
 
 input('Press Enter to continue...')

@@ -38,6 +38,18 @@ class Connector(metaclass=ABCMeta):
         raise NotImplementedError
 
     @abstractmethod
-    def get_balances(self) -> dict | None:
+    def get_balances(self) -> object | None:
         """Returns balance information"""
         raise NotImplementedError
+
+
+class Stream(metaclass=ABCMeta):
+    __metadata__ = ABCMeta
+
+    @abstractmethod
+    def subscribe_to_stream(self, subscriber, symbol, model, func):
+        raise NotImplementedError
+
+    # @abstractmethod
+    # def unsubscribe(self, subscriber, symbol, model):
+    #     raise NotImplementedError

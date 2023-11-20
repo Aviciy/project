@@ -10,6 +10,7 @@ sortedcontainers = "*"
 subscription = "*"
 strenum = "*"
 self = "*"
+subscribe = "*"
 
 [dev-packages]
 

@@ -1037,3 +1037,476 @@
 2023-11-17 17:12:03.874614 | 2023-11-17 17:12:03.874614 | INFO | Book is correct
 2023-11-17 17:12:03.875612 | 2023-11-17 17:12:03.875612 | TRACE | Return balance data
 2023-11-17 17:12:04.582888 | 2023-11-17 17:12:04.582888 | INFO | Balance is correct
+2023-11-20 15:36:18.136953 | 2023-11-20 15:36:18.136953 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 15:36:18.137949 | 2023-11-20 15:36:18.137949 | TRACE | MEXCConnector was created
+2023-11-20 15:36:18.137949 | 2023-11-20 15:36:18.137949 | INFO | Exchange name is correct
+2023-11-20 15:36:18.137949 | 2023-11-20 15:36:18.137949 | TRACE | Checking connection
+2023-11-20 15:36:19.033354 | 2023-11-20 15:36:19.033354 | INFO | Check connection is correct
+2023-11-20 15:36:19.726829 | 2023-11-20 15:36:19.726829 | INFO | Server time is correct: delta = abs(1700487380568 - 1700487379726) < 65536ms
+2023-11-20 15:36:20.629151 | 2023-11-20 15:36:20.629151 | INFO | Exchange info is correct
+2023-11-20 15:36:20.629151 | 2023-11-20 15:36:20.629151 | TRACE | Return ticker
+2023-11-20 15:36:21.341834 | 2023-11-20 15:36:21.341834 | INFO | Ticker is correct
+2023-11-20 15:36:21.341834 | 2023-11-20 15:36:21.341834 | TRACE | Return book
+2023-11-20 15:36:22.062627 | 2023-11-20 15:36:22.062627 | INFO | Book is correct
+2023-11-20 15:36:22.063625 | 2023-11-20 15:36:22.063625 | TRACE | Return balance data
+2023-11-20 15:36:22.763112 | 2023-11-20 15:36:22.763112 | INFO | Balance is correct
+2023-11-20 15:38:36.514613 | 2023-11-20 15:38:36.514613 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 15:38:36.514613 | 2023-11-20 15:38:36.514613 | TRACE | MEXCConnector was created
+2023-11-20 15:38:36.514613 | 2023-11-20 15:38:36.514613 | INFO | Exchange name is correct
+2023-11-20 15:38:36.514613 | 2023-11-20 15:38:36.514613 | TRACE | Checking connection
+2023-11-20 15:38:38.268320 | 2023-11-20 15:38:38.268320 | INFO | Check connection is correct
+2023-11-20 15:38:38.961745 | 2023-11-20 15:38:38.961745 | INFO | Server time is correct: delta = abs(1700487519796 - 1700487518961) < 65536ms
+2023-11-20 15:38:39.729557 | 2023-11-20 15:38:39.729557 | INFO | Exchange info is correct
+2023-11-20 15:38:39.730554 | 2023-11-20 15:38:39.730554 | TRACE | Return ticker
+2023-11-20 15:38:40.429928 | 2023-11-20 15:38:40.429928 | INFO | Ticker is correct
+2023-11-20 15:38:40.429928 | 2023-11-20 15:38:40.429928 | TRACE | Return book
+2023-11-20 15:38:41.164805 | 2023-11-20 15:38:41.164805 | INFO | Book is correct
+2023-11-20 15:38:41.165791 | 2023-11-20 15:38:41.165791 | TRACE | Return balance data
+2023-11-20 15:38:41.861152 | 2023-11-20 15:38:41.861152 | INFO | Balance is correct
+2023-11-20 15:48:19.765453 | 2023-11-20 15:48:19.765453 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 15:48:19.765453 | 2023-11-20 15:48:19.765453 | TRACE | MEXCConnector was created
+2023-11-20 15:48:19.765453 | 2023-11-20 15:48:19.765453 | INFO | Exchange name is correct
+2023-11-20 15:48:19.765453 | 2023-11-20 15:48:19.765453 | TRACE | Checking connection
+2023-11-20 15:48:20.553032 | 2023-11-20 15:48:20.553032 | INFO | Check connection is correct
+2023-11-20 15:48:21.235807 | 2023-11-20 15:48:21.235807 | INFO | Server time is correct: delta = abs(1700488102075 - 1700488101235) < 65536ms
+2023-11-20 15:48:22.045182 | 2023-11-20 15:48:22.045182 | INFO | Exchange info is correct
+2023-11-20 15:48:22.045182 | 2023-11-20 15:48:22.045182 | TRACE | Return ticker
+2023-11-20 15:48:22.763684 | 2023-11-20 15:48:22.763684 | INFO | Ticker is correct
+2023-11-20 15:48:22.763684 | 2023-11-20 15:48:22.763684 | TRACE | Return book
+2023-11-20 15:48:23.601200 | 2023-11-20 15:48:23.601200 | INFO | Book is correct
+2023-11-20 15:48:23.601200 | 2023-11-20 15:48:23.601200 | TRACE | Return balance data
+2023-11-20 15:48:24.343574 | 2023-11-20 15:48:24.343574 | INFO | Balance is correct
+2023-11-20 15:50:00.217448 | 2023-11-20 15:50:00.217448 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 15:50:00.217448 | 2023-11-20 15:50:00.217448 | TRACE | MEXCConnector was created
+2023-11-20 15:50:00.217448 | 2023-11-20 15:50:00.217448 | INFO | Exchange name is correct
+2023-11-20 15:50:00.217448 | 2023-11-20 15:50:00.217448 | TRACE | Checking connection
+2023-11-20 15:50:00.958644 | 2023-11-20 15:50:00.958644 | INFO | Check connection is correct
+2023-11-20 15:50:01.660222 | 2023-11-20 15:50:01.659184 | INFO | Server time is correct: delta = abs(1700488202490 - 1700488201659) < 65536ms
+2023-11-20 15:50:02.947923 | 2023-11-20 15:50:02.946928 | INFO | Exchange info is correct
+2023-11-20 15:50:02.947923 | 2023-11-20 15:50:02.947923 | TRACE | Return ticker
+2023-11-20 15:50:03.651568 | 2023-11-20 15:50:03.651568 | INFO | Ticker is correct
+2023-11-20 15:50:03.651568 | 2023-11-20 15:50:03.651568 | TRACE | Return book
+2023-11-20 15:50:04.382256 | 2023-11-20 15:50:04.382256 | INFO | Book is correct
+2023-11-20 15:50:04.383216 | 2023-11-20 15:50:04.383216 | TRACE | Return balance data
+2023-11-20 15:50:05.082249 | 2023-11-20 15:50:05.082249 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 16:42:31.568845 | 2023-11-20 16:42:31.568845 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 16:42:31.568845 | 2023-11-20 16:42:31.568845 | TRACE | MEXCConnector was created
+2023-11-20 16:42:31.568845 | 2023-11-20 16:42:31.568845 | INFO | Exchange name is correct
+2023-11-20 16:42:31.569842 | 2023-11-20 16:42:31.568845 | TRACE | Checking connection
+2023-11-20 16:42:32.560091 | 2023-11-20 16:42:32.560091 | INFO | Check connection is correct
+2023-11-20 16:42:33.250719 | 2023-11-20 16:42:33.250719 | INFO | Server time is correct: delta = abs(1700491354077 - 1700491353249) < 65536ms
+2023-11-20 16:42:34.488159 | 2023-11-20 16:42:34.488159 | INFO | Exchange info is correct
+2023-11-20 16:42:34.488159 | 2023-11-20 16:42:34.488159 | TRACE | Return ticker
+2023-11-20 16:42:35.238845 | 2023-11-20 16:42:35.238845 | INFO | Ticker is correct
+2023-11-20 16:42:35.238845 | 2023-11-20 16:42:35.238845 | TRACE | Return book
+2023-11-20 16:42:36.210339 | 2023-11-20 16:42:36.210339 | INFO | Book is correct
+2023-11-20 16:42:36.210339 | 2023-11-20 16:42:36.210339 | TRACE | Return balance data
+2023-11-20 16:42:36.922636 | 2023-11-20 16:42:36.922636 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 16:44:54.246038 | 2023-11-20 16:44:54.246038 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 16:44:54.248112 | 2023-11-20 16:44:54.248112 | TRACE | MEXCConnector was created
+2023-11-20 16:44:54.248112 | 2023-11-20 16:44:54.248112 | INFO | Exchange name is correct
+2023-11-20 16:44:54.248112 | 2023-11-20 16:44:54.248112 | TRACE | Checking connection
+2023-11-20 16:44:54.985056 | 2023-11-20 16:44:54.985056 | INFO | Check connection is correct
+2023-11-20 16:44:55.667671 | 2023-11-20 16:44:55.667671 | INFO | Server time is correct: delta = abs(1700491496493 - 1700491495666) < 65536ms
+2023-11-20 16:44:56.446932 | 2023-11-20 16:44:56.446932 | INFO | Exchange info is correct
+2023-11-20 16:44:56.446932 | 2023-11-20 16:44:56.446932 | TRACE | Return ticker
+2023-11-20 16:44:57.157080 | 2023-11-20 16:44:57.157080 | INFO | Ticker is correct
+2023-11-20 16:44:57.157080 | 2023-11-20 16:44:57.157080 | TRACE | Return book
+2023-11-20 16:44:57.905004 | 2023-11-20 16:44:57.905004 | INFO | Book is correct
+2023-11-20 16:44:57.905004 | 2023-11-20 16:44:57.905004 | TRACE | Return balance data
+2023-11-20 16:44:58.601369 | 2023-11-20 16:44:58.601369 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 16:55:08.992485 | 2023-11-20 16:55:08.992485 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 16:55:08.992485 | 2023-11-20 16:55:08.992485 | TRACE | MEXCConnector was created
+2023-11-20 16:55:08.992485 | 2023-11-20 16:55:08.992485 | INFO | Exchange name is correct
+2023-11-20 16:55:08.993483 | 2023-11-20 16:55:08.992485 | TRACE | Checking connection
+2023-11-20 16:55:10.795678 | 2023-11-20 16:55:10.795678 | INFO | Check connection is correct
+2023-11-20 16:55:11.500666 | 2023-11-20 16:55:11.500666 | INFO | Server time is correct: delta = abs(1700492112328 - 1700492111500) < 65536ms
+2023-11-20 16:55:12.491725 | 2023-11-20 16:55:12.491725 | INFO | Exchange info is correct
+2023-11-20 16:55:12.491725 | 2023-11-20 16:55:12.491725 | TRACE | Return ticker
+2023-11-20 16:55:13.214245 | 2023-11-20 16:55:13.214245 | INFO | Ticker is correct
+2023-11-20 16:55:13.215240 | 2023-11-20 16:55:13.215240 | TRACE | Return book
+2023-11-20 16:55:13.955284 | 2023-11-20 16:55:13.955284 | INFO | Book is correct
+2023-11-20 16:55:13.956284 | 2023-11-20 16:55:13.956284 | TRACE | Return balance data
+2023-11-20 16:55:14.684261 | 2023-11-20 16:55:14.684261 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 16:56:54.019415 | 2023-11-20 16:56:54.019415 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 16:56:54.019415 | 2023-11-20 16:56:54.019415 | TRACE | MEXCConnector was created
+2023-11-20 16:56:54.020412 | 2023-11-20 16:56:54.019415 | INFO | Exchange name is correct
+2023-11-20 16:56:54.020412 | 2023-11-20 16:56:54.020412 | TRACE | Checking connection
+2023-11-20 16:56:54.772859 | 2023-11-20 16:56:54.772859 | INFO | Check connection is correct
+2023-11-20 16:56:55.464633 | 2023-11-20 16:56:55.464633 | INFO | Server time is correct: delta = abs(1700492216291 - 1700492215464) < 65536ms
+2023-11-20 16:56:56.278096 | 2023-11-20 16:56:56.278096 | INFO | Exchange info is correct
+2023-11-20 16:56:56.278096 | 2023-11-20 16:56:56.278096 | TRACE | Return ticker
+2023-11-20 16:56:57.004006 | 2023-11-20 16:56:57.004006 | INFO | Ticker is correct
+2023-11-20 16:56:57.004006 | 2023-11-20 16:56:57.004006 | TRACE | Return book
+2023-11-20 16:56:57.772227 | 2023-11-20 16:56:57.772227 | INFO | Book is correct
+2023-11-20 16:56:57.773197 | 2023-11-20 16:56:57.772227 | TRACE | Return balance data
+2023-11-20 16:56:58.480335 | 2023-11-20 16:56:58.480335 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 17:08:10.451477 | 2023-11-20 17:08:10.451477 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 17:08:10.452476 | 2023-11-20 17:08:10.452476 | TRACE | MEXCConnector was created
+2023-11-20 17:08:10.452476 | 2023-11-20 17:08:10.452476 | INFO | Exchange name is correct
+2023-11-20 17:08:10.452476 | 2023-11-20 17:08:10.452476 | TRACE | Checking connection
+2023-11-20 17:08:11.383792 | 2023-11-20 17:08:11.383792 | INFO | Check connection is correct
+2023-11-20 17:08:12.068241 | 2023-11-20 17:08:12.068241 | INFO | Server time is correct: delta = abs(1700492892892 - 1700492892068) < 65536ms
+2023-11-20 17:08:13.310818 | 2023-11-20 17:08:13.310818 | INFO | Exchange info is correct
+2023-11-20 17:08:13.311790 | 2023-11-20 17:08:13.311790 | TRACE | Return ticker
+2023-11-20 17:08:14.020868 | 2023-11-20 17:08:14.020868 | INFO | Ticker is correct
+2023-11-20 17:08:14.021834 | 2023-11-20 17:08:14.021834 | TRACE | Return book
+2023-11-20 17:08:14.750207 | 2023-11-20 17:08:14.749244 | INFO | Book is correct
+2023-11-20 17:08:14.750207 | 2023-11-20 17:08:14.750207 | TRACE | Return balance data
+2023-11-20 17:08:15.452640 | 2023-11-20 17:08:15.452640 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 17:09:05.082918 | 2023-11-20 17:09:05.082918 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 17:09:05.082918 | 2023-11-20 17:09:05.082918 | TRACE | MEXCConnector was created
+2023-11-20 17:09:05.082918 | 2023-11-20 17:09:05.082918 | INFO | Exchange name is correct
+2023-11-20 17:09:05.082918 | 2023-11-20 17:09:05.082918 | TRACE | Checking connection
+2023-11-20 17:09:05.818091 | 2023-11-20 17:09:05.818091 | INFO | Check connection is correct
+2023-11-20 17:09:06.500737 | 2023-11-20 17:09:06.499780 | INFO | Server time is correct: delta = abs(1700492947326 - 1700492946499) < 65536ms
+2023-11-20 17:09:07.358387 | 2023-11-20 17:09:07.358387 | INFO | Exchange info is correct
+2023-11-20 17:09:07.358387 | 2023-11-20 17:09:07.358387 | TRACE | Return ticker
+2023-11-20 17:09:08.071278 | 2023-11-20 17:09:08.071278 | INFO | Ticker is correct
+2023-11-20 17:09:08.072298 | 2023-11-20 17:09:08.072298 | TRACE | Return book
+2023-11-20 17:09:08.812104 | 2023-11-20 17:09:08.812104 | INFO | Book is correct
+2023-11-20 17:09:08.813076 | 2023-11-20 17:09:08.812104 | TRACE | Return balance data
+2023-11-20 17:09:09.502457 | 2023-11-20 17:09:09.501464 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 17:20:47.981451 | 2023-11-20 17:20:47.981451 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 17:20:47.983446 | 2023-11-20 17:20:47.983446 | TRACE | MEXCConnector was created
+2023-11-20 17:20:47.983446 | 2023-11-20 17:20:47.983446 | INFO | Exchange name is correct
+2023-11-20 17:20:47.983446 | 2023-11-20 17:20:47.983446 | TRACE | Checking connection
+2023-11-20 17:20:48.747933 | 2023-11-20 17:20:48.747933 | INFO | Check connection is correct
+2023-11-20 17:20:49.441927 | 2023-11-20 17:20:49.441927 | INFO | Server time is correct: delta = abs(1700493650271 - 1700493649441) < 65536ms
+2023-11-20 17:20:50.219010 | 2023-11-20 17:20:50.219010 | INFO | Exchange info is correct
+2023-11-20 17:20:50.220021 | 2023-11-20 17:20:50.220021 | TRACE | Return ticker
+2023-11-20 17:20:50.926615 | 2023-11-20 17:20:50.926615 | INFO | Ticker is correct
+2023-11-20 17:20:50.926615 | 2023-11-20 17:20:50.926615 | TRACE | Return book
+2023-11-20 17:20:51.672445 | 2023-11-20 17:20:51.672445 | INFO | Book is correct
+2023-11-20 17:20:51.672445 | 2023-11-20 17:20:51.672445 | TRACE | Return balance data
+2023-11-20 17:20:52.384919 | 2023-11-20 17:20:52.384919 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 17:21:46.159489 | 2023-11-20 17:21:46.159489 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 17:21:46.159489 | 2023-11-20 17:21:46.159489 | TRACE | MEXCConnector was created
+2023-11-20 17:21:46.160486 | 2023-11-20 17:21:46.159489 | INFO | Exchange name is correct
+2023-11-20 17:21:46.160486 | 2023-11-20 17:21:46.160486 | TRACE | Checking connection
+2023-11-20 17:21:46.886044 | 2023-11-20 17:21:46.886044 | INFO | Check connection is correct
+2023-11-20 17:21:47.578089 | 2023-11-20 17:21:47.578089 | INFO | Server time is correct: delta = abs(1700493708397 - 1700493707578) < 65536ms
+2023-11-20 17:21:48.349433 | 2023-11-20 17:21:48.349433 | INFO | Exchange info is correct
+2023-11-20 17:21:48.349433 | 2023-11-20 17:21:48.349433 | TRACE | Return ticker
+2023-11-20 17:21:49.066559 | 2023-11-20 17:21:49.065531 | INFO | Ticker is correct
+2023-11-20 17:21:49.066559 | 2023-11-20 17:21:49.066559 | TRACE | Return book
+2023-11-20 17:21:49.809200 | 2023-11-20 17:21:49.809200 | INFO | Book is correct
+2023-11-20 17:21:49.809200 | 2023-11-20 17:21:49.809200 | TRACE | Return balance data
+2023-11-20 17:21:50.503414 | 2023-11-20 17:21:50.503414 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 17:22:33.801410 | 2023-11-20 17:22:33.801410 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 17:22:33.801410 | 2023-11-20 17:22:33.801410 | TRACE | MEXCConnector was created
+2023-11-20 17:22:33.802420 | 2023-11-20 17:22:33.802420 | INFO | Exchange name is correct
+2023-11-20 17:22:33.802420 | 2023-11-20 17:22:33.802420 | TRACE | Checking connection
+2023-11-20 17:22:34.526691 | 2023-11-20 17:22:34.526691 | INFO | Check connection is correct
+2023-11-20 17:22:35.216317 | 2023-11-20 17:22:35.216317 | INFO | Server time is correct: delta = abs(1700493756038 - 1700493755216) < 65536ms
+2023-11-20 17:22:36.008911 | 2023-11-20 17:22:36.008911 | INFO | Exchange info is correct
+2023-11-20 17:22:36.008911 | 2023-11-20 17:22:36.008911 | TRACE | Return ticker
+2023-11-20 17:22:36.732766 | 2023-11-20 17:22:36.732766 | INFO | Ticker is correct
+2023-11-20 17:22:36.734823 | 2023-11-20 17:22:36.734823 | TRACE | Return book
+2023-11-20 17:22:37.487457 | 2023-11-20 17:22:37.487457 | INFO | Book is correct
+2023-11-20 17:22:37.488457 | 2023-11-20 17:22:37.488457 | TRACE | Return balance data
+2023-11-20 17:22:38.208989 | 2023-11-20 17:22:38.208989 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 17:23:16.513192 | 2023-11-20 17:23:16.513192 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 17:26:37.322566 | 2023-11-20 17:26:37.321531 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 17:27:00.034426 | 2023-11-20 17:27:00.034426 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 17:27:00.034426 | 2023-11-20 17:27:00.034426 | TRACE | MEXCConnector was created
+2023-11-20 17:27:00.034426 | 2023-11-20 17:27:00.034426 | INFO | Exchange name is correct
+2023-11-20 17:27:00.034426 | 2023-11-20 17:27:00.034426 | TRACE | Checking connection
+2023-11-20 17:27:00.840027 | 2023-11-20 17:27:00.839042 | INFO | Check connection is correct
+2023-11-20 17:27:01.530907 | 2023-11-20 17:27:01.530907 | INFO | Server time is correct: delta = abs(1700494022357 - 1700494021530) < 65536ms
+2023-11-20 17:27:02.533968 | 2023-11-20 17:27:02.533968 | INFO | Exchange info is correct
+2023-11-20 17:27:02.533968 | 2023-11-20 17:27:02.533968 | TRACE | Return ticker
+2023-11-20 17:27:03.247587 | 2023-11-20 17:27:03.246589 | INFO | Ticker is correct
+2023-11-20 17:27:03.247587 | 2023-11-20 17:27:03.247587 | TRACE | Return book
+2023-11-20 17:27:04.018771 | 2023-11-20 17:27:04.018771 | INFO | Book is correct
+2023-11-20 17:27:04.019756 | 2023-11-20 17:27:04.018771 | TRACE | Return balance data
+2023-11-20 17:27:04.730466 | 2023-11-20 17:27:04.730466 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 17:53:30.803611 | 2023-11-20 17:53:30.803611 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 17:53:30.803611 | 2023-11-20 17:53:30.803611 | TRACE | MEXCConnector was created
+2023-11-20 17:53:30.804609 | 2023-11-20 17:53:30.804609 | INFO | Exchange name is correct
+2023-11-20 17:53:30.804609 | 2023-11-20 17:53:30.804609 | TRACE | Checking connection
+2023-11-20 17:53:31.607666 | 2023-11-20 17:53:31.607666 | INFO | Check connection is correct
+2023-11-20 17:53:32.298299 | 2023-11-20 17:53:32.298299 | INFO | Server time is correct: delta = abs(1700495613117 - 1700495612298) < 65536ms
+2023-11-20 17:53:33.541549 | 2023-11-20 17:53:33.541549 | INFO | Exchange info is correct
+2023-11-20 17:53:33.541549 | 2023-11-20 17:53:33.541549 | TRACE | Return ticker
+2023-11-20 17:53:34.244264 | 2023-11-20 17:53:34.244264 | INFO | Ticker is correct
+2023-11-20 17:53:34.244264 | 2023-11-20 17:53:34.244264 | TRACE | Return book
+2023-11-20 17:53:34.972885 | 2023-11-20 17:53:34.972885 | INFO | Book is correct
+2023-11-20 17:53:34.972885 | 2023-11-20 17:53:34.972885 | TRACE | Return balance data
+2023-11-20 17:53:35.684811 | 2023-11-20 17:53:35.684811 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 17:58:41.502052 | 2023-11-20 17:58:41.502052 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 17:58:41.502052 | 2023-11-20 17:58:41.502052 | TRACE | MEXCConnector was created
+2023-11-20 17:58:41.502052 | 2023-11-20 17:58:41.502052 | INFO | Exchange name is correct
+2023-11-20 17:58:41.502052 | 2023-11-20 17:58:41.502052 | TRACE | Checking connection
+2023-11-20 17:58:42.321953 | 2023-11-20 17:58:42.321953 | INFO | Check connection is correct
+2023-11-20 17:58:43.034065 | 2023-11-20 17:58:43.034065 | INFO | Server time is correct: delta = abs(1700495923851 - 1700495923034) < 65536ms
+2023-11-20 17:58:43.856571 | 2023-11-20 17:58:43.856571 | INFO | Exchange info is correct
+2023-11-20 17:58:43.856571 | 2023-11-20 17:58:43.856571 | TRACE | Return ticker
+2023-11-20 17:58:44.597647 | 2023-11-20 17:58:44.597647 | INFO | Ticker is correct
+2023-11-20 17:58:44.597647 | 2023-11-20 17:58:44.597647 | TRACE | Return book
+2023-11-20 17:58:45.364415 | 2023-11-20 17:58:45.364415 | INFO | Book is correct
+2023-11-20 17:58:45.365367 | 2023-11-20 17:58:45.364415 | TRACE | Return balance data
+2023-11-20 17:58:46.095767 | 2023-11-20 17:58:46.095767 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 17:59:01.753646 | 2023-11-20 17:59:01.753646 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 17:59:01.754677 | 2023-11-20 17:59:01.754677 | TRACE | MEXCConnector was created
+2023-11-20 17:59:01.754677 | 2023-11-20 17:59:01.754677 | INFO | Exchange name is correct
+2023-11-20 17:59:01.754677 | 2023-11-20 17:59:01.754677 | TRACE | Checking connection
+2023-11-20 17:59:02.497070 | 2023-11-20 17:59:02.497070 | INFO | Check connection is correct
+2023-11-20 17:59:03.222011 | 2023-11-20 17:59:03.222011 | INFO | Server time is correct: delta = abs(1700495944041 - 1700495943222) < 65536ms
+2023-11-20 17:59:04.022230 | 2023-11-20 17:59:04.022230 | INFO | Exchange info is correct
+2023-11-20 17:59:04.022230 | 2023-11-20 17:59:04.022230 | TRACE | Return ticker
+2023-11-20 17:59:04.754977 | 2023-11-20 17:59:04.754977 | INFO | Ticker is correct
+2023-11-20 17:59:04.754977 | 2023-11-20 17:59:04.754977 | TRACE | Return book
+2023-11-20 17:59:05.524855 | 2023-11-20 17:59:05.524855 | INFO | Book is correct
+2023-11-20 17:59:05.525838 | 2023-11-20 17:59:05.524855 | TRACE | Return balance data
+2023-11-20 17:59:06.249349 | 2023-11-20 17:59:06.249349 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:00:03.859688 | 2023-11-20 18:00:03.859688 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:00:03.860685 | 2023-11-20 18:00:03.860685 | TRACE | MEXCConnector was created
+2023-11-20 18:00:03.860685 | 2023-11-20 18:00:03.860685 | INFO | Exchange name is correct
+2023-11-20 18:00:03.860685 | 2023-11-20 18:00:03.860685 | TRACE | Checking connection
+2023-11-20 18:00:04.652504 | 2023-11-20 18:00:04.652504 | INFO | Check connection is correct
+2023-11-20 18:00:05.396016 | 2023-11-20 18:00:05.396016 | INFO | Server time is correct: delta = abs(1700496006218 - 1700496005396) < 65536ms
+2023-11-20 18:00:06.616027 | 2023-11-20 18:00:06.616027 | INFO | Exchange info is correct
+2023-11-20 18:00:06.616027 | 2023-11-20 18:00:06.616027 | TRACE | Return ticker
+2023-11-20 18:00:07.355999 | 2023-11-20 18:00:07.355999 | INFO | Ticker is correct
+2023-11-20 18:00:07.355999 | 2023-11-20 18:00:07.355999 | TRACE | Return book
+2023-11-20 18:00:08.107017 | 2023-11-20 18:00:08.107017 | INFO | Book is correct
+2023-11-20 18:00:08.107017 | 2023-11-20 18:00:08.107017 | TRACE | Return balance data
+2023-11-20 18:00:08.833408 | 2023-11-20 18:00:08.832411 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:00:29.535185 | 2023-11-20 18:00:29.535185 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:00:29.536182 | 2023-11-20 18:00:29.536182 | TRACE | MEXCConnector was created
+2023-11-20 18:00:29.536182 | 2023-11-20 18:00:29.536182 | INFO | Exchange name is correct
+2023-11-20 18:00:29.536182 | 2023-11-20 18:00:29.536182 | TRACE | Checking connection
+2023-11-20 18:00:30.423053 | 2023-11-20 18:00:30.423053 | INFO | Check connection is correct
+2023-11-20 18:00:31.167677 | 2023-11-20 18:00:31.167677 | INFO | Server time is correct: delta = abs(1700496031981 - 1700496031167) < 65536ms
+2023-11-20 18:00:32.010671 | 2023-11-20 18:00:32.010671 | INFO | Exchange info is correct
+2023-11-20 18:00:32.010671 | 2023-11-20 18:00:32.010671 | TRACE | Return ticker
+2023-11-20 18:00:32.775380 | 2023-11-20 18:00:32.775380 | INFO | Ticker is correct
+2023-11-20 18:00:32.776359 | 2023-11-20 18:00:32.775380 | TRACE | Return book
+2023-11-20 18:00:33.553622 | 2023-11-20 18:00:33.553622 | INFO | Book is correct
+2023-11-20 18:00:33.553622 | 2023-11-20 18:00:33.553622 | TRACE | Return balance data
+2023-11-20 18:00:34.284781 | 2023-11-20 18:00:34.284781 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:00:51.989077 | 2023-11-20 18:00:51.989077 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:00:51.990074 | 2023-11-20 18:00:51.990074 | TRACE | MEXCConnector was created
+2023-11-20 18:00:51.990074 | 2023-11-20 18:00:51.990074 | INFO | Exchange name is correct
+2023-11-20 18:00:51.990074 | 2023-11-20 18:00:51.990074 | TRACE | Checking connection
+2023-11-20 18:00:52.778851 | 2023-11-20 18:00:52.778851 | INFO | Check connection is correct
+2023-11-20 18:00:53.489519 | 2023-11-20 18:00:53.489519 | INFO | Server time is correct: delta = abs(1700496054306 - 1700496053489) < 65536ms
+2023-11-20 18:00:54.772491 | 2023-11-20 18:00:54.772491 | INFO | Exchange info is correct
+2023-11-20 18:00:54.772491 | 2023-11-20 18:00:54.772491 | TRACE | Return ticker
+2023-11-20 18:00:55.543854 | 2023-11-20 18:00:55.543854 | INFO | Ticker is correct
+2023-11-20 18:00:55.543854 | 2023-11-20 18:00:55.543854 | TRACE | Return book
+2023-11-20 18:00:56.424206 | 2023-11-20 18:00:56.423202 | INFO | Book is correct
+2023-11-20 18:00:56.424206 | 2023-11-20 18:00:56.424206 | TRACE | Return balance data
+2023-11-20 18:00:57.275770 | 2023-11-20 18:00:57.275770 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:05:02.776565 | 2023-11-20 18:05:02.776565 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:05:02.777563 | 2023-11-20 18:05:02.777563 | TRACE | MEXCConnector was created
+2023-11-20 18:05:02.777563 | 2023-11-20 18:05:02.777563 | INFO | Exchange name is correct
+2023-11-20 18:05:02.777563 | 2023-11-20 18:05:02.777563 | TRACE | Checking connection
+2023-11-20 18:05:03.533520 | 2023-11-20 18:05:03.533520 | INFO | Check connection is correct
+2023-11-20 18:05:04.227233 | 2023-11-20 18:05:04.227233 | INFO | Server time is correct: delta = abs(1700496305045 - 1700496304227) < 65536ms
+2023-11-20 18:05:05.025794 | 2023-11-20 18:05:05.025794 | INFO | Exchange info is correct
+2023-11-20 18:05:05.025794 | 2023-11-20 18:05:05.025794 | TRACE | Return ticker
+2023-11-20 18:05:05.751069 | 2023-11-20 18:05:05.751069 | INFO | Ticker is correct
+2023-11-20 18:05:05.751069 | 2023-11-20 18:05:05.751069 | TRACE | Return book
+2023-11-20 18:05:06.509737 | 2023-11-20 18:05:06.509737 | INFO | Book is correct
+2023-11-20 18:05:06.509737 | 2023-11-20 18:05:06.509737 | TRACE | Return balance data
+2023-11-20 18:05:07.213679 | 2023-11-20 18:05:07.213679 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:05:33.584335 | 2023-11-20 18:05:33.584335 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:05:33.584335 | 2023-11-20 18:05:33.584335 | TRACE | MEXCConnector was created
+2023-11-20 18:05:33.584335 | 2023-11-20 18:05:33.584335 | INFO | Exchange name is correct
+2023-11-20 18:05:33.584335 | 2023-11-20 18:05:33.584335 | TRACE | Checking connection
+2023-11-20 18:05:34.378487 | 2023-11-20 18:05:34.377492 | INFO | Check connection is correct
+2023-11-20 18:05:35.075610 | 2023-11-20 18:05:35.075610 | INFO | Server time is correct: delta = abs(1700496335895 - 1700496335075) < 65536ms
+2023-11-20 18:05:36.081228 | 2023-11-20 18:05:36.081228 | INFO | Exchange info is correct
+2023-11-20 18:05:36.081228 | 2023-11-20 18:05:36.081228 | TRACE | Return ticker
+2023-11-20 18:05:36.799035 | 2023-11-20 18:05:36.799035 | INFO | Ticker is correct
+2023-11-20 18:05:36.799035 | 2023-11-20 18:05:36.799035 | TRACE | Return book
+2023-11-20 18:05:37.550575 | 2023-11-20 18:05:37.550575 | INFO | Book is correct
+2023-11-20 18:05:37.550575 | 2023-11-20 18:05:37.550575 | TRACE | Return balance data
+2023-11-20 18:05:38.274887 | 2023-11-20 18:05:38.274887 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:07:37.148431 | 2023-11-20 18:07:37.148431 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:07:37.148431 | 2023-11-20 18:07:37.148431 | TRACE | MEXCConnector was created
+2023-11-20 18:07:37.149429 | 2023-11-20 18:07:37.148431 | INFO | Exchange name is correct
+2023-11-20 18:07:37.149429 | 2023-11-20 18:07:37.149429 | TRACE | Checking connection
+2023-11-20 18:07:37.953073 | 2023-11-20 18:07:37.953073 | INFO | Check connection is correct
+2023-11-20 18:07:38.659863 | 2023-11-20 18:07:38.658878 | INFO | Server time is correct: delta = abs(1700496459472 - 1700496458658) < 65536ms
+2023-11-20 18:07:39.469254 | 2023-11-20 18:07:39.469254 | INFO | Exchange info is correct
+2023-11-20 18:07:39.469254 | 2023-11-20 18:07:39.469254 | TRACE | Return ticker
+2023-11-20 18:07:40.176091 | 2023-11-20 18:07:40.176091 | INFO | Ticker is correct
+2023-11-20 18:07:40.177058 | 2023-11-20 18:07:40.176091 | TRACE | Return book
+2023-11-20 18:07:40.921839 | 2023-11-20 18:07:40.920844 | INFO | Book is correct
+2023-11-20 18:07:40.921839 | 2023-11-20 18:07:40.921839 | TRACE | Return balance data
+2023-11-20 18:07:41.625860 | 2023-11-20 18:07:41.624872 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:10:14.381514 | 2023-11-20 18:10:14.381514 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:10:14.381514 | 2023-11-20 18:10:14.381514 | TRACE | MEXCConnector was created
+2023-11-20 18:10:14.381514 | 2023-11-20 18:10:14.381514 | INFO | Exchange name is correct
+2023-11-20 18:10:14.382512 | 2023-11-20 18:10:14.382512 | TRACE | Checking connection
+2023-11-20 18:10:15.151515 | 2023-11-20 18:10:15.150518 | INFO | Check connection is correct
+2023-11-20 18:10:15.843598 | 2023-11-20 18:10:15.843598 | INFO | Server time is correct: delta = abs(1700496616660 - 1700496615843) < 65536ms
+2023-11-20 18:10:16.833265 | 2023-11-20 18:10:16.833265 | INFO | Exchange info is correct
+2023-11-20 18:10:16.834234 | 2023-11-20 18:10:16.833265 | TRACE | Return ticker
+2023-11-20 18:10:17.546510 | 2023-11-20 18:10:17.546510 | INFO | Ticker is correct
+2023-11-20 18:10:17.546510 | 2023-11-20 18:10:17.546510 | TRACE | Return book
+2023-11-20 18:10:18.317693 | 2023-11-20 18:10:18.317693 | INFO | Book is correct
+2023-11-20 18:10:18.317693 | 2023-11-20 18:10:18.317693 | TRACE | Return balance data
+2023-11-20 18:10:19.024692 | 2023-11-20 18:10:19.023659 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:11:20.325239 | 2023-11-20 18:11:20.325239 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:11:20.326233 | 2023-11-20 18:11:20.326233 | TRACE | MEXCConnector was created
+2023-11-20 18:11:20.326233 | 2023-11-20 18:11:20.326233 | INFO | Exchange name is correct
+2023-11-20 18:11:20.326233 | 2023-11-20 18:11:20.326233 | TRACE | Checking connection
+2023-11-20 18:11:22.057393 | 2023-11-20 18:11:22.057393 | INFO | Check connection is correct
+2023-11-20 18:11:22.750982 | 2023-11-20 18:11:22.750982 | INFO | Server time is correct: delta = abs(1700496683568 - 1700496682750) < 65536ms
+2023-11-20 18:11:23.540811 | 2023-11-20 18:11:23.540811 | INFO | Exchange info is correct
+2023-11-20 18:11:23.541810 | 2023-11-20 18:11:23.541810 | TRACE | Return ticker
+2023-11-20 18:11:24.254025 | 2023-11-20 18:11:24.254025 | INFO | Ticker is correct
+2023-11-20 18:11:24.254990 | 2023-11-20 18:11:24.254025 | TRACE | Return book
+2023-11-20 18:11:24.995118 | 2023-11-20 18:11:24.995118 | INFO | Book is correct
+2023-11-20 18:11:24.995118 | 2023-11-20 18:11:24.995118 | TRACE | Return balance data
+2023-11-20 18:11:25.701947 | 2023-11-20 18:11:25.701947 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:14:30.936751 | 2023-11-20 18:14:30.936751 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:18:00.136685 | 2023-11-20 18:18:00.136685 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:18:00.136685 | 2023-11-20 18:18:00.136685 | TRACE | MEXCConnector was created
+2023-11-20 18:18:00.137683 | 2023-11-20 18:18:00.137683 | INFO | Exchange name is correct
+2023-11-20 18:18:00.137683 | 2023-11-20 18:18:00.137683 | TRACE | Checking connection
+2023-11-20 18:18:00.889132 | 2023-11-20 18:18:00.889132 | INFO | Check connection is correct
+2023-11-20 18:18:01.594208 | 2023-11-20 18:18:01.594208 | INFO | Server time is correct: delta = abs(1700497082410 - 1700497081594) < 65536ms
+2023-11-20 18:18:02.402889 | 2023-11-20 18:18:02.402889 | INFO | Exchange info is correct
+2023-11-20 18:18:02.403886 | 2023-11-20 18:18:02.403886 | TRACE | Return ticker
+2023-11-20 18:18:03.126891 | 2023-11-20 18:18:03.126891 | INFO | Ticker is correct
+2023-11-20 18:18:03.127849 | 2023-11-20 18:18:03.126891 | TRACE | Return book
+2023-11-20 18:18:03.869304 | 2023-11-20 18:18:03.869304 | INFO | Book is correct
+2023-11-20 18:18:03.869304 | 2023-11-20 18:18:03.869304 | TRACE | Return balance data
+2023-11-20 18:18:05.048311 | 2023-11-20 18:18:05.048311 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:18:25.234654 | 2023-11-20 18:18:25.234654 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:18:25.234654 | 2023-11-20 18:18:25.234654 | TRACE | MEXCConnector was created
+2023-11-20 18:18:25.235652 | 2023-11-20 18:18:25.235652 | INFO | Exchange name is correct
+2023-11-20 18:18:25.235652 | 2023-11-20 18:18:25.235652 | TRACE | Checking connection
+2023-11-20 18:18:25.963894 | 2023-11-20 18:18:25.963894 | INFO | Check connection is correct
+2023-11-20 18:18:26.657294 | 2023-11-20 18:18:26.657294 | INFO | Server time is correct: delta = abs(1700497107473 - 1700497106657) < 65536ms
+2023-11-20 18:18:27.642155 | 2023-11-20 18:18:27.642155 | INFO | Exchange info is correct
+2023-11-20 18:18:27.643161 | 2023-11-20 18:18:27.643161 | TRACE | Return ticker
+2023-11-20 18:18:28.349559 | 2023-11-20 18:18:28.349559 | INFO | Ticker is correct
+2023-11-20 18:18:28.349559 | 2023-11-20 18:18:28.349559 | TRACE | Return book
+2023-11-20 18:18:29.175793 | 2023-11-20 18:18:29.175793 | INFO | Book is correct
+2023-11-20 18:18:29.175793 | 2023-11-20 18:18:29.175793 | TRACE | Return balance data
+2023-11-20 18:18:29.885237 | 2023-11-20 18:18:29.885237 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:31:26.309770 | 2023-11-20 18:31:26.309770 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:33:08.536395 | 2023-11-20 18:33:08.536395 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:33:48.248588 | 2023-11-20 18:33:48.248588 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:33:48.248588 | 2023-11-20 18:33:48.248588 | TRACE | MEXCConnector was created
+2023-11-20 18:33:48.248588 | 2023-11-20 18:33:48.248588 | INFO | Exchange name is correct
+2023-11-20 18:33:48.248588 | 2023-11-20 18:33:48.248588 | TRACE | Checking connection
+2023-11-20 18:33:49.095183 | 2023-11-20 18:33:49.094184 | INFO | Check connection is correct
+2023-11-20 18:33:49.784346 | 2023-11-20 18:33:49.784346 | INFO | Server time is correct: delta = abs(1700498030605 - 1700498029784) < 65536ms
+2023-11-20 18:33:50.561401 | 2023-11-20 18:33:50.561401 | INFO | Exchange info is correct
+2023-11-20 18:33:50.561401 | 2023-11-20 18:33:50.561401 | TRACE | Return ticker
+2023-11-20 18:33:51.296600 | 2023-11-20 18:33:51.296600 | INFO | Ticker is correct
+2023-11-20 18:33:51.297599 | 2023-11-20 18:33:51.296600 | TRACE | Return book
+2023-11-20 18:33:52.262647 | 2023-11-20 18:33:52.262647 | INFO | Book is correct
+2023-11-20 18:33:52.262647 | 2023-11-20 18:33:52.262647 | TRACE | Return balance data
+2023-11-20 18:33:53.278372 | 2023-11-20 18:33:53.278372 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:35:29.224965 | 2023-11-20 18:35:29.224965 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:35:29.224965 | 2023-11-20 18:35:29.224965 | TRACE | MEXCConnector was created
+2023-11-20 18:35:29.224965 | 2023-11-20 18:35:29.224965 | INFO | Exchange name is correct
+2023-11-20 18:35:29.224965 | 2023-11-20 18:35:29.224965 | TRACE | Checking connection
+2023-11-20 18:35:29.979403 | 2023-11-20 18:35:29.979403 | INFO | Check connection is correct
+2023-11-20 18:35:30.665017 | 2023-11-20 18:35:30.665017 | INFO | Server time is correct: delta = abs(1700498131484 - 1700498130665) < 65536ms
+2023-11-20 18:35:31.461229 | 2023-11-20 18:35:31.461229 | INFO | Exchange info is correct
+2023-11-20 18:35:31.461229 | 2023-11-20 18:35:31.461229 | TRACE | Return ticker
+2023-11-20 18:35:32.170441 | 2023-11-20 18:35:32.169444 | INFO | Ticker is correct
+2023-11-20 18:35:32.170441 | 2023-11-20 18:35:32.170441 | TRACE | Return book
+2023-11-20 18:35:32.912770 | 2023-11-20 18:35:32.912770 | INFO | Book is correct
+2023-11-20 18:35:32.912770 | 2023-11-20 18:35:32.912770 | TRACE | Return balance data
+2023-11-20 18:35:33.616625 | 2023-11-20 18:35:33.616625 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:35:59.046621 | 2023-11-20 18:35:59.046621 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:35:59.047595 | 2023-11-20 18:35:59.047595 | TRACE | MEXCConnector was created
+2023-11-20 18:35:59.047595 | 2023-11-20 18:35:59.047595 | INFO | Exchange name is correct
+2023-11-20 18:35:59.047595 | 2023-11-20 18:35:59.047595 | TRACE | Checking connection
+2023-11-20 18:35:59.755492 | 2023-11-20 18:35:59.755492 | INFO | Check connection is correct
+2023-11-20 18:36:00.451388 | 2023-11-20 18:36:00.451388 | INFO | Server time is correct: delta = abs(1700498161268 - 1700498160451) < 65536ms
+2023-11-20 18:36:01.241755 | 2023-11-20 18:36:01.241755 | INFO | Exchange info is correct
+2023-11-20 18:36:01.241755 | 2023-11-20 18:36:01.241755 | TRACE | Return ticker
+2023-11-20 18:36:01.951946 | 2023-11-20 18:36:01.951946 | INFO | Ticker is correct
+2023-11-20 18:36:01.951946 | 2023-11-20 18:36:01.951946 | TRACE | Return book
+2023-11-20 18:36:02.715828 | 2023-11-20 18:36:02.715828 | INFO | Book is correct
+2023-11-20 18:36:02.715828 | 2023-11-20 18:36:02.715828 | TRACE | Return balance data
+2023-11-20 18:36:03.421454 | 2023-11-20 18:36:03.421454 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:39:27.644028 | 2023-11-20 18:39:27.644028 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:39:27.645048 | 2023-11-20 18:39:27.645048 | TRACE | MEXCConnector was created
+2023-11-20 18:39:27.645048 | 2023-11-20 18:39:27.645048 | INFO | Exchange name is correct
+2023-11-20 18:39:27.645048 | 2023-11-20 18:39:27.645048 | TRACE | Checking connection
+2023-11-20 18:39:28.422681 | 2023-11-20 18:39:28.422681 | INFO | Check connection is correct
+2023-11-20 18:39:29.144456 | 2023-11-20 18:39:29.144456 | INFO | Server time is correct: delta = abs(1700498369962 - 1700498369144) < 65536ms
+2023-11-20 18:39:30.168894 | 2023-11-20 18:39:30.168894 | INFO | Exchange info is correct
+2023-11-20 18:39:30.169891 | 2023-11-20 18:39:30.168894 | TRACE | Return ticker
+2023-11-20 18:39:30.907319 | 2023-11-20 18:39:30.907319 | INFO | Ticker is correct
+2023-11-20 18:39:30.907319 | 2023-11-20 18:39:30.907319 | TRACE | Return book
+2023-11-20 18:39:31.715716 | 2023-11-20 18:39:31.715716 | INFO | Book is correct
+2023-11-20 18:39:31.715716 | 2023-11-20 18:39:31.715716 | TRACE | Return balance data
+2023-11-20 18:39:32.544073 | 2023-11-20 18:39:32.544073 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:41:19.642352 | 2023-11-20 18:41:19.642352 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:41:19.642352 | 2023-11-20 18:41:19.642352 | TRACE | MEXCConnector was created
+2023-11-20 18:41:19.642352 | 2023-11-20 18:41:19.642352 | INFO | Exchange name is correct
+2023-11-20 18:41:19.642352 | 2023-11-20 18:41:19.642352 | TRACE | Checking connection
+2023-11-20 18:41:23.417232 | 2023-11-20 18:41:23.417232 | INFO | Check connection is correct
+2023-11-20 18:41:24.142200 | 2023-11-20 18:41:24.142200 | INFO | Server time is correct: delta = abs(1700498484960 - 1700498484142) < 65536ms
+2023-11-20 18:41:24.973212 | 2023-11-20 18:41:24.973212 | INFO | Exchange info is correct
+2023-11-20 18:41:24.973212 | 2023-11-20 18:41:24.973212 | TRACE | Return ticker
+2023-11-20 18:41:25.741220 | 2023-11-20 18:41:25.741220 | INFO | Ticker is correct
+2023-11-20 18:41:25.742215 | 2023-11-20 18:41:25.742215 | TRACE | Return book
+2023-11-20 18:41:26.622161 | 2023-11-20 18:41:26.622161 | INFO | Book is correct
+2023-11-20 18:41:26.623157 | 2023-11-20 18:41:26.623157 | TRACE | Return balance data
+2023-11-20 18:41:27.516960 | 2023-11-20 18:41:27.516960 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:42:49.325634 | 2023-11-20 18:42:49.325634 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:42:49.325634 | 2023-11-20 18:42:49.325634 | TRACE | MEXCConnector was created
+2023-11-20 18:42:49.326632 | 2023-11-20 18:42:49.326632 | INFO | Exchange name is correct
+2023-11-20 18:42:49.326632 | 2023-11-20 18:42:49.326632 | TRACE | Checking connection
+2023-11-20 18:42:50.287065 | 2023-11-20 18:42:50.287065 | INFO | Check connection is correct
+2023-11-20 18:42:50.994797 | 2023-11-20 18:42:50.994797 | INFO | Server time is correct: delta = abs(1700498571812 - 1700498570993) < 65536ms
+2023-11-20 18:42:52.084928 | 2023-11-20 18:42:52.084928 | INFO | Exchange info is correct
+2023-11-20 18:42:52.084928 | 2023-11-20 18:42:52.084928 | TRACE | Return ticker
+2023-11-20 18:42:52.810752 | 2023-11-20 18:42:52.810752 | INFO | Ticker is correct
+2023-11-20 18:42:52.810752 | 2023-11-20 18:42:52.810752 | TRACE | Return book
+2023-11-20 18:42:53.564033 | 2023-11-20 18:42:53.564033 | INFO | Book is correct
+2023-11-20 18:42:53.564033 | 2023-11-20 18:42:53.564033 | TRACE | Return balance data
+2023-11-20 18:42:54.284820 | 2023-11-20 18:42:54.284820 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:45:43.042487 | 2023-11-20 18:45:43.042487 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:45:43.042487 | 2023-11-20 18:45:43.042487 | TRACE | MEXCConnector was created
+2023-11-20 18:45:43.043484 | 2023-11-20 18:45:43.042487 | INFO | Exchange name is correct
+2023-11-20 18:45:43.043484 | 2023-11-20 18:45:43.043484 | TRACE | Checking connection
+2023-11-20 18:45:43.930848 | 2023-11-20 18:45:43.930848 | INFO | Check connection is correct
+2023-11-20 18:45:44.775870 | 2023-11-20 18:45:44.775870 | INFO | Server time is correct: delta = abs(1700498745596 - 1700498744775) < 65536ms
+2023-11-20 18:45:46.009720 | 2023-11-20 18:45:46.009720 | INFO | Exchange info is correct
+2023-11-20 18:45:46.009720 | 2023-11-20 18:45:46.009720 | TRACE | Return ticker
+2023-11-20 18:45:46.723442 | 2023-11-20 18:45:46.723442 | INFO | Ticker is correct
+2023-11-20 18:45:46.723442 | 2023-11-20 18:45:46.723442 | TRACE | Return book
+2023-11-20 18:45:47.487684 | 2023-11-20 18:45:47.487684 | INFO | Book is correct
+2023-11-20 18:45:47.488681 | 2023-11-20 18:45:47.488681 | TRACE | Return balance data
+2023-11-20 18:45:48.208774 | 2023-11-20 18:45:48.207815 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:46:42.033415 | 2023-11-20 18:46:42.033415 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:46:42.034410 | 2023-11-20 18:46:42.034410 | TRACE | MEXCConnector was created
+2023-11-20 18:46:42.034410 | 2023-11-20 18:46:42.034410 | INFO | Exchange name is correct
+2023-11-20 18:46:42.034410 | 2023-11-20 18:46:42.034410 | TRACE | Checking connection
+2023-11-20 18:46:42.771097 | 2023-11-20 18:46:42.771097 | INFO | Check connection is correct
+2023-11-20 18:46:43.472900 | 2023-11-20 18:46:43.472900 | INFO | Server time is correct: delta = abs(1700498804284 - 1700498803472) < 65536ms
+2023-11-20 18:46:44.471791 | 2023-11-20 18:46:44.471791 | INFO | Exchange info is correct
+2023-11-20 18:46:44.471791 | 2023-11-20 18:46:44.471791 | TRACE | Return ticker
+2023-11-20 18:46:45.203718 | 2023-11-20 18:46:45.202779 | INFO | Ticker is correct
+2023-11-20 18:46:45.203718 | 2023-11-20 18:46:45.203718 | TRACE | Return book
+2023-11-20 18:46:45.945092 | 2023-11-20 18:46:45.945092 | INFO | Book is correct
+2023-11-20 18:46:45.946099 | 2023-11-20 18:46:45.945092 | TRACE | Return balance data
+2023-11-20 18:46:46.644811 | 2023-11-20 18:46:46.644811 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 18:47:59.142913 | 2023-11-20 18:47:59.142913 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 18:47:59.142913 | 2023-11-20 18:47:59.142913 | TRACE | MEXCConnector was created
+2023-11-20 18:47:59.142913 | 2023-11-20 18:47:59.142913 | INFO | Exchange name is correct
+2023-11-20 18:47:59.143885 | 2023-11-20 18:47:59.143885 | TRACE | Checking connection
+2023-11-20 18:47:59.866918 | 2023-11-20 18:47:59.865926 | INFO | Check connection is correct
+2023-11-20 18:48:00.627621 | 2023-11-20 18:48:00.627621 | INFO | Server time is correct: delta = abs(1700498881442 - 1700498880627) < 65536ms
+2023-11-20 18:48:01.419520 | 2023-11-20 18:48:01.419520 | INFO | Exchange info is correct
+2023-11-20 18:48:01.419520 | 2023-11-20 18:48:01.419520 | TRACE | Return ticker
+2023-11-20 18:48:02.246090 | 2023-11-20 18:48:02.246090 | INFO | Ticker is correct
+2023-11-20 18:48:02.246090 | 2023-11-20 18:48:02.246090 | TRACE | Return book
+2023-11-20 18:48:03.007404 | 2023-11-20 18:48:03.007404 | INFO | Book is correct
+2023-11-20 18:48:03.008363 | 2023-11-20 18:48:03.008363 | TRACE | Return balance data
+2023-11-20 18:48:03.720395 | 2023-11-20 18:48:03.720395 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}

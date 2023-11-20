@@ -1,9 +1,12 @@
 import hashlib
 import hmac
+import json
 import time
 from urllib.parse import urlencode
 
 import requests
+from self import self
+from websocket._app import WebSocketApp
 
 from Abstract.connector import Connector
 from Abstract.logger import Logger
@@ -75,11 +78,10 @@ class MEXCConnector(Connector):
             self.__logger.error(f'Error getting book: {e}')
             return None
 
-    def get_balances(self) -> dict | None:
+    def get_balances(self) -> object | None:
         try:
             self.__logger.trace('Return balance data')
             response = self.__make_signed_request(Endpoints.BALANCES, 'get').json()
-            print(response)
             return response
         except Exception as e:
             self.__logger.error(f'Error getting balance info: {e}')
@@ -112,3 +114,32 @@ class MEXCConnector(Connector):
             return requests.head(url, params=params, headers=headers)
         else:
             raise ValueError(f'Unknown method: {method}')
+
+
+class Stream():
+    def on_message(self, ws, message):
+        print(f"Received message: {message}")
+
+    def on_error(self, ws, error):
+        print(f"Error: {error}")
+
+    def on_close(self, ws, close_status_code, close_msg):
+        print("Closed connection")
+
+    def on_open(self, ws):
+        print("Connection opened")
+
+        subscribe_request = {
+            "method": "SUBSCRIPTION",
+            "params": ["spot@public.deals.v3.api@BTCUSDT"],
+            "id": 0
+        }
+        ws.send(json.dumps(subscribe_request))
+        print(f"Sent subscribe request: {subscribe_request}")
+
+    def subscribe_to_stream(self):
+        uri = "wss://wbs.mexc.com/ws"
+
+        ws = WebSocketApp(uri, on_message=self.on_message, on_error=self.on_error,
+                          on_close=self.on_close, on_open=self.on_open)
+        ws.run_forever()
