@@ -82,12 +82,14 @@ class MEXCConnector(Connector):
             server_time_data = response.json()
             server_time = server_time_data.get('serverTime')
             return server_time
+
         except Exception as e:
             self.__logger.error(f'Error getting server time: {e}')
             return None
 
     def get_ticker(self, symbol: str) -> dict | None:
         try:
+            #   FIX TICKER, MUST RETURN VALUE FOR ONLY ONE SYMBOL
             self.__logger.trace('Return ticker')
             response = requests.get(Endpoints.TICKER).json()
             _ticker = response
@@ -105,17 +107,6 @@ class MEXCConnector(Connector):
             self.__logger.error(f'Error getting exchange info: {e}')
             return None
 
-    def get_book(self, symbol: str) -> dict | None:
-        try:
-            self.__logger.trace('Return book')
-            response = requests.get(Endpoints.BOOK_TICKER).json()
-            _book = response
-
-            return _book
-        except Exception as e:
-            self.__logger.error(f'Error getting book: {e}')
-            return None
-
     def get_balances(self) -> object | None:
         try:
             self.__logger.trace('Return balance data')
@@ -125,11 +116,22 @@ class MEXCConnector(Connector):
             self.__logger.error(f'Error getting balance info: {e}')
             return None
 
+    def get_book(self, symbol: str) -> dict | None:
+        try:
+            #   FIX BOOK, MUST RETURN VALUE FOR ONLY ONE SYMBOL
+            self.__logger.trace('Return book')
+            response = requests.get(Endpoints.BOOK_TICKER).json()
+            _book = response
+            return _book
+        except Exception as e:
+            self.__logger.error(f'Error getting book: {e}')
+            return None
+
     def subscribe(self, symbol: str) -> bool:
         subscribe_request = {
             "method": "SUBSCRIPTION",
             "params": [f"spot@public.deals.v3.api@{symbol}"],
-            "id": 0
+            "id": str(self.__get_nonce())
         }
         self.__websocket.send(json.dumps(subscribe_request))
         self.__logger.info(f'Sent subscribe request: {subscribe_request}')
@@ -144,29 +146,6 @@ class MEXCConnector(Connector):
         self.__websocket.send(json.dumps(unsubscribe_request))
         self.__logger.info(f'Sent unsubscribe request: {unsubscribe_request}')
         return True
-
-    def on_message(self, ws, message):
-        self.__logger.info(f"Received message: {message}")
-
-    def on_error(self, ws, error):
-        self.__logger.error(f"Error: {error}")
-
-    def on_close(self, ws, close_status_code, close_msg):
-        self.__logger.trace("Closed connection")
-
-    def on_open(self, ws):
-        self.__logger.trace("Connection opened")
-
-        def run():
-            subscribe_request = {
-                "method": "SUBSCRIPTION",
-                "params": ["spot@public.deals.v3.api@BTCUSDT"],
-                "id": 0
-            }
-            ws.send(json.dumps(subscribe_request))
-            self.__logger.info(f"Sent subscribe request: {subscribe_request}")
-
-        threading.Thread(target=run).start()
 
     def __get_nonce(self) -> int:
         nonce = self.__nonce
