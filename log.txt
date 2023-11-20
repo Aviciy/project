@@ -1510,3 +1510,171 @@
 2023-11-20 18:48:03.007404 | 2023-11-20 18:48:03.007404 | INFO | Book is correct
 2023-11-20 18:48:03.008363 | 2023-11-20 18:48:03.008363 | TRACE | Return balance data
 2023-11-20 18:48:03.720395 | 2023-11-20 18:48:03.720395 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 19:07:48.130925 | 2023-11-20 19:07:48.130925 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 19:07:48.130925 | 2023-11-20 19:07:48.130925 | TRACE | MEXCConnector was created
+2023-11-20 19:07:48.130925 | 2023-11-20 19:07:48.130925 | INFO | Exchange name is correct
+2023-11-20 19:07:48.130925 | 2023-11-20 19:07:48.130925 | TRACE | Checking connection
+2023-11-20 19:07:49.135396 | 2023-11-20 19:07:49.135396 | INFO | Check connection is correct
+2023-11-20 19:07:49.859546 | 2023-11-20 19:07:49.859546 | INFO | Server time is correct: delta = abs(1700500070667 - 1700500069859) < 65536ms
+2023-11-20 19:07:50.696149 | 2023-11-20 19:07:50.696149 | INFO | Exchange info is correct
+2023-11-20 19:07:50.696149 | 2023-11-20 19:07:50.696149 | TRACE | Return ticker
+2023-11-20 19:07:51.474878 | 2023-11-20 19:07:51.474878 | INFO | Ticker is correct
+2023-11-20 19:07:51.474878 | 2023-11-20 19:07:51.474878 | TRACE | Return book
+2023-11-20 19:07:52.226043 | 2023-11-20 19:07:52.226043 | INFO | Book is correct
+2023-11-20 19:07:52.227032 | 2023-11-20 19:07:52.227032 | TRACE | Return balance data
+2023-11-20 19:07:52.936597 | 2023-11-20 19:07:52.936597 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 19:09:08.879155 | 2023-11-20 19:09:08.879155 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 19:09:08.879155 | 2023-11-20 19:09:08.879155 | TRACE | MEXCConnector was created
+2023-11-20 19:09:08.879155 | 2023-11-20 19:09:08.879155 | INFO | Exchange name is correct
+2023-11-20 19:09:08.879155 | 2023-11-20 19:09:08.879155 | TRACE | Checking connection
+2023-11-20 19:09:10.618836 | 2023-11-20 19:09:10.618836 | INFO | Check connection is correct
+2023-11-20 19:09:11.312871 | 2023-11-20 19:09:11.312871 | INFO | Server time is correct: delta = abs(1700500152121 - 1700500151312) < 65536ms
+2023-11-20 19:09:12.326724 | 2023-11-20 19:09:12.326724 | INFO | Exchange info is correct
+2023-11-20 19:09:12.327717 | 2023-11-20 19:09:12.327717 | TRACE | Return ticker
+2023-11-20 19:09:13.054981 | 2023-11-20 19:09:13.054981 | INFO | Ticker is correct
+2023-11-20 19:09:13.056014 | 2023-11-20 19:09:13.056014 | TRACE | Return book
+2023-11-20 19:09:13.796840 | 2023-11-20 19:09:13.796840 | INFO | Book is correct
+2023-11-20 19:09:13.796840 | 2023-11-20 19:09:13.796840 | TRACE | Return balance data
+2023-11-20 19:09:14.588666 | 2023-11-20 19:09:14.588666 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 19:11:30.630789 | 2023-11-20 19:11:30.630789 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 19:11:30.631787 | 2023-11-20 19:11:30.630789 | TRACE | MEXCConnector was created
+2023-11-20 19:11:30.631787 | 2023-11-20 19:11:30.631787 | INFO | Exchange name is correct
+2023-11-20 19:11:30.631787 | 2023-11-20 19:11:30.631787 | TRACE | Checking connection
+2023-11-20 19:11:31.341037 | 2023-11-20 19:11:31.340035 | INFO | Check connection is correct
+2023-11-20 19:11:32.024595 | 2023-11-20 19:11:32.024595 | INFO | Server time is correct: delta = abs(1700500292837 - 1700500292024) < 65536ms
+2023-11-20 19:11:32.796806 | 2023-11-20 19:11:32.796806 | INFO | Exchange info is correct
+2023-11-20 19:11:32.796806 | 2023-11-20 19:11:32.796806 | TRACE | Return ticker
+2023-11-20 19:11:33.502819 | 2023-11-20 19:11:33.502819 | INFO | Ticker is correct
+2023-11-20 19:11:33.503783 | 2023-11-20 19:11:33.503783 | TRACE | Return book
+2023-11-20 19:11:34.238992 | 2023-11-20 19:11:34.238992 | INFO | Book is correct
+2023-11-20 19:11:34.238992 | 2023-11-20 19:11:34.238992 | TRACE | Return balance data
+2023-11-20 19:11:34.954009 | 2023-11-20 19:11:34.954009 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 19:13:48.534575 | 2023-11-20 19:13:48.534575 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 19:13:48.535573 | 2023-11-20 19:13:48.535573 | TRACE | MEXCConnector was created
+2023-11-20 19:13:48.535573 | 2023-11-20 19:13:48.535573 | INFO | Exchange name is correct
+2023-11-20 19:13:48.535573 | 2023-11-20 19:13:48.535573 | TRACE | Checking connection
+2023-11-20 19:13:49.411257 | 2023-11-20 19:13:49.411257 | INFO | Check connection is correct
+2023-11-20 19:13:50.132312 | 2023-11-20 19:13:50.132312 | INFO | Server time is correct: delta = abs(1700500430924 - 1700500430132) < 65536ms
+2023-11-20 19:13:50.922806 | 2023-11-20 19:13:50.922806 | INFO | Exchange info is correct
+2023-11-20 19:13:50.922806 | 2023-11-20 19:13:50.922806 | TRACE | Return ticker
+2023-11-20 19:13:51.624915 | 2023-11-20 19:13:51.624915 | INFO | Ticker is correct
+2023-11-20 19:13:51.624915 | 2023-11-20 19:13:51.624915 | TRACE | Return book
+2023-11-20 19:13:52.398090 | 2023-11-20 19:13:52.398090 | INFO | Book is correct
+2023-11-20 19:13:52.398090 | 2023-11-20 19:13:52.398090 | TRACE | Return balance data
+2023-11-20 19:13:53.124185 | 2023-11-20 19:13:53.124185 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 19:14:30.161336 | 2023-11-20 19:14:30.160304 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 19:14:30.161336 | 2023-11-20 19:14:30.161336 | TRACE | MEXCConnector was created
+2023-11-20 19:14:30.161336 | 2023-11-20 19:14:30.161336 | INFO | Exchange name is correct
+2023-11-20 19:14:30.161336 | 2023-11-20 19:14:30.161336 | TRACE | Checking connection
+2023-11-20 19:14:30.900085 | 2023-11-20 19:14:30.900085 | INFO | Check connection is correct
+2023-11-20 19:14:31.602138 | 2023-11-20 19:14:31.602138 | INFO | Server time is correct: delta = abs(1700500472413 - 1700500471602) < 65536ms
+2023-11-20 19:14:32.384293 | 2023-11-20 19:14:32.384293 | INFO | Exchange info is correct
+2023-11-20 19:14:32.384293 | 2023-11-20 19:14:32.384293 | TRACE | Return ticker
+2023-11-20 19:14:33.086314 | 2023-11-20 19:14:33.086314 | INFO | Ticker is correct
+2023-11-20 19:14:33.087312 | 2023-11-20 19:14:33.087312 | TRACE | Return book
+2023-11-20 19:14:33.833034 | 2023-11-20 19:14:33.833034 | INFO | Book is correct
+2023-11-20 19:14:33.833034 | 2023-11-20 19:14:33.833034 | TRACE | Return balance data
+2023-11-20 19:14:34.533211 | 2023-11-20 19:14:34.533211 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 19:14:35.661654 | 2023-11-20 19:14:35.661654 | INFO | Connection opened
+2023-11-20 19:14:35.662654 | 2023-11-20 19:14:35.662654 | INFO | Sent subscribe request: {'method': 'SUBSCRIPTION', 'params': ['spot@public.deals.v3.api@BTCUSDT'], 'id': 0}
+2023-11-20 19:14:36.002047 | 2023-11-20 19:14:36.002047 | INFO | Received message: {"id":0,"code":0,"msg":"spot@public.deals.v3.api@BTCUSDT"}
+2023-11-20 19:14:36.401716 | 2023-11-20 19:14:36.401716 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37250.00","v":"0.374053","S":1,"t":1700500477193}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500477195}
+2023-11-20 19:14:36.402721 | 2023-11-20 19:14:36.402721 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37250.00","v":"0.313887","S":1,"t":1700500477193}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500477195}
+2023-11-20 19:14:36.902869 | 2023-11-20 19:14:36.902869 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37249.99","v":"0.001174","S":2,"t":1700500477692}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500477694}
+2023-11-20 19:14:36.902869 | 2023-11-20 19:14:36.902869 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37249.99","v":"0.001083","S":1,"t":1700500477692}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500477694}
+2023-11-20 19:14:37.814893 | 2023-11-20 19:14:37.814893 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37249.99","v":"0.018424","S":2,"t":1700500478606}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500478609}
+2023-11-20 19:14:38.393734 | 2023-11-20 19:14:38.393734 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37245.56","v":"0.013000","S":2,"t":1700500479185}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500479188}
+2023-11-20 19:14:38.899940 | 2023-11-20 19:14:38.899279 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37245.74","v":"0.004740","S":1,"t":1700500479692}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500479694}
+2023-11-20 19:14:38.899940 | 2023-11-20 19:14:38.899940 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37245.74","v":"0.008709","S":1,"t":1700500479693}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500479694}
+2023-11-20 19:14:38.900901 | 2023-11-20 19:14:38.900901 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37245.74","v":"0.007793","S":2,"t":1700500479693}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500479694}
+2023-11-20 19:14:40.900373 | 2023-11-20 19:14:40.900373 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37245.60","v":"0.043400","S":2,"t":1700500481691}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500481693}
+2023-11-20 19:14:40.901373 | 2023-11-20 19:14:40.901373 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37245.60","v":"0.037084","S":1,"t":1700500481692}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500481693}
+2023-11-20 19:14:40.901373 | 2023-11-20 19:14:40.901373 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37245.60","v":"0.015222","S":2,"t":1700500481693}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500481695}
+2023-11-20 19:14:40.903365 | 2023-11-20 19:14:40.903365 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37245.60","v":"0.017651","S":1,"t":1700500481693}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500481695}
+2023-11-20 19:14:41.403404 | 2023-11-20 19:14:41.403404 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37243.73","v":"0.069828","S":1,"t":1700500482194}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500482196}
+2023-11-20 19:14:41.407398 | 2023-11-20 19:14:41.407398 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37243.73","v":"0.036388","S":2,"t":1700500482194}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500482197}
+2023-11-20 19:14:41.407398 | 2023-11-20 19:14:41.407398 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37243.73","v":"0.004805","S":2,"t":1700500482196}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500482198}
+2023-11-20 19:14:41.899743 | 2023-11-20 19:14:41.899743 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37243.72","v":"0.018546","S":2,"t":1700500482692}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500482694}
+2023-11-20 19:14:41.902750 | 2023-11-20 19:14:41.902750 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37243.72","v":"0.104345","S":1,"t":1700500482693}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500482695}
+2023-11-20 19:14:42.400648 | 2023-11-20 19:14:42.400648 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37243.73","v":"0.007541","S":1,"t":1700500483192}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500483194}
+2023-11-20 19:14:42.401362 | 2023-11-20 19:14:42.401362 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37243.73","v":"0.014920","S":2,"t":1700500483193}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500483195}
+2023-11-20 19:14:42.402358 | 2023-11-20 19:14:42.402358 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37243.73","v":"0.015843","S":2,"t":1700500483194}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500483196}
+2023-11-20 19:14:42.902459 | 2023-11-20 19:14:42.902459 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37241.16","v":"0.072299","S":2,"t":1700500483692}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500483694}
+2023-11-20 19:14:42.903103 | 2023-11-20 19:14:42.903103 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37241.16","v":"0.119937","S":2,"t":1700500483693}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500483695}
+2023-11-20 19:14:42.906084 | 2023-11-20 19:14:42.906084 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37241.16","v":"0.064133","S":1,"t":1700500483693}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500483695}
+2023-11-20 19:14:46.400330 | 2023-11-20 19:14:46.400330 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37239.30","v":"0.007455","S":2,"t":1700500487192}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500487194}
+2023-11-20 19:14:46.401031 | 2023-11-20 19:14:46.401031 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37239.30","v":"0.026251","S":1,"t":1700500487192}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500487195}
+2023-11-20 19:14:46.401031 | 2023-11-20 19:14:46.401031 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37239.30","v":"0.022324","S":2,"t":1700500487192}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500487195}
+2023-11-20 19:14:48.904176 | 2023-11-20 19:14:48.904176 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37236.59","v":"0.123232","S":2,"t":1700500489692}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500489696}
+2023-11-20 19:14:48.904986 | 2023-11-20 19:14:48.904176 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37236.59","v":"0.017565","S":2,"t":1700500489692}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500489696}
+2023-11-20 19:14:48.904986 | 2023-11-20 19:14:48.904986 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37236.59","v":"0.005134","S":1,"t":1700500489692}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500489696}
+2023-11-20 19:14:53.898791 | 2023-11-20 19:14:53.898791 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37236.58","v":"0.000191","S":2,"t":1700500494691}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500494693}
+2023-11-20 19:14:56.409273 | 2023-11-20 19:14:56.409273 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37236.34","v":"0.027668","S":1,"t":1700500497197}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500497199}
+2023-11-20 19:14:56.409912 | 2023-11-20 19:14:56.409912 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37236.34","v":"0.123941","S":2,"t":1700500497198}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500497200}
+2023-11-20 19:14:56.409912 | 2023-11-20 19:14:56.409912 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37236.34","v":"0.251160","S":2,"t":1700500497198}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500497200}
+2023-11-20 19:15:02.405045 | 2023-11-20 19:15:02.405045 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37236.33","v":"0.000247","S":2,"t":1700500503192}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500503193}
+2023-11-20 19:15:04.902367 | 2023-11-20 19:15:04.902367 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37236.34","v":"0.797864","S":2,"t":1700500505694}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500505696}
+2023-11-20 19:15:04.903202 | 2023-11-20 19:15:04.903202 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37236.34","v":"0.109650","S":1,"t":1700500505694}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500505697}
+2023-11-20 19:15:06.398628 | 2023-11-20 19:15:06.397966 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37236.33","v":"0.050588","S":2,"t":1700500507190}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500507192}
+2023-11-20 19:15:06.398628 | 2023-11-20 19:15:06.398628 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37236.33","v":"0.113621","S":1,"t":1700500507191}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500507193}
+2023-11-20 19:15:06.414609 | 2023-11-20 19:15:06.414609 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37236.33","v":"0.088407","S":2,"t":1700500507191}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500507193}
+2023-11-20 19:15:07.092520 | 2023-11-20 19:15:07.092520 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37236.34","v":"0.010754","S":1,"t":1700500507882}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500507884}
+2023-11-20 19:15:07.405343 | 2023-11-20 19:15:07.405343 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37236.33","v":"0.000558","S":2,"t":1700500508193}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500508195}
+2023-11-20 19:16:37.845988 | 2023-11-20 19:16:37.845988 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 19:16:37.845988 | 2023-11-20 19:16:37.845988 | TRACE | MEXCConnector was created
+2023-11-20 19:16:37.845988 | 2023-11-20 19:16:37.845988 | INFO | Exchange name is correct
+2023-11-20 19:16:37.846987 | 2023-11-20 19:16:37.845988 | TRACE | Checking connection
+2023-11-20 19:16:38.615931 | 2023-11-20 19:16:38.615931 | INFO | Check connection is correct
+2023-11-20 19:16:39.366293 | 2023-11-20 19:16:39.365297 | INFO | Server time is correct: delta = abs(1700500600173 - 1700500599365) < 65536ms
+2023-11-20 19:16:40.154892 | 2023-11-20 19:16:40.154892 | INFO | Exchange info is correct
+2023-11-20 19:16:40.154892 | 2023-11-20 19:16:40.154892 | TRACE | Return ticker
+2023-11-20 19:16:40.878442 | 2023-11-20 19:16:40.877444 | INFO | Ticker is correct
+2023-11-20 19:16:40.878442 | 2023-11-20 19:16:40.878442 | TRACE | Return book
+2023-11-20 19:16:41.613882 | 2023-11-20 19:16:41.613882 | INFO | Book is correct
+2023-11-20 19:16:41.613882 | 2023-11-20 19:16:41.613882 | TRACE | Return balance data
+2023-11-20 19:16:42.324021 | 2023-11-20 19:16:42.324021 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 19:16:43.466042 | 2023-11-20 19:16:43.466042 | TRACE | Connection opened
+2023-11-20 19:16:43.466042 | 2023-11-20 19:16:43.466042 | INFO | Sent subscribe request: {'method': 'SUBSCRIPTION', 'params': ['spot@public.deals.v3.api@BTCUSDT'], 'id': 0}
+2023-11-20 19:16:43.809124 | 2023-11-20 19:16:43.809124 | INFO | Received message: {"id":0,"code":0,"msg":"spot@public.deals.v3.api@BTCUSDT"}
+2023-11-20 19:16:43.916653 | 2023-11-20 19:16:43.916653 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37206.72","v":"0.000212","S":1,"t":1700500604703}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500604705}
+2023-11-20 19:16:44.634684 | 2023-11-20 19:16:44.634684 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37206.71","v":"0.049676","S":2,"t":1700500605419}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500605421}
+2023-11-20 19:16:44.910905 | 2023-11-20 19:16:44.910905 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37206.72","v":"0.015902","S":1,"t":1700500605692}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500605695}
+2023-11-20 19:16:44.910905 | 2023-11-20 19:16:44.910905 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37206.72","v":"0.030660","S":2,"t":1700500605692}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500605695}
+2023-11-20 19:16:44.911862 | 2023-11-20 19:16:44.911862 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37206.72","v":"0.003113","S":2,"t":1700500605692}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500605695}
+2023-11-20 19:16:45.406398 | 2023-11-20 19:16:45.406398 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37206.28","v":"0.109275","S":1,"t":1700500606193}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500606195}
+2023-11-20 19:16:45.407401 | 2023-11-20 19:16:45.407401 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37206.28","v":"0.012456","S":2,"t":1700500606194}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500606196}
+2023-11-20 19:16:45.409356 | 2023-11-20 19:16:45.409356 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37206.28","v":"0.124643","S":2,"t":1700500606196}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500606199}
+2023-11-20 19:16:45.911935 | 2023-11-20 19:16:45.911935 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37205.93","v":"0.141211","S":2,"t":1700500606692}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500606694}
+2023-11-20 19:16:45.912934 | 2023-11-20 19:16:45.912934 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37205.93","v":"0.011915","S":2,"t":1700500606693}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500606694}
+2023-11-20 19:16:45.912934 | 2023-11-20 19:16:45.912934 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37205.93","v":"0.064809","S":1,"t":1700500606693}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500606695}
+2023-11-20 19:16:48.408758 | 2023-11-20 19:16:48.408758 | ERROR | Error: 
+2023-11-20 19:16:48.750733 | 2023-11-20 19:16:48.750733 | TRACE | Closed connection
+2023-11-20 19:17:05.335806 | 2023-11-20 19:17:05.334810 | DEBUG | {'key': 'mx0vglWmEenQD2ddFS', 'secret': '8cddcb236e9944e7919ba7fddc6ba782', 'url': 'https://api.mexc.com', 'wss': 'wss://wbs.mexc.com/ws', 'type_of_full_subscription': 'orderBookL2', 'warning_delay_sec': '5', 'maximum_delay_sec': '25'}
+2023-11-20 19:17:05.335806 | 2023-11-20 19:17:05.335806 | TRACE | MEXCConnector was created
+2023-11-20 19:17:05.335806 | 2023-11-20 19:17:05.335806 | INFO | Exchange name is correct
+2023-11-20 19:17:05.335806 | 2023-11-20 19:17:05.335806 | TRACE | Checking connection
+2023-11-20 19:17:06.092359 | 2023-11-20 19:17:06.092359 | INFO | Check connection is correct
+2023-11-20 19:17:06.775869 | 2023-11-20 19:17:06.775869 | INFO | Server time is correct: delta = abs(1700500627588 - 1700500626775) < 65536ms
+2023-11-20 19:17:07.561358 | 2023-11-20 19:17:07.561358 | INFO | Exchange info is correct
+2023-11-20 19:17:07.561358 | 2023-11-20 19:17:07.561358 | TRACE | Return ticker
+2023-11-20 19:17:08.285492 | 2023-11-20 19:17:08.284479 | INFO | Ticker is correct
+2023-11-20 19:17:08.285492 | 2023-11-20 19:17:08.285492 | TRACE | Return book
+2023-11-20 19:17:09.047652 | 2023-11-20 19:17:09.046624 | INFO | Book is correct
+2023-11-20 19:17:09.047652 | 2023-11-20 19:17:09.047652 | TRACE | Return balance data
+2023-11-20 19:17:09.746627 | 2023-11-20 19:17:09.745588 | INFO | balances: {'makerCommission': 0, 'takerCommission': 0, 'buyerCommission': 0, 'sellerCommission': 0, 'canTrade': True, 'canWithdraw': True, 'canDeposit': True, 'updateTime': None, 'accountType': 'SPOT', 'balances': [], 'permissions': ['SPOT']}
+2023-11-20 19:17:10.867811 | 2023-11-20 19:17:10.867811 | TRACE | Connection opened
+2023-11-20 19:17:10.868771 | 2023-11-20 19:17:10.868771 | INFO | Sent subscribe request: {'method': 'SUBSCRIPTION', 'params': ['spot@public.deals.v3.api@BTCUSDT'], 'id': 0}
+2023-11-20 19:17:11.229210 | 2023-11-20 19:17:11.229210 | INFO | Received message: {"id":0,"code":0,"msg":"spot@public.deals.v3.api@BTCUSDT"}
+2023-11-20 19:17:11.886257 | 2023-11-20 19:17:11.885266 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37202.44","v":"0.219430","S":2,"t":1700500632691}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500632693}
+2023-11-20 19:17:11.889265 | 2023-11-20 19:17:11.889265 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37202.44","v":"0.355169","S":1,"t":1700500632691}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500632693}
+2023-11-20 19:17:11.890240 | 2023-11-20 19:17:11.890240 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37202.44","v":"0.762383","S":2,"t":1700500632692}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500632693}
+2023-11-20 19:17:13.387731 | 2023-11-20 19:17:13.387731 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37212.02","v":"0.013216","S":2,"t":1700500634193}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500634196}
+2023-11-20 19:17:13.387731 | 2023-11-20 19:17:13.387731 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37212.02","v":"0.008321","S":1,"t":1700500634193}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500634196}
+2023-11-20 19:17:13.388730 | 2023-11-20 19:17:13.387731 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37212.02","v":"0.012623","S":2,"t":1700500634193}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500634196}
+2023-11-20 19:17:15.386974 | 2023-11-20 19:17:15.386974 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37212.01","v":"0.099208","S":2,"t":1700500636191}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500636194}
+2023-11-20 19:17:15.387975 | 2023-11-20 19:17:15.386974 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37212.01","v":"0.077984","S":2,"t":1700500636191}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500636194}
+2023-11-20 19:17:15.387975 | 2023-11-20 19:17:15.387975 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37212.01","v":"0.460022","S":1,"t":1700500636192}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500636194}
+2023-11-20 19:17:16.886293 | 2023-11-20 19:17:16.886293 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37207.26","v":"0.003106","S":1,"t":1700500637692}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500637693}
+2023-11-20 19:17:16.887294 | 2023-11-20 19:17:16.887294 | INFO | Received message: {"c":"spot@public.deals.v3.api@BTCUSDT","d":{"deals":[{"p":"37207.26","v":"0.004284","S":1,"t":1700500637693}],"e":"spot@public.deals.v3.api"},"s":"BTCUSDT","t":1700500637694}
+2023-11-20 19:17:18.889692 | 2023-11-20 19:17:18.889692 | ERROR | Error: 
+2023-11-20 19:17:19.230704 | 2023-11-20 19:17:19.230704 | TRACE | Closed connection

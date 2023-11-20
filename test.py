@@ -50,7 +50,7 @@ if __name__ == '__main__':
     assert balances is not None, 'Balance error'
     logger.info(f'balances: {balances}')
 
-    your_instance = Stream()
+    your_instance = Stream(logger, settings)
     your_instance.subscribe_to_stream()
 
 input('Press Enter to continue...')

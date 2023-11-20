@@ -117,17 +117,24 @@ class MEXCConnector(Connector):
 
 
 class Stream():
+    def __init__(self, logger: Logger, settings: dict) -> None:
+        super().__init__()
+        self.__instance_name = None
+        self.__server = None
+        self.__logger = logger
+        self.__settings = settings
+
     def on_message(self, ws, message):
-        print(f"Received message: {message}")
+        self.__logger.info(f"Received message: {message}")
 
     def on_error(self, ws, error):
-        print(f"Error: {error}")
+        self.__logger.error(f"Error: {error}")
 
     def on_close(self, ws, close_status_code, close_msg):
-        print("Closed connection")
+        self.__logger.trace("Closed connection")
 
     def on_open(self, ws):
-        print("Connection opened")
+        self.__logger.trace("Connection opened")
 
         subscribe_request = {
             "method": "SUBSCRIPTION",
@@ -135,7 +142,7 @@ class Stream():
             "id": 0
         }
         ws.send(json.dumps(subscribe_request))
-        print(f"Sent subscribe request: {subscribe_request}")
+        self.__logger.info(f"Sent subscribe request: {subscribe_request}")
 
     def subscribe_to_stream(self):
         uri = "wss://wbs.mexc.com/ws"
