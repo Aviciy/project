@@ -4,8 +4,9 @@ from strenum import StrEnum
 class MEXCEndpoints(StrEnum):
     """MEXC API endpoints"""
 
-    # Base Endpoint
+    # Base Endpoints
     BASE = 'https://api.mexc.com'
+    WEBSOCKET_BASE = 'wss://wbs.mexc.com/ws'
 
     # Public
     PING = 'https://api.mexc.com/api/v3/ping'

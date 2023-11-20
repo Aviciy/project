@@ -7,6 +7,14 @@ class Connector(metaclass=ABCMeta):
     def __init__(self) -> None:
         pass
 
+    def start(self) -> bool:
+        """Starts connector"""
+        raise NotImplementedError
+
+    def stop(self) -> bool:
+        """Stops connector"""
+        raise NotImplementedError
+
     @abstractmethod
     def get_name(self) -> str:
         """Returns the name of the exchange"""
@@ -42,14 +50,12 @@ class Connector(metaclass=ABCMeta):
         """Returns balance information"""
         raise NotImplementedError
 
-
-class Stream(metaclass=ABCMeta):
-    __metadata__ = ABCMeta
-
     @abstractmethod
-    def subscribe_to_stream(self, subscriber, symbol, model, func):
+    def subscribe(self, symbol: str) -> bool:
+        """Subscribe to market data"""
         raise NotImplementedError
 
-    # @abstractmethod
-    # def unsubscribe(self, subscriber, symbol, model):
-    #     raise NotImplementedError
+    @abstractmethod
+    def unsubscribe(self, symbol: str) -> bool:
+        """Unsubscribe from market data"""
+        raise NotImplementedError

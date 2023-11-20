@@ -1,28 +1,66 @@
 import hashlib
 import hmac
 import json
+import threading
 import time
 from urllib.parse import urlencode
 
 import requests
+from requests import Response
 from self import self
 from websocket._app import WebSocketApp
 
 from Abstract.connector import Connector
 from Abstract.logger import Logger
+from Abstract.websocket_handler import WebSocketHandler
 from MEXC import Endpoints
 
 
 class MEXCConnector(Connector):
 
-    def __init__(self, logger: Logger, settings: dict) -> None:
+    def __init__(self, logger: Logger, websocket_handler: WebSocketHandler, settings: dict) -> None:
         super().__init__()
         self.__instance_name = None
         self.__server = None
         self.__logger = logger
         self.__settings = settings
-
+        self.__websocket = None
+        self.__websocket_thread = None
+        self.__is_started = False
+        self.__nonce = 0
+        self.__websocket_handler = websocket_handler
         self.__logger.trace('MEXCConnector was created')
+
+    def start(self) -> bool:
+        if self.__websocket is not None:
+            self.__logger.warning('MEXCConnector is already started')
+            return True
+        try:
+            self.__websocket = WebSocketApp(Endpoints.WEBSOCKET_BASE,
+                                            on_message=self.__websocket_handler.on_message,
+                                            on_error=self.__websocket_handler.on_error,
+                                            on_close=self.__websocket_handler.on_close,
+                                            on_open=self.__websocket_handler.on_open)
+            self.__websocket_thread = threading.Thread(target=self.__websocket.run_forever)
+            self.__websocket_thread.start()
+            self.__is_started = True
+        except Exception as e:
+            self.__logger.error(f'Error starting MEXCConnector: {e}')
+            return False
+        return True
+
+    def stop(self) -> bool:
+        if not self.__is_started:
+            self.__logger.warning('MEXCConnector is already stopped')
+            return True
+        try:
+            self.__websocket.close()
+            self.__websocket_thread.join()
+            self.__is_started = False
+        except Exception as e:
+            self.__logger.error(f'Error stopping MEXCConnector: {e}')
+            return False
+        return True
 
     def get_name(self) -> str:
         return 'MEXC'
@@ -87,7 +125,55 @@ class MEXCConnector(Connector):
             self.__logger.error(f'Error getting balance info: {e}')
             return None
 
-    def __make_signed_request(self, url: str, method: str, **kwargs) -> dict:
+    def subscribe(self, symbol: str) -> bool:
+        subscribe_request = {
+            "method": "SUBSCRIPTION",
+            "params": [f"spot@public.deals.v3.api@{symbol}"],
+            "id": 0
+        }
+        self.__websocket.send(json.dumps(subscribe_request))
+        self.__logger.info(f'Sent subscribe request: {subscribe_request}')
+        return True
+
+    def unsubscribe(self, symbol: str) -> bool:
+        unsubscribe_request = {
+            "method": "UNSUBSCRIPTION",
+            "params": [f"spot@public.deals.v3.api@{symbol}"],
+            "id": str(self.__get_nonce())
+        }
+        self.__websocket.send(json.dumps(unsubscribe_request))
+        self.__logger.info(f'Sent unsubscribe request: {unsubscribe_request}')
+        return True
+
+    def on_message(self, ws, message):
+        self.__logger.info(f"Received message: {message}")
+
+    def on_error(self, ws, error):
+        self.__logger.error(f"Error: {error}")
+
+    def on_close(self, ws, close_status_code, close_msg):
+        self.__logger.trace("Closed connection")
+
+    def on_open(self, ws):
+        self.__logger.trace("Connection opened")
+
+        def run():
+            subscribe_request = {
+                "method": "SUBSCRIPTION",
+                "params": ["spot@public.deals.v3.api@BTCUSDT"],
+                "id": 0
+            }
+            ws.send(json.dumps(subscribe_request))
+            self.__logger.info(f"Sent subscribe request: {subscribe_request}")
+
+        threading.Thread(target=run).start()
+
+    def __get_nonce(self) -> int:
+        nonce = self.__nonce
+        self.__nonce += 1
+        return self.__nonce
+
+    def __make_signed_request(self, url: str, method: str, **kwargs) -> Response:
         kwargs['timestamp'] = time.time_ns() // 1000000
         encoded_params = urlencode(kwargs)
         signature = hmac.new(str.encode(self.__settings['secret'], encoding='utf-8'), str.encode(encoded_params, encoding='utf-8'), hashlib.sha256).hexdigest().lower()
@@ -114,39 +200,3 @@ class MEXCConnector(Connector):
             return requests.head(url, params=params, headers=headers)
         else:
             raise ValueError(f'Unknown method: {method}')
-
-
-class Stream():
-    def __init__(self, logger: Logger, settings: dict) -> None:
-        super().__init__()
-        self.__instance_name = None
-        self.__server = None
-        self.__logger = logger
-        self.__settings = settings
-
-    def on_message(self, ws, message):
-        self.__logger.info(f"Received message: {message}")
-
-    def on_error(self, ws, error):
-        self.__logger.error(f"Error: {error}")
-
-    def on_close(self, ws, close_status_code, close_msg):
-        self.__logger.trace("Closed connection")
-
-    def on_open(self, ws):
-        self.__logger.trace("Connection opened")
-
-        subscribe_request = {
-            "method": "SUBSCRIPTION",
-            "params": ["spot@public.deals.v3.api@BTCUSDT"],
-            "id": 0
-        }
-        ws.send(json.dumps(subscribe_request))
-        self.__logger.info(f"Sent subscribe request: {subscribe_request}")
-
-    def subscribe_to_stream(self):
-        uri = "wss://wbs.mexc.com/ws"
-
-        ws = WebSocketApp(uri, on_message=self.on_message, on_error=self.on_error,
-                          on_close=self.on_close, on_open=self.on_open)
-        ws.run_forever()
