@@ -1,52 +1,13 @@
-import json
 import time
-
-from websocket import WebSocketApp
 
 import MEXC
 from Abstract.connector import Connector
-from Abstract.logger import Logger
-from Abstract.websocket_handler import WebSocketHandler
-from Loggers.composite_logger import CompositeLogger
-from Loggers.console_logger import ConsoleLogger
-from Loggers.file_logger import FileLogger
-
-
-#   MOVE TO SEPARATE FILE
-class LoggingWebSocketHandler(WebSocketHandler):
-
-    def __init__(self, logger: Logger):
-        super().__init__()
-        self.__logger = logger
-
-    def on_message(self, ws: WebSocketApp, message: str) -> None:
-        #   FORMAT MESSAGE
-        self.__logger.debug(f'Message received: {message}')
-
-    def on_error(self, ws: WebSocketApp, error: Exception) -> None:
-        self.__logger.error(f'Error: {error}')
-
-    def on_close(self, ws: WebSocketApp, close_status_code: int or str, close_msg: str) -> None:
-        #   CHECK PARAMS FOR 'NONE' VALUE
-        #   IF 'NONE' - FORMAT AS EMPTY STRING
-        self.__logger.info(f'Closed: {close_status_code} {close_msg}')
-
-    def on_open(self, ws: WebSocketApp) -> None:
-        self.__logger.info('Opened')
-
+from Loggers.logger_setup import composite_logger, settings
+from MEXC.LoggingWebSocket import LoggingWebSocketHandler
 
 EXCHANGE_NAME = 'MEXC'
 
 if __name__ == '__main__':
-
-    #   MOVE TO SEPARATE FILE
-    console_logger: Logger = ConsoleLogger()
-    file_logger: Logger = FileLogger('log.txt')
-    composite_logger: Logger = CompositeLogger(console_logger, file_logger)
-    with open('MEXC_settings.json', 'r') as file:
-        settings = json.load(file)
-    #   ...
-
     composite_logger.debug(settings)
 
     connector: Connector = MEXC.Connector(composite_logger, LoggingWebSocketHandler(composite_logger), settings)
@@ -67,32 +28,21 @@ if __name__ == '__main__':
     exchange_info = connector.get_exchange_info()
     assert exchange_info is not None and len(exchange_info) > 0, 'Exchange info error'
     composite_logger.info('Exchange info is correct')
-    #   PRINT SYMBOLS SEPARATED BY ", ", FOR EXAMPLE:
-    #   BTCUSDT, LTCUSDT, ETHUSDT, ...
 
     assert connector.get_ticker('BTCUSDT') is not None, 'Ticker error'
     composite_logger.info('Ticker is correct')
-    #   PRINT TICKER, FOR EXAMPLE:
-    #   BTCUSDT -> 0.00000000
 
     assert connector.get_book('BTCUSDT') is not None, 'Book error'
     composite_logger.info('Book is correct')
-    #   PRINT BOOK, FOR EXAMPLE:
-    #   BTCUSDT -> {'bids': [{'price': 0.00000000, 'quantity': 0.00000000}, ...], 'asks': [{'price': 0.00000000, 'quantity': 0.00000000}, ...]}
 
     balances = connector.get_balances()
     assert balances is not None, 'Balance error'
     composite_logger.info(f'balances: {balances}')
 
-    assert connector.subscribe('LTCUSDT'), 'LTCUSDT subscribe error'
     assert connector.subscribe('BTCUSDT'), 'BTCUSDT subscribe error'
 
     time.sleep(5)
-
-    #   ADD UNSUBSCRIBE TESTS (assert)
-    #   ...
-
-    input()
+    assert connector.unsubscribe('BTCUSDT'), 'BTCSUDT connection close'
 
     assert connector.stop() is True, 'Stop error'
 

@@ -5,7 +5,7 @@ from Abstract.logger import Logger
 
 class FileLogger(Logger):
 
-    def __init__(self, filename: str):
+    def __init__(self, filename: str) -> object:
         super().__init__()
         self.__filename = filename
 

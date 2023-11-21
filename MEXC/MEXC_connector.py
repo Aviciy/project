@@ -87,22 +87,31 @@ class MEXCConnector(Connector):
             self.__logger.error(f'Error getting server time: {e}')
             return None
 
-    def get_ticker(self, symbol: str) -> dict | None:
+    def get_ticker(self, symbol: 'BTCUSDT') -> dict | None:
         try:
-            #   FIX TICKER, MUST RETURN VALUE FOR ONLY ONE SYMBOL
+
             self.__logger.trace('Return ticker')
-            response = requests.get(Endpoints.TICKER).json()
-            _ticker = response
-            return _ticker
+
+            url = f"{Endpoints.TICKER}?symbol={symbol}"
+            response = requests.get(url).json()
+            price = response['price']
+            result = (f"{symbol} -> {price}")
+            self.__logger.debug(result)
+            return result
         except Exception as e:
             self.__logger.error(f'Error getting ticker: {e}')
             return None
 
     def get_exchange_info(self) -> [str] or None:
+        self.__logger.trace('Return exchange info')
         try:
             response = requests.get(Endpoints.EXCHANGE_INFO).json()
-            exchange_symbols = [item['symbol'] for item in response['symbols']]
-            return exchange_symbols
+            symbols = [item['symbol'] for item in response.get('symbols', [])]
+            result = ', '.join(symbols[:5])
+            if len(symbols) > 5:
+                result += "..."
+            self.__logger.debug(result)
+            return result
         except Exception as e:
             self.__logger.error(f'Error getting exchange info: {e}')
             return None
@@ -116,13 +125,19 @@ class MEXCConnector(Connector):
             self.__logger.error(f'Error getting balance info: {e}')
             return None
 
-    def get_book(self, symbol: str) -> dict | None:
+    def get_book(self, symbol: 'BTCUSDT') -> dict | None:
         try:
-            #   FIX BOOK, MUST RETURN VALUE FOR ONLY ONE SYMBOL
             self.__logger.trace('Return book')
-            response = requests.get(Endpoints.BOOK_TICKER).json()
-            _book = response
-            return _book
+            url = f"{Endpoints.BOOK_TICKER}?symbol={symbol}"
+            response = requests.get(url).json()
+            formatted_data = {
+                'bids': [{'price': float(response['bidPrice']), 'quantity': float(response['bidQty'])}],
+                'asks': [{'price': float(response['askPrice']), 'quantity': float(response['askQty'])}]
+            }
+
+            result = (f"{symbol} -> {formatted_data}")
+            self.__logger.debug(result)
+            return response
         except Exception as e:
             self.__logger.error(f'Error getting book: {e}')
             return None
@@ -134,7 +149,7 @@ class MEXCConnector(Connector):
             "id": str(self.__get_nonce())
         }
         self.__websocket.send(json.dumps(subscribe_request))
-        self.__logger.info(f'Sent subscribe request: {subscribe_request}')
+        self.__logger.info(f'Send subscribe request: {subscribe_request}')
         return True
 
     def unsubscribe(self, symbol: str) -> bool:
@@ -144,7 +159,7 @@ class MEXCConnector(Connector):
             "id": str(self.__get_nonce())
         }
         self.__websocket.send(json.dumps(unsubscribe_request))
-        self.__logger.info(f'Sent unsubscribe request: {unsubscribe_request}')
+        self.__logger.info(f'Send unsubscribe request: {unsubscribe_request}')
         return True
 
     def __get_nonce(self) -> int:
