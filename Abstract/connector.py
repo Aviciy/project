@@ -59,3 +59,7 @@ class Connector(metaclass=ABCMeta):
     def unsubscribe(self, symbol: str) -> bool:
         """Unsubscribe from market data"""
         raise NotImplementedError
+
+    @abstractmethod
+    def test_order(self)-> str:
+        raise NotImplementedError

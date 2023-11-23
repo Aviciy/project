@@ -46,6 +46,8 @@ if __name__ == '__main__':
 
     assert connector.stop() is True, 'Stop error'
 
+    connector.test_order()
+
     print("ALL DONE")
 
 input('Press Enter to continue...')

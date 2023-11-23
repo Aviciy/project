@@ -87,7 +87,7 @@ class MEXCConnector(Connector):
             self.__logger.error(f'Error getting server time: {e}')
             return None
 
-    def get_ticker(self, symbol: 'BTCUSDT') -> dict | None:
+    def get_ticker(self, symbol: str) -> dict | None:
         try:
 
             self.__logger.trace('Return ticker')
@@ -95,7 +95,7 @@ class MEXCConnector(Connector):
             url = f"{Endpoints.TICKER}?symbol={symbol}"
             response = requests.get(url).json()
             price = response['price']
-            result = (f"{symbol} -> {price}")
+            result = f"{symbol} -> {price}"
             self.__logger.debug(result)
             return result
         except Exception as e:
@@ -194,3 +194,22 @@ class MEXCConnector(Connector):
             return requests.head(url, params=params, headers=headers)
         else:
             raise ValueError(f'Unknown method: {method}')
+
+    def test_order(self) -> str:
+
+        api_key = "mx0vgleFwQqXULvi0m"
+        api_secret = "bef200a63a324dc18167cdccdae60fb8"
+
+        symbol, side, type, quantity, price = 'MXUSDT', 'BUY', 'LIMIT', '50', '0.1'
+
+        timestamp = int(time.time() * 1000)
+        payload = f'symbol={symbol}&side={side}&type={type}&quantity={quantity}&price={price}&timestamp={timestamp}'
+        signature = hmac.new(api_secret.encode(), payload.encode(), hashlib.sha256).hexdigest()
+        url = f'{Endpoints.ORDER_TEST}?{payload}&signature={signature}'
+        headers = {'APIKEY': api_key}
+        response = requests.post(url, headers=headers)
+
+        if response.status_code == 200:
+            self.__logger.trace("Test Order placed successfully!")
+        else:
+            self.__logger.error(f"Error placing order. Status code: {response.status_code}")
