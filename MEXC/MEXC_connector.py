@@ -125,7 +125,7 @@ class MEXCConnector(Connector):
             self.__logger.error(f'Error getting balance info: {e}')
             return None
 
-    def get_book(self, symbol: 'BTCUSDT') -> dict | None:
+    def get_book(self, symbol: str) -> dict | None:
         try:
             self.__logger.trace('Return book')
             url = f"{Endpoints.BOOK_TICKER}?symbol={symbol}"
@@ -213,3 +213,17 @@ class MEXCConnector(Connector):
             self.__logger.trace("Test Order placed successfully!")
         else:
             self.__logger.error(f"Error placing order. Status code: {response.status_code}")
+
+    def make_order(self):
+        api_key = "mx0vgleFwQqXULvi0m"
+        api_secret = "bef200a63a324dc18167cdccdae60fb8"
+
+        symbol, side, type, quantity, price = 'MXUSDT', 'BUY', 'LIMIT', '50', '0.1'
+        timestamp = int(time.time() * 1000)
+        payload = f'symbol={symbol}&side={side}&type={type}&quantity={quantity}&price={price}&timestamp={timestamp}'
+        signature = hmac.new(api_secret.encode(), payload.encode(), hashlib.sha256).hexdigest()
+        url = f'{Endpoints.ORDER}?{payload}&signature={signature}'
+        headers = {'APIKEY': api_key}
+        response = requests.post(url, headers=headers)
+
+        self.__logger.debug(f"Order {'placed successfully!' if response.status_code == 200 else 'placement error.'} Status code: {response.status_code}, Response: {response.json()}")

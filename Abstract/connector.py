@@ -63,3 +63,7 @@ class Connector(metaclass=ABCMeta):
     @abstractmethod
     def test_order(self)-> str:
         raise NotImplementedError
+
+    @abstractmethod
+    def make_order(self)-> str:
+        raise NotImplementedError
