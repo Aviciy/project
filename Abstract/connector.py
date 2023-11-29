@@ -61,9 +61,13 @@ class Connector(metaclass=ABCMeta):
         raise NotImplementedError
 
     @abstractmethod
-    def test_order(self)-> str:
+    def test_order(self) -> str:
         raise NotImplementedError
 
     @abstractmethod
-    def make_order(self)-> str:
+    def make_order(self) -> str:
+        raise NotImplementedError
+
+    @abstractmethod
+    def batch_order(self) -> str:
         raise NotImplementedError
