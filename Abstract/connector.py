@@ -75,3 +75,7 @@ class Connector(metaclass=ABCMeta):
     @abstractmethod
     def cancel_order(self) -> str:
         raise NotImplementedError
+
+    @abstractmethod
+    def cancel_all_order(self) -> str:
+        raise NotImplementedError

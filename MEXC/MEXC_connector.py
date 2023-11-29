@@ -273,3 +273,17 @@ class MEXCConnector(Connector):
         response = requests.delete(url, headers=headers, data=data)
 
         self.__logger.debug(f"Order {'canceled successfully!' if response.status_code == 200 else 'Error.'} Status code: {response.status_code}, Response: {response.json()}")
+
+    def cancel_all_order(self):
+        api_key = "mx0vgleFwQqXULvi0m"
+        api_secret = "bef200a63a324dc18167cdccdae60fb8"
+        timestamp = str(int(time.time() * 1000))
+
+        symbol = 'BTCUSDT'
+        payload = {'Symbol': symbol}
+        data = json.dumps(payload)
+        signature = hmac.new(api_secret.encode(), data.encode(), hashlib.sha256).hexdigest()
+        headers = {"APIKEY": api_key}
+        url = f'{Endpoints.OPEN_ORDERS}?{payload}&signature={signature}&timestamp={timestamp}'
+        response = requests.delete(url, headers=headers, data=data)
+        self.__logger.debug(f"All order {'canceled successfully!' if response.status_code == 200 else 'Error.'} Status code: {response.status_code}, Response: {response.json()}")

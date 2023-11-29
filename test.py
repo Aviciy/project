@@ -49,6 +49,7 @@ if __name__ == '__main__':
     # connector.test_order()
     # connector.make_order()
     # connector.batch_order()
-    connector.cancel_order()
+    # connector.cancel_order()
+    connector.cancel_all_order()
 
 input('Press Enter to continue...')
