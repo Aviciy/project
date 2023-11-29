@@ -274,12 +274,12 @@ class MEXCConnector(Connector):
 
         self.__logger.debug(f"Order {'canceled successfully!' if response.status_code == 200 else 'Error.'} Status code: {response.status_code}, Response: {response.json()}")
 
-    def cancel_all_order(self):
+    def cancel_all_orders(self):
         api_key = "mx0vgleFwQqXULvi0m"
         api_secret = "bef200a63a324dc18167cdccdae60fb8"
         timestamp = str(int(time.time() * 1000))
-
         symbol = 'BTCUSDT'
+
         payload = {'Symbol': symbol}
         data = json.dumps(payload)
         signature = hmac.new(api_secret.encode(), data.encode(), hashlib.sha256).hexdigest()
@@ -287,3 +287,20 @@ class MEXCConnector(Connector):
         url = f'{Endpoints.OPEN_ORDERS}?{payload}&signature={signature}&timestamp={timestamp}'
         response = requests.delete(url, headers=headers, data=data)
         self.__logger.debug(f"All order {'canceled successfully!' if response.status_code == 200 else 'Error.'} Status code: {response.status_code}, Response: {response.json()}")
+
+    def order_book(self):
+        symbol = 'BTCUSDT'
+        url = f'{Endpoints.ORDER_BOOK}?Symbol={symbol}'
+        response = requests.get(url)
+
+        if response.status_code == 200:
+            order_book = response.json()
+            bids = []
+            for bid in order_book["bids"]:
+                bids.append({"price": bid[0], "quantity": bid[1]})
+            bids.sort(key=lambda x: x["price"])
+            formatted_data = [f"{bid['price']}: {bid['quantity']}" for bid in bids][:5]
+            result = (f"{symbol} -> Bids: {formatted_data}")
+            print(result)
+        else:
+            print(response.json())

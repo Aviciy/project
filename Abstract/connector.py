@@ -77,5 +77,9 @@ class Connector(metaclass=ABCMeta):
         raise NotImplementedError
 
     @abstractmethod
-    def cancel_all_order(self) -> str:
+    def cancel_all_orders(self) -> str:
+        raise NotImplementedError
+
+    @abstractmethod
+    def order_book(self) -> dict:
         raise NotImplementedError

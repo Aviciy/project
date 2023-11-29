@@ -50,6 +50,7 @@ if __name__ == '__main__':
     # connector.make_order()
     # connector.batch_order()
     # connector.cancel_order()
-    connector.cancel_all_order()
+    # connector.cancel_all_order()
+    connector.order_book()
 
 input('Press Enter to continue...')

@@ -18,11 +18,13 @@ class MEXCEndpoints(StrEnum):
     ORDER_TEST = 'https://api.mexc.com/api/v3/order/test'
 
     # Private
-    ACCOUNT = 'https://api.mexc.com/api/v2/account'
+    ACCOUNT = 'https://api.mexc.com/api/v3/account'
     ORDER = 'https://api.mexc.com/api/v3/order'
     BATCH_ORDERS = 'https://api.mexc.com/api/v3/batchOrders'
-    OPEN_ORDERS = 'https://api.mexc.com/api/v3/openOrders'
-    ALL_ORDERS = 'https://api.mexc.com/api/v2/allOrders'
+    ORDER_BOOK = 'https://api.mexc.com/api/v3/depth'
+
+    OPEN_ORDERS = 'https://api.mexc.com/api/v3/allOrders'
+    ALL_ORDERS = 'https://api.mexc.com/api/v3/allOrders'
     MY_TRADES = 'https://api.mexc.com/api/v2/myTrades'
     WITHDRAW_HISTORY = 'https://api.mexc.com/api/v2/withdrawHistory'
     DEPOSIT_HISTORY = 'https://api.mexc.com/api/v2/depositHistory'
