@@ -19,8 +19,8 @@ class MEXCEndpoints(StrEnum):
 
     # Private
     ACCOUNT = 'https://api.mexc.com/api/v2/account'
-    BATCH_ORDERS = 'https://api.mexc.com/api/v3/batchOrders'
     ORDER = 'https://api.mexc.com/api/v3/order'
+    BATCH_ORDERS = 'https://api.mexc.com/api/v3/batchOrders'
     OPEN_ORDERS = 'https://api.mexc.com/api/v2/openOrders'
     ALL_ORDERS = 'https://api.mexc.com/api/v2/allOrders'
     MY_TRADES = 'https://api.mexc.com/api/v2/myTrades'

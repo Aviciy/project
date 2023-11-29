@@ -71,3 +71,7 @@ class Connector(metaclass=ABCMeta):
     @abstractmethod
     def batch_order(self) -> str:
         raise NotImplementedError
+
+    @abstractmethod
+    def cancel_order(self) -> str:
+        raise NotImplementedError
