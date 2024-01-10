@@ -16,7 +16,7 @@ class MEXCEndpoints(StrEnum):
     BOOK_TICKER = 'https://api.mexc.com/api/v3/ticker/bookTicker'
     BALANCES = 'https://api.mexc.com/api/v3/account'
     ORDER_TEST = 'https://api.mexc.com/api/v3/order/test'
-
+    MODIFY_ORDER = 'https://api.mexc.com/api/v3/order/modify'
     # Private
     ACCOUNT = 'https://api.mexc.com/api/v3/account'
     ORDER = 'https://api.mexc.com/api/v3/order'

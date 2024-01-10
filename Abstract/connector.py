@@ -7,10 +7,12 @@ class Connector(metaclass=ABCMeta):
     def __init__(self) -> None:
         pass
 
+    @abstractmethod
     def start(self) -> bool:
         """Starts connector"""
         raise NotImplementedError
 
+    @abstractmethod
     def stop(self) -> bool:
         """Stops connector"""
         raise NotImplementedError
@@ -61,25 +63,13 @@ class Connector(metaclass=ABCMeta):
         raise NotImplementedError
 
     @abstractmethod
-    def test_order(self) -> str:
-        raise NotImplementedError
-
-    @abstractmethod
     def make_order(self) -> str:
         raise NotImplementedError
 
     @abstractmethod
-    def batch_order(self) -> str:
+    def cancel_order(self, order_id: str) -> bool:
         raise NotImplementedError
 
     @abstractmethod
-    def cancel_order(self) -> str:
-        raise NotImplementedError
-
-    @abstractmethod
-    def cancel_all_orders(self) -> str:
-        raise NotImplementedError
-
-    @abstractmethod
-    def order_book(self) -> dict:
+    def modify_order(self, order_id: str) -> str:
         raise NotImplementedError

@@ -195,25 +195,6 @@ class MEXCConnector(Connector):
         else:
             raise ValueError(f'Unknown method: {method}')
 
-    def test_order(self) -> str:
-
-        api_key = "mx0vgleFwQqXULvi0m"
-        api_secret = "bef200a63a324dc18167cdccdae60fb8"
-
-        symbol, side, type, quantity, price = 'BTCUSDT', 'BUY', 'LIMIT', '50', '0.1'
-
-        timestamp = int(time.time() * 1000)
-        payload = f'symbol={symbol}&side={side}&type={type}&quantity={quantity}&price={price}&timestamp={timestamp}'
-        signature = hmac.new(api_secret.encode(), payload.encode(), hashlib.sha256).hexdigest()
-        url = f'{Endpoints.ORDER_TEST}?{payload}&signature={signature}'
-        headers = {'APIKEY': api_key}
-        response = requests.post(url, headers=headers)
-
-        if response.status_code == 200:
-            self.__logger.trace("Test Order placed successfully!")
-        else:
-            self.__logger.error(f"Error placing order. Status code: {response.status_code}")
-
     def make_order(self):
         api_key = "mx0vgleFwQqXULvi0m"
         api_secret = "bef200a63a324dc18167cdccdae60fb8"
@@ -223,37 +204,6 @@ class MEXCConnector(Connector):
         payload = f'symbol={symbol}&side={side}&type={type}&quantity={quantity}&price={price}&timestamp={timestamp}'
         signature = hmac.new(api_secret.encode(), payload.encode(), hashlib.sha256).hexdigest()
         url = f'{Endpoints.ORDER}?{payload}&signature={signature}'
-        headers = {'APIKEY': api_key}
-        response = requests.post(url, headers=headers)
-
-        self.__logger.debug(f"Order {'placed successfully!' if response.status_code == 200 else 'placement error.'} Status code: {response.status_code}, Response: {response.json()}")
-
-    def batch_order(self) -> str:
-        api_key = "mx0vgleFwQqXULvi0m"
-        api_secret = "bef200a63a324dc18167cdccdae60fb8"
-
-        timestamp = str(int(time.time() * 1000))
-        data = [{
-            'type': 'LIMIT',
-            'price': '0.1',
-            'quantity': '50',
-            'symbol': 'BTCUSDT',
-            'side': 'BUY',
-            'newClientOrderId': '1',
-            'timestamp': timestamp
-        }, {
-            'type': 'LIMIT',
-            'price': '0.1',
-            'quantity': '50',
-            'symbol': 'BTCUSDT',
-            'side': 'SELL',
-            'newClientOrderId': '1',
-            'timestamp': timestamp
-        }
-        ]
-        payload = json.dumps(data, indent=2)
-        signature = hmac.new(api_secret.encode(), payload.encode(), hashlib.sha256).hexdigest()
-        url = f'{Endpoints.BATCH_ORDERS}?{payload}&signature={signature}'
         headers = {'APIKEY': api_key}
         response = requests.post(url, headers=headers)
 
@@ -274,33 +224,18 @@ class MEXCConnector(Connector):
 
         self.__logger.debug(f"Order {'canceled successfully!' if response.status_code == 200 else 'Error.'} Status code: {response.status_code}, Response: {response.json()}")
 
-    def cancel_all_orders(self):
-        api_key = "mx0vgleFwQqXULvi0m"
-        api_secret = "bef200a63a324dc18167cdccdae60fb8"
-        timestamp = str(int(time.time() * 1000))
-        symbol = 'BTCUSDT'
+    def modify_order(self, order_id="1234", symbol="BTCUSDT", **kwargs):
 
-        payload = {'Symbol': symbol}
-        data = json.dumps(payload)
-        signature = hmac.new(api_secret.encode(), data.encode(), hashlib.sha256).hexdigest()
-        headers = {"APIKEY": api_key}
-        url = f'{Endpoints.OPEN_ORDERS}?{payload}&signature={signature}&timestamp={timestamp}'
-        response = requests.delete(url, headers=headers, data=data)
-        self.__logger.debug(f"All order {'canceled successfully!' if response.status_code == 200 else 'Error.'} Status code: {response.status_code}, Response: {response.json()}")
+        params = {
+            "symbol": "BTCUSDT",
+            "order_id": "123456",
+            "price": 10000,
+            "quantity": 1,
+        }
 
-    def order_book(self):
-        symbol = 'BTCUSDT'
-        url = f'{Endpoints.ORDER_BOOK}?Symbol={symbol}'
-        response = requests.get(url)
+        response = requests.post(Endpoints.MODIFY_ORDER, json=params)
 
         if response.status_code == 200:
-            order_book = response.json()
-            bids = []
-            for bid in order_book["bids"]:
-                bids.append({"price": bid[0], "quantity": bid[1]})
-            bids.sort(key=lambda x: x["price"])
-            formatted_data = [f"{bid['price']}: {bid['quantity']}" for bid in bids][:5]
-            result = (f"{symbol} -> Bids: {formatted_data}")
-            print(result)
-        else:
             print(response.json())
+        else:
+            print("Error modifying order:", response.status_code)
