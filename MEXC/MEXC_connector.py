@@ -195,11 +195,11 @@ class MEXCConnector(Connector):
         else:
             raise ValueError(f'Unknown method: {method}')
 
-    def make_order(self):
+    def make_order(self, symbol=None, price=None):
         api_key = "mx0vgleFwQqXULvi0m"
         api_secret = "bef200a63a324dc18167cdccdae60fb8"
 
-        symbol, side, type, quantity, price = 'AESUSDT', 'BUY', 'LIMIT', '50', '0.1'
+        symbol, side, type, quantity, price = 'MXUSDT', 'BUY', 'LIMIT', '50', '0.1'
         timestamp = int(time.time() * 1000)
         payload = f'symbol={symbol}&side={side}&type={type}&quantity={quantity}&price={price}&timestamp={timestamp}'
         signature = hmac.new(api_secret.encode(), payload.encode(), hashlib.sha256).hexdigest()
@@ -209,7 +209,7 @@ class MEXCConnector(Connector):
 
         self.__logger.debug(f"Order {'placed successfully!' if response.status_code == 200 else 'placement error.'} Status code: {response.status_code}, Response: {response.json()}")
 
-    def cancel_order(self):
+    def cancel_order(self, order_id=None):
         api_key = "mx0vgleFwQqXULvi0m"
         api_secret = "bef200a63a324dc18167cdccdae60fb8"
         order_id = '1'
@@ -221,21 +221,20 @@ class MEXCConnector(Connector):
         headers = {"APIKEY": api_key}
         url = f'{Endpoints.ORDER}?{payload}&signature={signature}&timestamp={timestamp}'
         response = requests.delete(url, headers=headers, data=data)
-
-        self.__logger.debug(f"Order {'canceled successfully!' if response.status_code == 200 else 'Error.'} Status code: {response.status_code}, Response: {response.json()}")
-
-    def modify_order(self, order_id="1234", symbol="BTCUSDT", **kwargs):
-
-        params = {
-            "symbol": "BTCUSDT",
-            "order_id": "123456",
-            "price": 10000,
-            "quantity": 1,
-        }
-
-        response = requests.post(Endpoints.MODIFY_ORDER, json=params)
-
         if response.status_code == 200:
-            print(response.json())
+            self.__logger.debug("Order canceled successfully")
         else:
-            print("Error modifying order:", response.status_code)
+            self.__logger.error(f"Error canceled order. Status code: {response.status_code}. Response :{response.json()}")
+
+    def modify_order(self):
+        try:
+            order_id = '2'
+            self.cancel_order(order_id=order_id)
+
+        except Exception as e:
+            self.__logger.debug('Can`t cancel order.')
+            pass
+        else:
+            new_symbol = "MXUSDT"
+            new_price = "0.2"
+            self.make_order(symbol=new_symbol, price=new_price)
