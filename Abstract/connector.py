@@ -73,3 +73,7 @@ class Connector(metaclass=ABCMeta):
     @abstractmethod
     def modify_order(self, order_id: str) -> str:
         raise NotImplementedError
+
+    @abstractmethod
+    def order_list(self) -> dict:
+        raise NotImplementedError

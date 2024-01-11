@@ -238,3 +238,32 @@ class MEXCConnector(Connector):
             new_symbol = "MXUSDT"
             new_price = "0.2"
             self.make_order(symbol=new_symbol, price=new_price)
+
+    def order_list(symbol):
+        api_key = "mx0vgleFwQqXULvi0m"
+        api_secret = "bef200a63a324dc18167cdccdae60fb8"
+
+        params = {
+            "api_key": api_key,
+            "symbol": "BTCUSDT",
+            "page_num": 1,
+            "page_size": 10
+        }
+
+        headers = {
+            "Content-Type": "application/json",
+            "Signature": f"{api_key}|{params['symbol']}|{params['page_num']}|{params['page_size']}"
+        }
+        secret_bytes = bytes(api_secret, 'utf-8')
+        hash_message = params['symbol'] + str(params['page_num']) + str(params['page_size'])
+        hash_encoded = hash_message.encode('utf-8')
+        signature = hmac.new(secret_bytes, hash_encoded, hashlib.sha256).hexdigest()
+        headers["Signature"] = signature
+        response = requests.get(Endpoints.ORDER_LIST, params=params, headers=headers)
+
+        if response.status_code == 200:
+            orders = response.json()["data"]["orders"]
+            for order in orders:
+                print(f"Order ID: {order['order_id']}, Order Price: {order['price']}, Order Quantity: {order['quantity']}")
+        else:
+            print(f"Error {response.status_code}: {response.text}")
