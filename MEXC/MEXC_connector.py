@@ -199,7 +199,7 @@ class MEXCConnector(Connector):
         api_key = "mx0vgleFwQqXULvi0m"
         api_secret = "bef200a63a324dc18167cdccdae60fb8"
 
-        symbol, side, type, quantity, price = 'MXUSDT', 'BUY', 'LIMIT', '50', '0.1'
+        symbol, side, type, quantity, price = 'MXUSDT', 'BUY', 'LIMIT', '3', '2'
         timestamp = int(time.time() * 1000)
         payload = f'symbol={symbol}&side={side}&type={type}&quantity={quantity}&price={price}&timestamp={timestamp}'
         signature = hmac.new(api_secret.encode(), payload.encode(), hashlib.sha256).hexdigest()
@@ -209,19 +209,21 @@ class MEXCConnector(Connector):
 
         self.__logger.debug(f"Order {'placed successfully!' if response.status_code == 200 else 'placement error.'} Status code: {response.status_code}, Response: {response.json()}")
 
-    def cancel_order(self, order_id=None):
+    def cancel_order(self) -> bool:
         api_key = "mx0vgleFwQqXULvi0m"
         api_secret = "bef200a63a324dc18167cdccdae60fb8"
-        order_id = '1'
-        timestamp = str(int(time.time() * 1000))
+        order_id = 'C01__375625948122324993'
+        timestamp = int(time.time() * 1000)
+        symbol = 'MXUSDT'
 
-        payload = {'orderId': order_id}
-        data = json.dumps(payload)
-        signature = hmac.new(api_secret.encode(), data.encode(), hashlib.sha256).hexdigest()
-        headers = {"APIKEY": api_key}
-        url = f'{Endpoints.ORDER}?{payload}&signature={signature}&timestamp={timestamp}'
-        response = requests.delete(url, headers=headers, data=data)
+        payload = f'symbol={symbol}&timestamp={timestamp}&orderId={order_id}'
+        signature = hmac.new(api_secret.encode(), payload.encode(), hashlib.sha256).hexdigest()
+        url = f'{Endpoints.ORDER}?{payload}&signature={signature}'
+        headers = {'APIKEY': api_key}
+
+        response = requests.delete(url, headers=headers)
         if response.status_code == 200:
+
             self.__logger.debug("Order canceled successfully")
         else:
             self.__logger.error(f"Error canceled order. Status code: {response.status_code}. Response :{response.json()}")
@@ -242,28 +244,12 @@ class MEXCConnector(Connector):
     def order_list(symbol):
         api_key = "mx0vgleFwQqXULvi0m"
         api_secret = "bef200a63a324dc18167cdccdae60fb8"
+        timestamp = int(time.time() * 1000)
+        symbol = 'MXUSDT'
 
-        params = {
-            "api_key": api_key,
-            "symbol": "BTCUSDT",
-            "page_num": 1,
-            "page_size": 10
-        }
-
-        headers = {
-            "Content-Type": "application/json",
-            "Signature": f"{api_key}|{params['symbol']}|{params['page_num']}|{params['page_size']}"
-        }
-        secret_bytes = bytes(api_secret, 'utf-8')
-        hash_message = params['symbol'] + str(params['page_num']) + str(params['page_size'])
-        hash_encoded = hash_message.encode('utf-8')
-        signature = hmac.new(secret_bytes, hash_encoded, hashlib.sha256).hexdigest()
-        headers["Signature"] = signature
-        response = requests.get(Endpoints.ORDER_LIST, params=params, headers=headers)
-
-        if response.status_code == 200:
-            orders = response.json()["data"]["orders"]
-            for order in orders:
-                print(f"Order ID: {order['order_id']}, Order Price: {order['price']}, Order Quantity: {order['quantity']}")
-        else:
-            print(f"Error {response.status_code}: {response.text}")
+        payload = f'symbol={symbol}&timestamp={timestamp}'
+        signature = hmac.new(api_secret.encode(), payload.encode(), hashlib.sha256).hexdigest()
+        url = f'{Endpoints.ORDER_LIST}?{payload}&signature={signature}'
+        headers = {'APIKEY': api_key}
+        response = requests.get(url, headers=headers)
+        print(response)
