@@ -212,8 +212,8 @@ class MEXCConnector(Connector):
     def cancel_order(self) -> bool:
         api_key = "mx0vgleFwQqXULvi0m"
         api_secret = "bef200a63a324dc18167cdccdae60fb8"
-        order_id = 'C01__375625948122324993'
-        timestamp = int(time.time() * 1000)
+        order_id = 'C01__375923577611907073'
+        timestamp = int(time.time() * 1000) 
         symbol = 'MXUSDT'
 
         payload = f'symbol={symbol}&timestamp={timestamp}&orderId={order_id}'
@@ -225,21 +225,26 @@ class MEXCConnector(Connector):
         if response.status_code == 200:
 
             self.__logger.debug("Order canceled successfully")
+            return True
         else:
             self.__logger.error(f"Error canceled order. Status code: {response.status_code}. Response :{response.json()}")
 
-    def modify_order(self):
-        try:
-            order_id = '2'
-            self.cancel_order(order_id=order_id)
+    def modify_order(self, order_id: str) -> str:
 
-        except Exception as e:
-            self.__logger.debug('Can`t cancel order.')
-            pass
-        else:
-            new_symbol = "MXUSDT"
-            new_price = "0.2"
-            self.make_order(symbol=new_symbol, price=new_price)
+        assert self.cancel_order() is True, "error"
+        self.make_order()
+    # def modify_order(self):
+    #     try:
+    #         order_id = '2'
+    #         self.cancel_order(order_id=order_id)
+    #
+    #     except Exception as e:
+    #         self.__logger.error('Can`t cancel order.')
+    #         pass
+    #     else:
+    #         new_symbol = "MXUSDT"
+    #         new_price = "0.2"
+    #         self.make_order(symbol=new_symbol, price=new_price)
 
     def order_list(symbol):
         api_key = "mx0vgleFwQqXULvi0m"

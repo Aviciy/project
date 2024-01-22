@@ -47,6 +47,6 @@ if __name__ == '__main__':
     # connector.make_order()
 
     # connector.cancel_order()
-    # connector.modify_order()
+    connector.modify_order(order_id="C01__375923406941478913")
     # connector.order_list()
 input('Press Enter to continue...')
